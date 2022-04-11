@@ -224,13 +224,24 @@ blocks:
       For further support, reach out to our Developer advocates through our free
       office hours.
     buttons:
-      - label: Getting Started with IPFS-Filecoin
+      - label: IPFS-Filecoin - Getting Started Guide
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         type: solid
         buttonFillStyles: bg-primary
         textColor: white
         backgroundColor: primary
-      - label: 'Block Office Hours Dev Advocates '
+      - label: ' Join Weekly Community Office Hours*'
+        link: 'https://bitly.protocol.ai/Community-Office-Hours'
+        type: solid
+        buttonFillStyles: bg-primary
+        textColor: white
+        backgroundColor: primary
+      - label: '*Thursdays 2:30p UTC / 6:30p Eastern'
+        link: ''
+        type: link
+        textColor: white
+        backgroundColor: primary
+      - label: ' Schedule a 15-minute call'
         link: 'https://bitly.protocol.ai/3txOYHL'
         type: solid
         buttonFillStyles: bg-primary
@@ -619,12 +630,6 @@ blocks:
         backgroundColor: primary
     _template: banner
 meta:
-  pageTitle: Filecoin and IPFS Hackathons
-  pageDescription: >-
-    With Filecoin and IPFS, we empower developers and entrepreneurs to solve
-    significant problems and ship innovative applications. Join our hackathons
-    and shape the future of the web to make it more decentralized, robust, and
-    secure!
   siteImageSrc: >-
     https://res.cloudinary.com/tombustout/image/upload/v1634005837/asia-hackathon-hero_isb8ak.png
 ---
