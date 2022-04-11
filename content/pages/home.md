@@ -208,6 +208,9 @@ blocks:
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
+      src: >-
+        http://res.cloudinary.com/protocolai/image/upload/v1649695490/hackathons/hackathon-slant-bg_ofvckc_iemr5o_azlsqg.svg
+      position: object-right-top
     image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1637777563/Home/hackathon-hex_gmb1ze_blzjir.svg
