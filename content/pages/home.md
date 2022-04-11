@@ -619,6 +619,12 @@ blocks:
         backgroundColor: primary
     _template: banner
 meta:
+  pageTitle: Filecoin and IPFS Hackathons
+  pageDescription: >-
+    With Filecoin and IPFS, we empower developers and entrepreneurs to solve
+    significant problems and ship innovative applications. Join our hackathons
+    and shape the future of the web to make it more decentralized, robust, and
+    secure!
   siteImageSrc: >-
     https://res.cloudinary.com/tombustout/image/upload/v1634005837/asia-hackathon-hero_isb8ak.png
 ---
