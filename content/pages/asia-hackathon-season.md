@@ -1,41 +1,73 @@
 ---
 draft: true
 blocks:
-  - image:
+  - style:
+      alignment: 'flex-row text-left items-center '
+      featureContent: 'w-1/2 min-h-140 '
+      padding: undefined undefined pr-10 undefined
+      featureImage: 'object-right object-contain '
+      imagePadding: undefined undefined undefined pl-10
+      labelStyles: 'text-white undefined undefined undefined '
+      headlineStyles: text-white undefined text-2xl mb-10 font-bold
+      subheadStyles: 'text-white undefined undefined undefined '
+      textStyles: 'text-white undefined text-xl mb-3.5 '
+      contentOrder: contentHeadingsLabel
+    background:
+      fillStyles: bg-black
+    image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1637621798/asia-hackathon-season/asia-hackathon-hero_isb8ak_if5dqr.png
       alt: Asia Hackathon Season 2021
     label: ''
     headline: 'August - October, 2021'
     subhead: ''
-    body: >-
+    body: >
       Join us on a journey across the universe of Filecoin and IPFS across four
       distinct hackathon events.
     buttons:
       - label: Join our mailing list
         link: 'https://filecoin-community.typeform.com/to/scRusMWz'
         type: solid
+        buttonFillStyles: bg-white
         textColor: black
         backgroundColor: primary
     navigationLabel: Prizes
-    style:
-      flipLayout: true
-      imageStyle: natural
-      textAlignment: left
-      contentAlignment: center
-      contentOrder: contentHeadingsLabel
-      backgroundColor: black
-      textColor: grayLight
-      textSize: xl
     _template: feature
-  - label: ''
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-10 pb-10 pr-20 pl-20
+      contentWidth: w-full
+      columns: '4'
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: 'text-white undefined text-6xl mb-5 '
+      subheadStyles: 'undefined undefined undefined undefined '
+      textStyles: 'undefined undefined undefined undefined '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: bg-black
+      padding: pt-5 pb-5 pr-5 pl-5
+      type: transparent
+      borderStyles: 'undefined '
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: text-primary undefined text-3xl undefined font-bold
+      subheadStyles: text-white undefined text-2xl mb-3.5 font-bold
+      textStyles: 'text-white undefined text-base undefined '
+      buttonType: solid
+      buttonTextColor: primary
+    background:
+      fillStyles: bg-black
+      src: >-
+        http://res.cloudinary.com/protocolai/image/upload/v1637621803/asia-hackathon-season/space_bg_i9grrg_hnmqac.png
+      position: object-top
+    label: ''
     headline: Join us on a journey across the universe
     subhead: ''
     body: ''
     items:
       - headline: SATURN
         subhead: Hackathon
-        text: >-
+        text: >
           Filecoin and IPFS are proud to host the Saturn track at the Wanxiang
           Blockchain Week 2021. Submissions close on September 30.
         link: /
@@ -43,7 +75,7 @@ blocks:
         accentColor: primary
       - headline: MARS
         subhead: Hackathon
-        text: >-
+        text: >
           Build on the new Polygon-Filecoin bridge in this virtual multi-week
           hackathon (late August to late October) co-hosted with Polygon.
         link: /
@@ -51,7 +83,7 @@ blocks:
         accentColor: accent1
       - headline: JUPITER
         subhead: Hackathon
-        text: >-
+        text: >
           Show us your best hacks in this IPFS-exclusive multi-week hackathon
           (August to September) with technical support from Alibaba Cloud.
         link: /
@@ -59,68 +91,53 @@ blocks:
         accentColor: accent2
       - headline: MERCURY
         subhead: Hackathon
-        text: >-
+        text: >
           Hack away at this multi-track multi-week event (late September to late
           October) co-hosted with Flow.
         link: /
         buttonLabel: Register Now
         accentColor: accent3
     navigationLabel: Series
-    style:
-      columns: '4'
-      textAlignment: left
-      contentOrder: labelHeadingsContent
-      backgroundColor: black
-      backgroundImage:
-        src: >-
-          https://res.cloudinary.com/protocolai/image/upload/v1637621803/asia-hackathon-season/space_bg_i9grrg_hnmqac.png
-      headlineColor: white
-      headlineSize: 4xl
-      subheadColor: white
-      subheadSize: 2xl
-      textColor: white
-      textSize: xl
-    cardStyle:
-      type: transparent
-      backgroundColor: black
-      accentColor: primary
-      buttonType: solid
-      buttonTextColor: black
-      headlineColor: accent1
-      headlineSize: 2xl
-      subheadColor: white
-      subheadSize: 3xl
-      textColor: white
-      textSize: sm
     _template: textCards
-  - image:
+  - style:
+      alignment: 'flex-row-reverse text-left items-start '
+      featureContent: 'w-1/2 min-h-140 '
+      padding: pt-20 pb-20 undefined pl-20
+      featureImage: object-right object-contain to-edge
+      imagePadding: undefined undefined pr-0 undefined
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: text-white undefined text-2xl undefined font-bold
+      subheadStyles: 'undefined undefined undefined undefined '
+      textStyles: 'text-white undefined text-xl undefined '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-black
+    image:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1637621800/asia-hackathon-season/astronaut_adbtov_uolck0.png
     label: ''
-    headline: ''
+    headline: Asia Hackathon Season 2021
     subhead: ''
-    body: >-
-      Asia Hackathon Season 2021 is a multi-month hackathon series that will
-      identify, accelerate, and highlight the incredible development work being
-      done in Asia with the Filecoin and IPFS stacks. About $500,000 in prizes
-      and grants are available to the teams, startups, projects, and
-      entrepreneurs taking part!
+    body: >
+      is a multi-month hackathon series that will identify, accelerate, and
+      highlight the incredible development work being done in Asia with the
+      Filecoin and IPFS stacks. About $500,000 in prizes and grants are
+      available to the teams, startups, projects, and entrepreneurs taking part!
     navigationLabel: About
-    style:
-      flipLayout: false
-      imageStyle: fitHalf
-      textAlignment: left
-      contentAlignment: top
-      contentOrder: labelHeadingsContent
-      backgroundColor: black
-      headlineColor: primary
-      headlineSize: 4xl
-      subheadColor: primary
-      subheadSize: 2xl
-      textColor: white
-      textSize: lg
     _template: feature
-  - headline: Getting started with IPFS & Filecoin
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-20 pr-20 pl-20
+      contentWidth: w-full
+      columns: '2'
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: text-black undefined text-4xl mb-10 font-bold
+      subheadStyles: 'undefined undefined undefined undefined '
+      textStyles: 'undefined undefined undefined undefined '
+      contentOrder: labelHeadingsContent
+    headline: Getting started with IPFS & Filecoin
+    body: ''
     items:
       - image:
           src: >-
@@ -153,14 +170,18 @@ blocks:
         subhead: ''
         text: ''
     navigationLabel: Get Started
-    style:
-      columns: '2'
-      headlineColor: black
-      headlineSize: 4xl
-      textColor: black
-      textSize: lg
     _template: photoCards
-  - label: ''
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-20 pb-20 pr-20 pl-20
+      width: normal
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: 'text-black undefined text-4xl mb-10 '
+      subheadStyles: 'undefined undefined undefined undefined '
+      textStyles: 'undefined undefined undefined undefined '
+      contentOrder: labelHeadingsContent
+    label: ''
     headline: Stay in the know about future events
     subhead: ''
     body: ''
@@ -168,43 +189,22 @@ blocks:
       - label: Join Filecoin on Slack
         link: /
         type: outline
-        textColor: white
-        backgroundColor: accent3
+        buttonFillStyles: bg-black
+        textColor: primary
+        backgroundColor: primary
       - label: Subscriber to the IPFS Newsletter
         link: /
         type: outline
-        textColor: white
-        backgroundColor: accent3
+        textColor: accent2
+        backgroundColor: accent2
       - label: Subscribe to the Filecoin Newsletter
         link: /
         type: outline
-        textColor: white
+        textColor: accent3
         backgroundColor: accent3
-    style:
-      textAlignment: left
-      contentOrder: labelHeadingsContent
-      width: normal
-      backgroundColor: black
-      headlineColor: white
-      headlineSize: 2xl
-      subheadColor: white
-      subheadSize: 2xl
-      textColor: white
-      textSize: lg
     _template: banner
 meta:
-  siteTitle: Asia Hackathon Season
-  siteDescription: >-
-    Join us on a journey across the universe of Filecoin and IPFS across four
-    distinct hackathon events.
   siteImageSrc: >-
     https://res.cloudinary.com/tombustout/image/upload/v1634005837/asia-hackathon-hero_isb8ak.png
-nav:
-  navTextColor: white
-  navBackgroundColor: black
-colors:
-  primary: '#FFDE30'
-  accent1: '#FF388B'
-  accent2: '#2DDB87'
-  accent3: '#2DD0DB'
 ---
+
