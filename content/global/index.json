@@ -1,6 +1,6 @@
 {
   "siteUrl": "hackathons.filecoin.io",
-  "favicon": "",
+  "favicon": "http://res.cloudinary.com/protocolai/image/upload/v1649879280/filecoin-favicon_ijfebr.png",
   "gtmId": "GTM-MS25MX2",
   "colors": {
     "primary": "#FF007A",
