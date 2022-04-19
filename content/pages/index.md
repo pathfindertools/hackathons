@@ -249,6 +249,18 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
+        label: ''
+        headline: Faber Web3 Hackathon
+        subhead: 'Feb 21 - Mar 31, 2022'
+        text: >
+          Protocol Labs and Faber collaborated to help foster Web3 development
+          in Europe. Several projects now participate in Faber's accelerator
+          program.
+        link: 'https://faberweb3.devpost.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
         headline: ETHDenver 2022
         subhead: 'Feb 11 - Mar 21, 2022'
