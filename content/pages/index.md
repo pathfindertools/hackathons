@@ -249,6 +249,16 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
+        headline: DAOHacks
+        subhead: 'Apr 8 - 10, 2022'
+        text: >
+          Participants joined to build the future of coordination, networks,
+          social groups, collectors, creatives, and more.
+        link: 'https://dao.ethglobal.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
         headline: ETHernals
         subhead: 'Feb 25 - Mar 27, 2022'
