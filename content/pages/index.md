@@ -67,6 +67,13 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
+        label: ''
+        headline: World Innovation Day 2022
+        link: 'https://www.worldinnovationday.com/'
+        buttonLabel: Learn more and register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
         headline: ETHAmsterdam
         subhead: Apr 22 - 24 2022
