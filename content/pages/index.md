@@ -110,16 +110,6 @@ blocks:
         buttonLabel: Learn more and register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
-        headline: DAOHacks
-        subhead: 'Apr 8 - 10, 2022'
-        text: >
-          Join us to build the future of coordination, networks, social groups,
-          collectors, creatives, and more.
-        link: 'https://dao.ethglobal.com/'
-        buttonLabel: Lean more and register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
         headline: 22 Hedera Hackathon
         subhead: 'Mar 31 - May 16, 2022'
@@ -127,39 +117,6 @@ blocks:
           Build the next game-changing decentralized application with Hedera
           Smart Contracts and Filecoin and IPFS.
         link: 'https://hedera22.devpost.com/'
-        buttonLabel: Learn more and register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1645197134/8YoZvu2J_agjcje.jpg
-        headline: ETHernals
-        subhead: 'Feb 25 - Mar 27, 2022'
-        text: >
-          Supercharge yourself for ETHernals: the first ETHIndia Online
-          hackathon of 2022! Explore the world of decentralization by building
-          around DAOs, NFTs, DeFi and win $50,000+ in bounties for your efforts!
-        link: 'https://ethernals.devfolio.co/'
-        buttonLabel: Learn more and register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1643015395/Faber_Web3_Hackathon_4x3_m5ur0u.png
-        headline: Faber Web3 Hackathon
-        subhead: 'Feb 21 - Mar 31, 2022'
-        text: >
-          Protocol Labs and Faber collaborate to help foster Web3 development in
-          Europe. Over €75k in awards to be distributed among submitted
-          projects.
-        link: 'https://faberweb3.devpost.com/'
-        buttonLabel: Learn more and register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1643976878/education_programme_uetty1.png
-        headline: KEN Labs Education Program
-        subhead: 'Jan 1 - Apr 20, 2022'
-        text: >
-          KEN Labs and Protocol Labs have launched a 3 month Education Program
-          with the intent to teach students about the Metaverse through the lens
-          of IPFS, Filecoin, Libp2p and more.
-        link: 'https://kencloud.com/educate.html'
         buttonLabel: Learn more and register
       - image:
           src: >-
