@@ -249,6 +249,20 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
+        headline: ETHernals
+        subhead: 'Feb 25 - Mar 27, 2022'
+        text: >+
+          The first ETHIndia Online hackathon of 2022 let participants explore
+          the world of decentralization by building around DAOs, NFTs, DeFi.
+
+
+
+
+        link: 'https://ethernals.devfolio.co/'
+        buttonLabel: View event
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
         label: ''
         headline: Faber Web3 Hackathon
