@@ -67,6 +67,14 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
+        headline: Hack Money
+        subhead: 'May 6 - 27, 2022'
+        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email \"\"), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n\n\n\n\n"
+        link: 'https://defi.ethglobal.com/'
+        buttonLabel: Learn more and register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
         label: ''
         headline: World Innovation Day 2022
@@ -262,13 +270,9 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
         headline: ETHernals
         subhead: 'Feb 25 - Mar 27, 2022'
-        text: >+
+        text: >
           The first ETHIndia Online hackathon of 2022 let participants explore
           the world of decentralization by building around DAOs, NFTs, DeFi.
-
-
-
-
         link: 'https://ethernals.devfolio.co/'
         buttonLabel: View event
       - image:
