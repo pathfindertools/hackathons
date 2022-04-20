@@ -66,7 +66,8 @@ blocks:
     body: ''
     items:
       - image:
-          src: ''
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
