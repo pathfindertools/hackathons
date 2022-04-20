@@ -66,6 +66,8 @@ blocks:
     body: ''
     items:
       - image:
+          src: ''
+      - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
         label: ''
