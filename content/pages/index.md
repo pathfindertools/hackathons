@@ -67,10 +67,14 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
+          alt: P2P Paris Hackathon
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
         headline: Hack Money
         subhead: 'May 6 - 27, 2022'
-        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email \"\"), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n\n\n\n\n"
+        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
         link: 'https://defi.ethglobal.com/'
         buttonLabel: Learn more and register
       - image:
