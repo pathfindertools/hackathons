@@ -1,6 +1,6 @@
 {
   "siteUrl": "hackathons.filecoin.io",
-  "favicon": "http://res.cloudinary.com/protocolai/image/upload/v1649879280/filecoin-favicon_ijfebr.png",
+  "favicon": "http://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
   "gtmId": "GTM-MS25MX2",
   "colors": {
     "primary": "#FF007A",
@@ -23,7 +23,7 @@
     "imageMargin": "24"
   },
   "nav": {
-    "navAlignment": "text-right",
+    "navAlignment": "text-center",
     "navTypeStyle": "text-white font-sans text-base mb-0 ",
     "navBackgroundColor": "bg-black",
     "padding": "pt-10 pb-10 pr-20 pl-20 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5"
