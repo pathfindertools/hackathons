@@ -67,10 +67,33 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
+          alt: L2 Rollathon by Gitcoin
+        headline: Gitcoin L2 Rollathon
+        subhead: 'May 2 - May 22, 2022'
+        text: >
+          Learn about scaling protocols and tooling to create the best possible
+          UX for the future of web3 and win bounties worth thousands of dollars!
+        link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
+        buttonLabel: Learn More and register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
+          alt: P2P Paris Hackathon
+        label: ''
+        headline: P2P Paris Hackathon
+        subhead: 'Apr 27 - May 1, 2022'
+        text: >
+          Propose innovative decentralized solutions and to build them alongside
+          great builders of the Peer to Peer ecosystem.
+        link: 'https://p2p.paris/en/event/hackathon-1/'
+        buttonLabel: Learn More and register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
         headline: Hack Money
         subhead: 'May 6 - 27, 2022'
-        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email \"\"), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n\n\n\n\n"
+        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
         link: 'https://defi.ethglobal.com/'
         buttonLabel: Learn more and register
       - image:
