@@ -69,6 +69,14 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
           alt: P2P Paris Hackathon
+        label: ''
+        headline: P2P Paris Hackathon
+        subhead: 'Apr 27 - May 1, 2022'
+        text: >
+          Propose innovative decentralized solutions and to build them alongside
+          great builders of the Peer to Peer ecosystem.
+        link: 'https://p2p.paris/en/event/hackathon-1/'
+        buttonLabel: Learn More and register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
