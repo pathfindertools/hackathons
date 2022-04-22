@@ -86,6 +86,17 @@ blocks:
         buttonLabel: Learn More and register
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
+        label: ''
+        headline: World Innovation Day 2022
+        subhead: 'Apr 29 - May 3, 2022'
+        text: >
+          Use your skills in generating new ideas and solutions for health &
+          wellbeing, economic growth, decent work and quality education
+        link: 'https://www.worldinnovationday.com/'
+        buttonLabel: Learn more and register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
           alt: P2P Paris Hackathon
         label: ''
@@ -98,22 +109,14 @@ blocks:
         buttonLabel: Learn More and register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
-        headline: Hack Money
-        subhead: 'May 6 - 27, 2022'
-        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
-        link: 'https://defi.ethglobal.com/'
-        buttonLabel: Learn more and register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
-        label: ''
-        headline: World Innovation Day 2022
-        subhead: 'Apr 29 - May 3, 2022'
+            http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
+        headline: Chainlink Spring 22
+        subhead: 'Apr 22 - May 27, 2022'
         text: >
-          Use your skills in generating new ideas and solutions for health &
-          wellbeing, economic growth, decent work and quality education
-        link: 'https://www.worldinnovationday.com/'
+          Join us for the biggest Chainlink hackathon yet. Build the next
+          generation of Web3 applications alongside thousands of developers,
+          creators, artists, and mentors.
+        link: 'https://chain.link/hackathon'
         buttonLabel: Learn more and register
       - image:
           src: >-
@@ -125,17 +128,6 @@ blocks:
           and learn over one full weekend. Meet new friends, create something
           awesome and learn from the best!
         link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: Learn more and register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
-        headline: Chainlink Spring 22
-        subhead: 'Apr 22 - May 27, 2022'
-        text: >
-          Join us for the biggest Chainlink hackathon yet. Build the next
-          generation of Web3 applications alongside thousands of developers,
-          creators, artists, and mentors.
-        link: 'https://chain.link/hackathon'
         buttonLabel: Learn more and register
       - image:
           src: >-
