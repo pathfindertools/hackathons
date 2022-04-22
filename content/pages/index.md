@@ -67,6 +67,9 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
           alt: L2 Rollathon by Gitcoin
         headline: Gitcoin L2 Rollathon
