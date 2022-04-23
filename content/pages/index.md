@@ -537,7 +537,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/filecoin-educate_dbkggj.png
         headline: 'Encode Filecoin Club: Educate'
-        subhead: Jul - Sep 2021
+        subhead: '2021, Jul - Sep'
         text: >
           Educating the next generation of students about Filecoin’s technology
           in a 12-week pre-hackathon series.
