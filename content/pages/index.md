@@ -343,7 +343,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647594034/FOELMZTWQAMMV-Q_iarql0.jpg
         headline: Web3 Hacker House @ SXSW
-        subhead: 'Mar 14-15, 2022'
+        subhead: '2022, Mar 14-15'
         text: >
           Mini hackathon @SXSW Hacker house for people to meet, check out
           panels, live workshops and more.
