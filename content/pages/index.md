@@ -404,9 +404,9 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1637618242/Home/nft-hack_hgtmay_rwonbm.png
         headline: NFT Hack with Filecoin
-        subhead: 'Oct 5 - Nov 28, 2021'
+        subhead: '2021, Oct 5 - Nov 28'
         text: >
-          This 8-week hackathon focused on NFTs - Filecoin/IPFS Projects 
+          This 8-week hackathon, focused on NFTs - Filecoin/IPFS Projects,
           competed for a $50k prize pool.
         link: 'https://www.encode.club/nft-hack'
         buttonLabel: View event
