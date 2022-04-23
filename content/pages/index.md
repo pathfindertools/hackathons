@@ -557,7 +557,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
         headline: HackFS
-        subhead: July-August 2021
+        subhead: Jul - Aug 2021
         text: >
           Build the foundation for the decentralized web. A virtual Hackathon by
           ETHGlobal and Protocol Labs.
