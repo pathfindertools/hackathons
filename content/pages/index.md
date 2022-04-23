@@ -507,7 +507,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618449/Home/jupiter_jaufi9_sexthe.png
         headline: Jupiter Hackathon
-        subhead: 'Aug 25 - Oct 23, 2021'
+        subhead: '2021, Aug 25 - Oct 23'
         text: >
           Show us your best hacks in this IPFS-exclusive multi-week hackathon
           with technical support from Alibaba Cloud.
