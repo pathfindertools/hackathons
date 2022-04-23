@@ -374,7 +374,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1641390435/OG_Image__1_vgm3tb.png
         headline: NFTHACK 2022 ETHGlobal
-        subhead: 'Jan 14 - 16, 2022'
+        subhead: '2022, Jan 14-16'
         text: >
           This event brought together a virtual collective of passionate
           creatives and developers for a weekend NFT hackathon and summit.
