@@ -353,10 +353,10 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647276791/Web3_txj4e5.png
         headline: web3con
-        subhead: 'Feb 28 - Mar 6, 2022'
+        subhead: '2022, Feb 28 - Mar 6'
         text: >
-          web3con is a value-packed conference to help developers of all skill
-          levels collaborate, learn, and vibe together. The hackathon  ends with
+          Web3con is a value-packed conference to help developers of all skill
+          levels collaborate, learn, and vibe together. The hackathon ends with
           a Gather.town conference on Mar 5 & 6.
         link: 'https://www.web3con.dev/'
         buttonLabel: 'View Event '
