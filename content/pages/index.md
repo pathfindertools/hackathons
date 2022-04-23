@@ -527,7 +527,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618583/Home/pennapps_ezsubz_jehzfp.png
         headline: PennApps
-        subhead: September 2021
+        subhead: '2021, September'
         text: >
           PennApps is a student-run college hackathon hosted yearly since 2009.
           The theme in 2021: Cloud.
