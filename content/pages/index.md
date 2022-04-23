@@ -293,7 +293,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
         label: ''
         headline: Faber Web3 Hackathon
-        subhead: 'Feb 21 - Mar 31, 2022'
+        subhead: '2022, Feb 21 - Mar 31'
         text: >
           Protocol Labs and Faber collaborated to help foster Web3 development
           in Europe. Several projects now participate in Faber's accelerator
