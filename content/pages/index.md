@@ -314,7 +314,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648570406/Screen_Shot_2022-03-18_at_09.46.32_v9l9je_sbtfrr.png
         headline: START Hack + Summit '22
-        subhead: '2022, Mar 23 - 26'
+        subhead: '2022, Mar 23-26'
         text: >
           START Summit actively promotes innovation by connecting more than
           2,500 startups, investors, corporates, and young talent. Join virtual
