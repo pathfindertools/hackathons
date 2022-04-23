@@ -517,7 +517,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/eth-online_kyyrez.png
         headline: ETHOnline
-        subhead: 17 September - 15 October
+        subhead: '2021, Sep 17 - Oct 15'
         text: >
           ETHOnline is a global hackathon and summit series devoted to
           celebrating what's possible on Ethereum.
