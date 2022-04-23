@@ -101,12 +101,12 @@ blocks:
           alt: P2P Paris Hackathon
         label: ''
         headline: P2P Paris Hackathon
-        subhead: '2022, Apr 27 - May 1'
+        subhead: '2022, Apr 27 - May 01'
         text: >
           Propose innovative decentralized solutions and build them alongside
           great builders of the Peer-to-Peer ecosystem.
         link: 'https://p2p.paris/en/event/hackathon-1/'
-        buttonLabel: Learn More and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
