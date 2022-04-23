@@ -159,7 +159,7 @@ blocks:
           practitioners in the fields of decentralized systems, peer-to-peer
           networks, and edge computing. 1st submission deadline: 2022, 5 Mar.
         link: 'https://research.protocol.ai/sites/dinps/'
-        buttonLabel: Learn more and submit paper
+        buttonLabel: Learn more and Register
     navigationLabel: Curent & Upcoming
     _template: photoCards
   - style:
