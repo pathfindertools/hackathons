@@ -290,16 +290,6 @@ blocks:
         buttonLabel: View event
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
-        headline: ETHernals
-        subhead: 'Feb 25 - Mar 27, 2022'
-        text: >
-          The first ETHIndia Online hackathon of 2022 let participants explore
-          the world of decentralization by building around DAOs, NFTs, DeFi.
-        link: 'https://ethernals.devfolio.co/'
-        buttonLabel: View event
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
         label: ''
         headline: Faber Web3 Hackathon
@@ -312,11 +302,13 @@ blocks:
         buttonLabel: View event
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
-        headline: ETHDenver 2022
-        subhead: 'Feb 11 - Mar 21, 2022'
-        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
-        link: www.ethdenver.com
+            http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
+        headline: ETHernals
+        subhead: 'Feb 25 - Mar 27, 2022'
+        text: >
+          The first ETHIndia Online hackathon of 2022 let participants explore
+          the world of decentralization by building around DAOs, NFTs, DeFi.
+        link: 'https://ethernals.devfolio.co/'
         buttonLabel: View event
       - image:
           src: >-
@@ -328,6 +320,14 @@ blocks:
           2,500 startups, investors, corporates, and young talent. Join virtual
           or live in St.Gallen, Switzerland.
         link: www.starthack.eu
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
+        headline: ETHDenver 2022
+        subhead: 'Feb 11 - Mar 21, 2022'
+        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
+        link: www.ethdenver.com
         buttonLabel: View event
       - image:
           src: >-
@@ -372,16 +372,6 @@ blocks:
         buttonLabel: View Event
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1643289460/polygon_a6vyg3_zwi84a.png
-        headline: Polygon Grants Hackathon
-        subhead: 'Aug 30, 2021 - Dec 30, 2021'
-        text: >
-          First Polygon-centric hackathon and quadratic funding grant dedicated
-          to the growth of the Polygon ecosystem.
-        link: 'https://www.polygongrantshackathon.com/'
-        buttonLabel: View Event
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1641390435/OG_Image__1_vgm3tb.png
         headline: NFTHACK 2022 ETHGlobal
         subhead: 'Jan 14 - 16, 2022'
@@ -389,6 +379,16 @@ blocks:
           This event brought together a virtual collective of passionate
           creatives and developers for a weekend NFT hackathon and summit.
         link: 'https://nft.ethglobal.co/'
+        buttonLabel: View Event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1643289460/polygon_a6vyg3_zwi84a.png
+        headline: Polygon Grants Hackathon
+        subhead: 'Aug 30, 2021 - Dec 30, 2021'
+        text: >
+          First Polygon-centric hackathon and quadratic funding grant dedicated
+          to the growth of the Polygon ecosystem.
+        link: 'https://www.polygongrantshackathon.com/'
         buttonLabel: View Event
       - image:
           src: >-
@@ -412,26 +412,6 @@ blocks:
         buttonLabel: View event
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
-        headline: Holon Innovate '21
-        subhead: 'Nov 9-25, 2021'
-        text: >
-          This hackathon for Web3.0 innovators building on IPFS and/or Filecoin
-          ran in Australia.
-        link: 'https://taikai.network/en/holon/challenges/holon-innovate'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/babylon_zxlho5.png
-        headline: Babylon 2.0
-        subhead: 'Oct 29 - Nov 20, 2021'
-        text: >
-          The Babylon Project is a virtual Blockchain hackathon where thousands
-          of global participants met in a metaverse.
-        link: 'https://worldblockchainhackathon.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1637777332/Home/fall-hackathon_tmjffc_qkqq7g.png
         headline: Chainlink Hackathon
         subhead: 'Oct 22 - Nov 28, 2021'
@@ -440,6 +420,16 @@ blocks:
           developers, creators, and artists from across the blockchain
           ecosystem.
         link: 'https://chain.link/hackathon'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
+        headline: Holon Innovate '21
+        subhead: 'Nov 9-25, 2021'
+        text: >
+          This hackathon for Web3.0 innovators building on IPFS and/or Filecoin
+          ran in Australia.
+        link: 'https://taikai.network/en/holon/challenges/holon-innovate'
         buttonLabel: View event
       - image:
           src: >-
@@ -454,13 +444,34 @@ blocks:
         buttonLabel: View event
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
-        headline: Cal Hacks 8.0
-        subhead: 'Oct 22-24, 2021'
+            http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/babylon_zxlho5.png
+        headline: Babylon 2.0
+        subhead: 'Oct 29 - Nov 20, 2021'
         text: >
-          Join us at the world's largest collegiate hackathon. Cal Hacks 8.0 is
-          open to all college students over the age of 18.
-        link: 'https://calhacks.io/'
+          The Babylon Project is a virtual Blockchain hackathon where thousands
+          of global participants met in a metaverse.
+        link: 'https://worldblockchainhackathon.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1637618025/Home/mercury_s1rufj_kamtuy.png
+        headline: Mercury Hackathon
+        subhead: 'Sept 20 – Nov 8, 2021'
+        text: >
+          6-week online hackathon supported by [Flow]() that brings together the
+          most talented creators around the world to innovate and redefine
+          boundaries.
+        link: 'https://mercuryhackathon2021.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
+        headline: Mars Hackathon
+        subhead: Sept 7 - Nov 6
+        text: >
+          Filecoin along with Polygon have partnered to launch the Mars
+          Hackathon focused on decentralizing storage!
+        link: 'https://www.marshackathon2021.com/'
         buttonLabel: View event
       - image:
           src: >-
@@ -472,6 +483,16 @@ blocks:
           four distinct hackathon events.
         link: asia-hackathon-season
         buttonLabel: View Event
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
+        headline: Cal Hacks 8.0
+        subhead: 'Oct 22-24, 2021'
+        text: >
+          Join us at the world's largest collegiate hackathon. Cal Hacks 8.0 is
+          open to all college students over the age of 18.
+        link: 'https://calhacks.io/'
+        buttonLabel: View event
       - image:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873560/Home/saturn_yqmuc2.png
@@ -491,27 +512,6 @@ blocks:
           Show us your best hacks in this IPFS-exclusive multi-week hackathon
           with technical support from Alibaba Cloud.
         link: 'https://tianchi.aliyun.com/specials/promotion/ipfs-hackathon'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
-        headline: Mars Hackathon
-        subhead: Sept 7 - Nov 6
-        text: >
-          Filecoin along with Polygon have partnered to launch the Mars
-          Hackathon focused on decentralizing storage!
-        link: 'https://www.marshackathon2021.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618025/Home/mercury_s1rufj_kamtuy.png
-        headline: Mercury Hackathon
-        subhead: 'Sept 20 – Nov 8, 2021'
-        text: >
-          6-week online hackathon supported by [Flow]() that brings together the
-          most talented creators around the world to innovate and redefine
-          boundaries.
-        link: 'https://mercuryhackathon2021.com/'
         buttonLabel: View event
       - image:
           src: >-
@@ -545,16 +545,6 @@ blocks:
         buttonLabel: View event
       - image:
           src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
-        headline: HackFS
-        subhead: July-August 2021
-        text: >
-          Build the foundation for the decentralized web. A virtual Hackathon by
-          ETHGlobal and Protocol Labs.
-        link: 'https://hackfs.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618887/Home/nft-vision_brbnuv_irjteh.png
         headline: NFT Vision Hack
         subhead: July-Aug 2021
@@ -562,6 +552,16 @@ blocks:
           This global online hackathon brought together some of the most
           talented creatives
         link: 'https://www.nftvisionhack.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
+        headline: HackFS
+        subhead: July-August 2021
+        text: >
+          Build the foundation for the decentralized web. A virtual Hackathon by
+          ETHGlobal and Protocol Labs.
+        link: 'https://hackfs.com/'
         buttonLabel: View event
       - image:
           src: >-
