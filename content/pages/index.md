@@ -425,7 +425,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
         headline: Holon Innovate '21
-        subhead: '2021, Nov 9-25'
+        subhead: '2021, Nov 09-25'
         text: >
           This hackathon for Web3.0 innovators building on IPFS and/or Filecoin
           ran in Australia.
