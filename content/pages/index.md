@@ -477,7 +477,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637777239/Home/asia-season_l26qti_raiuiu.png
         headline: Asia Hackathon Season
-        subhead: August - November 2021
+        subhead: '2021, August - November'
         text: >
           Join us on a journey across the universe of Filecoin and IPFS across
           four distinct hackathon events.
