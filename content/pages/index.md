@@ -384,7 +384,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643289460/polygon_a6vyg3_zwi84a.png
         headline: Polygon Grants Hackathon
-        subhead: 'Aug 30, 2021 - Dec 30, 2021'
+        subhead: '2021, Aug 30 - Dec 30'
         text: >
           First Polygon-centric hackathon and quadratic funding grant dedicated
           to the growth of the Polygon ecosystem.
