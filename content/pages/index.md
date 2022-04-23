@@ -567,7 +567,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637619110/Home/browsers3000_s3w9ps_dn3can.png
         headline: Browsers 3000
-        subhead: Jul - Aug 2021
+        subhead: '2021, Jul - Aug'
         text: >
           A six week virtual event to accelerate the development of Web3 in the
           browser.
