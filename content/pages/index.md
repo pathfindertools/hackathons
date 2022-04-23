@@ -101,10 +101,10 @@ blocks:
           alt: P2P Paris Hackathon
         label: ''
         headline: P2P Paris Hackathon
-        subhead: 'Apr 27 - May 1, 2022'
+        subhead: '2022, Apr 27 - May 1'
         text: >
-          Propose innovative decentralized solutions and to build them alongside
-          great builders of the Peer to Peer ecosystem.
+          Propose innovative decentralized solutions and build them alongside
+          great builders of the Peer-to-Peer ecosystem.
         link: 'https://p2p.paris/en/event/hackathon-1/'
         buttonLabel: Learn More and register
       - image:
