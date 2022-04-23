@@ -487,7 +487,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
         headline: Cal Hacks 8.0
-        subhead: 'Oct 22-24, 2021'
+        subhead: '2021, Oct 22-24'
         text: >
           Join us at the world's largest collegiate hackathon. Cal Hacks 8.0 is
           open to all college students over the age of 18.
