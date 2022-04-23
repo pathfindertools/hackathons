@@ -414,7 +414,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1637777332/Home/fall-hackathon_tmjffc_qkqq7g.png
         headline: Chainlink Hackathon
-        subhead: 'Oct 22 - Nov 28, 2021'
+        subhead: '2021, Oct 22 - Nov 28'
         text: >
           Build the next generation of hybrid smart contracts alongside
           developers, creators, and artists from across the blockchain
