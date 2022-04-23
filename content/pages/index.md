@@ -83,7 +83,7 @@ blocks:
           Learn about scaling protocols and tooling to create the best possible
           UX for the future of Web3 and win bounties worth thousands of dollars!
         link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
-        buttonLabel: Learn More and register
+        buttonLabel: Learn more and register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
