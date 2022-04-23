@@ -78,10 +78,10 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
           alt: L2 Rollathon by Gitcoin
         headline: Gitcoin L2 Rollathon
-        subhead: 'May 2 - 22, 2022'
+        subhead: '2022, May 02-22'
         text: >
           Learn about scaling protocols and tooling to create the best possible
-          UX for the future of web3 and win bounties worth thousands of dollars!
+          UX for the future of Web3 and win bounties worth thousands of dollars!
         link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
         buttonLabel: Learn More and register
       - image:
