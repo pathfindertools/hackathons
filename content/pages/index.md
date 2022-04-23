@@ -456,7 +456,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618025/Home/mercury_s1rufj_kamtuy.png
         headline: Mercury Hackathon
-        subhead: '2021, Sep 20 – Nov 8'
+        subhead: '2021, Sep 20 – Nov 08'
         text: >
           6-week online hackathon supported by [Flow]() that brings together the
           most talented creators around the world to innovate and redefine
