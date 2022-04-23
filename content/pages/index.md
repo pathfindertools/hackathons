@@ -122,7 +122,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
         headline: ETHAmsterdam
-        subhead: 'Apr 22 - 24, 2022'
+        subhead: '2022, Apr 22 - 24'
         text: >
           Join over 800 likeminded engineers, designers, and creators to build
           and learn over one full weekend. Meet new friends, create something
