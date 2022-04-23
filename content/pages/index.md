@@ -69,97 +69,97 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
         headline: Hack Money
-        subhead: 'May 6 - 27, 2022'
+        subhead: '2022, May 06-27'
         text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
         link: 'https://defi.ethglobal.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
           alt: L2 Rollathon by Gitcoin
         headline: Gitcoin L2 Rollathon
-        subhead: 'May 2 - May 22, 2022'
+        subhead: '2022, May 02-22'
         text: >
           Learn about scaling protocols and tooling to create the best possible
-          UX for the future of web3 and win bounties worth thousands of dollars!
+          UX for the future of Web3 and win bounties worth thousands of dollars!
         link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
-        buttonLabel: Learn More and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
         label: ''
         headline: World Innovation Day 2022
-        subhead: 'Apr 29 - May 3, 2022'
+        subhead: '2022, Apr 29 - May 03'
         text: >
           Use your skills in generating new ideas and solutions for health &
-          wellbeing, economic growth, decent work and quality education
+          wellbeing, economic growth, decent work and quality education.
         link: 'https://www.worldinnovationday.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
           alt: P2P Paris Hackathon
         label: ''
         headline: P2P Paris Hackathon
-        subhead: 'Apr 27 - May 1, 2022'
+        subhead: '2022, Apr 27 - May 01'
         text: >
-          Propose innovative decentralized solutions and to build them alongside
-          great builders of the Peer to Peer ecosystem.
+          Propose innovative decentralized solutions and build them alongside
+          great builders of the Peer-to-Peer ecosystem.
         link: 'https://p2p.paris/en/event/hackathon-1/'
-        buttonLabel: Learn More and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
         headline: Chainlink Spring 22
-        subhead: 'Apr 22 - May 27, 2022'
+        subhead: '2022, Apr 22 - May 27'
         text: >
           Join us for the biggest Chainlink hackathon yet. Build the next
           generation of Web3 applications alongside thousands of developers,
           creators, artists, and mentors.
         link: 'https://chain.link/hackathon'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
         headline: ETHAmsterdam
-        subhead: 'Apr 22 - 24, 2022'
+        subhead: '2022, Apr 22-24'
         text: >
           Join over 800 likeminded engineers, designers, and creators to build
           and learn over one full weekend. Meet new friends, create something
           awesome and learn from the best!
         link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
         headline: Metaverse Hackathon
-        subhead: 'Apr 20 - June 20, 2022'
+        subhead: '2022, Apr 20 - Jun 20'
         text: >
           An 8-week hackathon focused on Metaverse! Build projects on IPFS to
           answer challenges and compete for the $50k prize pool.
         link: 'https://kencloud.com/hack.html'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
         headline: 22 Hedera Hackathon
-        subhead: 'Mar 31 - May 16, 2022'
+        subhead: '2022, Mar 31 - May 16'
         text: >
           Build the next game-changing decentralized application with Hedera
           Smart Contracts and Filecoin and IPFS.
         link: 'https://hedera22.devpost.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
         headline: DINPS
-        subhead: 'Jan - Jul, 2022'
+        subhead: '2022, Jan - Jul'
         text: >
           The **DINPS** workshop aims to bring together researchers and
           practitioners in the fields of decentralized systems, peer-to-peer
-          networks, and edge computing.1st submission deadline: 5 Mar, 2022.
+          networks, and edge computing. 1st submission deadline: 2022, 5 Mar.
         link: 'https://research.protocol.ai/sites/dinps/'
-        buttonLabel: Learn more and submit paper
+        buttonLabel: Learn more and Register
     navigationLabel: Curent & Upcoming
     _template: photoCards
   - style:
@@ -282,7 +282,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
         headline: DAOHacks
-        subhead: 'Apr 8 - 10, 2022'
+        subhead: '2022, Apr 08-10'
         text: >
           Participants joined to build the future of coordination, networks,
           social groups, collectors, creatives, and more.
@@ -293,7 +293,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
         label: ''
         headline: Faber Web3 Hackathon
-        subhead: 'Feb 21 - Mar 31, 2022'
+        subhead: '2022, Feb 21 - Mar 31'
         text: >
           Protocol Labs and Faber collaborated to help foster Web3 development
           in Europe. Several projects now participate in Faber's accelerator
@@ -304,7 +304,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
         headline: ETHernals
-        subhead: 'Feb 25 - Mar 27, 2022'
+        subhead: '2022, Feb 25 - Mar 27'
         text: >
           The first ETHIndia Online hackathon of 2022 let participants explore
           the world of decentralization by building around DAOs, NFTs, DeFi.
@@ -314,7 +314,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648570406/Screen_Shot_2022-03-18_at_09.46.32_v9l9je_sbtfrr.png
         headline: START Hack + Summit '22
-        subhead: 'Mar 23 - 26, 2022'
+        subhead: '2022, Mar 23-26'
         text: >
           START Summit actively promotes innovation by connecting more than
           2,500 startups, investors, corporates, and young talent. Join virtual
@@ -325,15 +325,15 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
         headline: ETHDenver 2022
-        subhead: 'Feb 11 - Mar 21, 2022'
-        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
+        subhead: '2022, Feb 11 - Mar 21'
+        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in-person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
         link: www.ethdenver.com
         buttonLabel: View event
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647594194/Screen_Shot_2022-03-18_at_10.03.05_wiopqs.png
-        headline: BuildQuest ETHGlobal 2022
-        subhead: 'Mar 4-16, 2022 '
+        headline: BuildQuest 2022 ETHGlobal
+        subhead: '2022, Mar 04-16'
         text: >
           12-day game jam and metaverse hackathon with 500+ participants and
           over $100k in prizes available.
@@ -343,7 +343,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647594034/FOELMZTWQAMMV-Q_iarql0.jpg
         headline: Web3 Hacker House @ SXSW
-        subhead: 'Mar 14-15, 2022'
+        subhead: '2022, Mar 14-15'
         text: >
           Mini hackathon @SXSW Hacker house for people to meet, check out
           panels, live workshops and more.
@@ -353,10 +353,10 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647276791/Web3_txj4e5.png
         headline: web3con
-        subhead: 'Feb 28 - Mar 6, 2022'
+        subhead: '2022, Feb 28 - Mar 06'
         text: >
-          web3con is a value-packed conference to help developers of all skill
-          levels collaborate, learn, and vibe together. The hackathon  ends with
+          Web3con is a value-packed conference to help developers of all skill
+          levels collaborate, learn, and vibe together. The hackathon ends with
           a Gather.town conference on Mar 5 & 6.
         link: 'https://www.web3con.dev/'
         buttonLabel: 'View Event '
@@ -364,7 +364,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1646137016/moralisAvaxHackathonNew_fe8bx1.svg
         headline: Moralis Avalanche x Filecoin
-        subhead: 'Dec 6, 2021 - Jan 31, 2022'
+        subhead: '2021, Dec 06 - 2022, Jan 31'
         text: >
           Put yourself at the forefront of the developer world and participate
           against other development teams.
@@ -374,7 +374,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1641390435/OG_Image__1_vgm3tb.png
         headline: NFTHACK 2022 ETHGlobal
-        subhead: 'Jan 14 - 16, 2022'
+        subhead: '2022, Jan 14-16'
         text: >
           This event brought together a virtual collective of passionate
           creatives and developers for a weekend NFT hackathon and summit.
@@ -384,7 +384,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643289460/polygon_a6vyg3_zwi84a.png
         headline: Polygon Grants Hackathon
-        subhead: 'Aug 30, 2021 - Dec 30, 2021'
+        subhead: '2021, Aug 30 - Dec 30'
         text: >
           First Polygon-centric hackathon and quadratic funding grant dedicated
           to the growth of the Polygon ecosystem.
@@ -394,9 +394,9 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642354847/Screen_Shot_2022-01-16_at_9.40.21_PM_bgzwfi.png
         headline: 'Filecoin @Polygon BUIDL IT '
-        subhead: 'Nov 19 - Dec 12, 2021'
+        subhead: '2021, Nov 19 - Dec 12'
         text: >
-          BUIDL IT was a Web 3.0/Blockchain hackathon designed to promote web3
+          BUIDL IT was a Web 3.0/Blockchain hackathon designed to promote Web3
           development and talent in India.
         link: 'https://buidlit.polygon.technology/'
         buttonLabel: View event
@@ -404,9 +404,9 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1637618242/Home/nft-hack_hgtmay_rwonbm.png
         headline: NFT Hack with Filecoin
-        subhead: 'Oct 5 - Nov 28, 2021'
+        subhead: '2021, Oct 05 - Nov 28'
         text: >
-          This 8-week hackathon focused on NFTs - Filecoin/IPFS Projects 
+          This 8-week hackathon, focused on NFTs - Filecoin/IPFS Projects,
           competed for a $50k prize pool.
         link: 'https://www.encode.club/nft-hack'
         buttonLabel: View event
@@ -414,10 +414,10 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1637777332/Home/fall-hackathon_tmjffc_qkqq7g.png
         headline: Chainlink Hackathon
-        subhead: 'Oct 22 - Nov 28, 2021'
+        subhead: '2021, Oct 22 - Nov 28'
         text: >
           Build the next generation of hybrid smart contracts alongside
-          developers, creators, and artists from across the blockchain
+          developers, creators, and artists from across the Blockchain
           ecosystem.
         link: 'https://chain.link/hackathon'
         buttonLabel: View event
@@ -425,7 +425,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
         headline: Holon Innovate '21
-        subhead: 'Nov 9-25, 2021'
+        subhead: '2021, Nov 09-25'
         text: >
           This hackathon for Web3.0 innovators building on IPFS and/or Filecoin
           ran in Australia.
@@ -435,7 +435,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/web3-jam_uhwlcl.png
         headline: Web3 Jam
-        subhead: 'Nov 12 - 24, 2021'
+        subhead: '2021, Nov 12-24'
         text: >
           Bringing together a virtual collective of passionate creatives,
           engineers, builders and more for a two-week long hackathon focused on
@@ -446,7 +446,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/babylon_zxlho5.png
         headline: Babylon 2.0
-        subhead: 'Oct 29 - Nov 20, 2021'
+        subhead: '2021, Oct 29 - Nov 20'
         text: >
           The Babylon Project is a virtual Blockchain hackathon where thousands
           of global participants met in a metaverse.
@@ -456,7 +456,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618025/Home/mercury_s1rufj_kamtuy.png
         headline: Mercury Hackathon
-        subhead: 'Sept 20 – Nov 8, 2021'
+        subhead: '2021, Sep 20 – Nov 08'
         text: >
           6-week online hackathon supported by [Flow]() that brings together the
           most talented creators around the world to innovate and redefine
@@ -467,7 +467,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
         headline: Mars Hackathon
-        subhead: Sept 7 - Nov 6
+        subhead: '2021, Sep 07 - Nov 06'
         text: >
           Filecoin along with Polygon have partnered to launch the Mars
           Hackathon focused on decentralizing storage!
@@ -477,7 +477,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637777239/Home/asia-season_l26qti_raiuiu.png
         headline: Asia Hackathon Season
-        subhead: August - November 2021
+        subhead: '2021, August - November'
         text: >
           Join us on a journey across the universe of Filecoin and IPFS across
           four distinct hackathon events.
@@ -487,7 +487,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
         headline: Cal Hacks 8.0
-        subhead: 'Oct 22-24, 2021'
+        subhead: '2021, Oct 22-24'
         text: >
           Join us at the world's largest collegiate hackathon. Cal Hacks 8.0 is
           open to all college students over the age of 18.
@@ -497,7 +497,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873560/Home/saturn_yqmuc2.png
         headline: Saturn Hackathon
-        subhead: 'Aug 4 - Oct 24, 2021 '
+        subhead: '2021, Aug 04 - Oct 24 '
         text: >
           Filecoin and IPFS are proud to host the Saturn track at the [Wanxiang
           Blockchain Week 2021]().
@@ -507,7 +507,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618449/Home/jupiter_jaufi9_sexthe.png
         headline: Jupiter Hackathon
-        subhead: 'Aug 25 - Oct 23, 2021'
+        subhead: '2021, Aug 25 - Oct 23'
         text: >
           Show us your best hacks in this IPFS-exclusive multi-week hackathon
           with technical support from Alibaba Cloud.
@@ -517,7 +517,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/eth-online_kyyrez.png
         headline: ETHOnline
-        subhead: 17 September - 15 October
+        subhead: '2021, Sep 17 - Oct 15'
         text: >
           ETHOnline is a global hackathon and summit series devoted to
           celebrating what's possible on Ethereum.
@@ -527,7 +527,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618583/Home/pennapps_ezsubz_jehzfp.png
         headline: PennApps
-        subhead: September 2021
+        subhead: '2021, September'
         text: >
           PennApps is a student-run college hackathon hosted yearly since 2009.
           The theme in 2021: Cloud.
@@ -537,7 +537,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/filecoin-educate_dbkggj.png
         headline: 'Encode Filecoin Club: Educate'
-        subhead: July-Sept 2021
+        subhead: '2021, Jul - Sep'
         text: >
           Educating the next generation of students about Filecoin’s technology
           in a 12-week pre-hackathon series.
@@ -547,7 +547,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618887/Home/nft-vision_brbnuv_irjteh.png
         headline: NFT Vision Hack
-        subhead: July-Aug 2021
+        subhead: '2021, Jul - Aug'
         text: >
           This global online hackathon brought together some of the most
           talented creatives
@@ -557,7 +557,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
         headline: HackFS
-        subhead: July-August 2021
+        subhead: '2021, Jul - Aug'
         text: >
           Build the foundation for the decentralized web. A virtual Hackathon by
           ETHGlobal and Protocol Labs.
@@ -567,7 +567,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637619110/Home/browsers3000_s3w9ps_dn3can.png
         headline: Browsers 3000
-        subhead: July-August 2021
+        subhead: '2021, Jul - Aug'
         text: >
           A six week virtual event to accelerate the development of Web3 in the
           browser.
@@ -577,7 +577,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/dora-hacks_tnfawd.png
         headline: Dora Hacks
-        subhead: May-July 2021
+        subhead: '2021, May - Jul'
         text: >
           Protocal Labs partnership with DoraHacks to innovate and push the
           internet forward.
