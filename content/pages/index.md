@@ -325,8 +325,8 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
         headline: ETHDenver 2022
-        subhead: 'Feb 11 - Mar 21, 2022'
-        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
+        subhead: '2022, Feb 11 - Mar 21'
+        text: "ETHDenver 2022 is your chance to contribute towards building the future. This in-person & virtual summit is for anyone who likes to\_ design visuals, hack projects together, write copy for websites and posts, or feel the call to #BUIDL deep inside.\n"
         link: www.ethdenver.com
         buttonLabel: View event
       - image:
