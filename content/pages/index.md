@@ -332,8 +332,8 @@ blocks:
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647594194/Screen_Shot_2022-03-18_at_10.03.05_wiopqs.png
-        headline: BuildQuest ETHGlobal 2022
-        subhead: 'Mar 4-16, 2022 '
+        headline: BuildQuest 2022 ETHGlobal
+        subhead: '2022, Mar 4-16'
         text: >
           12-day game jam and metaverse hackathon with 500+ participants and
           over $100k in prizes available.
