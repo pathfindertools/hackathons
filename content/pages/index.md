@@ -547,7 +547,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618887/Home/nft-vision_brbnuv_irjteh.png
         headline: NFT Vision Hack
-        subhead: Jul - Aug 2021
+        subhead: '2021, Jul - Aug'
         text: >
           This global online hackathon brought together some of the most
           talented creatives
