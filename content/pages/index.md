@@ -89,12 +89,12 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
         label: ''
         headline: World Innovation Day 2022
-        subhead: '2022, Apr 29 - May 3'
+        subhead: '2022, Apr 29 - May 03'
         text: >
           Use your skills in generating new ideas and solutions for health &
           wellbeing, economic growth, decent work and quality education.
         link: 'https://www.worldinnovationday.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
