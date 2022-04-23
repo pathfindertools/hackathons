@@ -69,10 +69,10 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
         headline: Hack Money
-        subhead: 'May 6 - 27, 2022'
+        subhead: '2022, May 6 - 27'
         text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
         link: 'https://defi.ethglobal.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
