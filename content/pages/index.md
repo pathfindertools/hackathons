@@ -467,7 +467,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
         headline: Mars Hackathon
-        subhead: '2021, Sep 7 - Nov 6'
+        subhead: '2021, Sep 07 - Nov 06'
         text: >
           Filecoin along with Polygon have partnered to launch the Mars
           Hackathon focused on decentralizing storage!
