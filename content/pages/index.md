@@ -148,7 +148,7 @@ blocks:
           Build the next game-changing decentralized application with Hedera
           Smart Contracts and Filecoin and IPFS.
         link: 'https://hedera22.devpost.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
