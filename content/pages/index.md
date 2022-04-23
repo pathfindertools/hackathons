@@ -153,11 +153,11 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
         headline: DINPS
-        subhead: 'Jan - Jul, 2022'
+        subhead: '2022, Jan - Jul'
         text: >
           The **DINPS** workshop aims to bring together researchers and
           practitioners in the fields of decentralized systems, peer-to-peer
-          networks, and edge computing.1st submission deadline: 5 Mar, 2022.
+          networks, and edge computing. 1st submission deadline: 2022, 5 Mar.
         link: 'https://research.protocol.ai/sites/dinps/'
         buttonLabel: Learn more and submit paper
     navigationLabel: Curent & Upcoming
