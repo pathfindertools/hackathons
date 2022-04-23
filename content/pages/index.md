@@ -435,7 +435,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/web3-jam_uhwlcl.png
         headline: Web3 Jam
-        subhead: 'Nov 12 - 24, 2021'
+        subhead: '2021, Nov 12-24'
         text: >
           Bringing together a virtual collective of passionate creatives,
           engineers, builders and more for a two-week long hackathon focused on
