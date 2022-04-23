@@ -282,7 +282,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
         headline: DAOHacks
-        subhead: 'Apr 8 - 10, 2022'
+        subhead: '2022, Apr 8 - 10'
         text: >
           Participants joined to build the future of coordination, networks,
           social groups, collectors, creatives, and more.
