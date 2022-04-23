@@ -304,7 +304,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
         headline: ETHernals
-        subhead: 'Feb 25 - Mar 27, 2022'
+        subhead: '2022, Feb 25 - Mar 27'
         text: >
           The first ETHIndia Online hackathon of 2022 let participants explore
           the world of decentralization by building around DAOs, NFTs, DeFi.
