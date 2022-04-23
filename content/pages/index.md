@@ -417,7 +417,7 @@ blocks:
         subhead: '2021, Oct 22 - Nov 28'
         text: >
           Build the next generation of hybrid smart contracts alongside
-          developers, creators, and artists from across the blockchain
+          developers, creators, and artists from across the Blockchain
           ecosystem.
         link: 'https://chain.link/hackathon'
         buttonLabel: View event
