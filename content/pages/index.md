@@ -117,7 +117,7 @@ blocks:
           generation of Web3 applications alongside thousands of developers,
           creators, artists, and mentors.
         link: 'https://chain.link/hackathon'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
