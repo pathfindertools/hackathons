@@ -577,7 +577,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/dora-hacks_tnfawd.png
         headline: Dora Hacks
-        subhead: May - Jul 2021
+        subhead: '2021, May - Jul'
         text: >
           Protocal Labs partnership with DoraHacks to innovate and push the
           internet forward.
