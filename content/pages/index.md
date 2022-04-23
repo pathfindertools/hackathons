@@ -128,7 +128,7 @@ blocks:
           and learn over one full weekend. Meet new friends, create something
           awesome and learn from the best!
         link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: Learn more and register
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
