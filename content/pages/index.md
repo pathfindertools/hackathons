@@ -446,7 +446,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/babylon_zxlho5.png
         headline: Babylon 2.0
-        subhead: 'Oct 29 - Nov 20, 2021'
+        subhead: '2021, Oct 29 - Nov 20'
         text: >
           The Babylon Project is a virtual Blockchain hackathon where thousands
           of global participants met in a metaverse.
