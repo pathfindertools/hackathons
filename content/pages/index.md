@@ -364,7 +364,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1646137016/moralisAvaxHackathonNew_fe8bx1.svg
         headline: Moralis Avalanche x Filecoin
-        subhead: 'Dec 6, 2021 - Jan 31, 2022'
+        subhead: '2021, Dec 6 - 2022, Jan 31'
         text: >
           Put yourself at the forefront of the developer world and participate
           against other development teams.
