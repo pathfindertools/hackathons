@@ -394,9 +394,9 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642354847/Screen_Shot_2022-01-16_at_9.40.21_PM_bgzwfi.png
         headline: 'Filecoin @Polygon BUIDL IT '
-        subhead: 'Nov 19 - Dec 12, 2021'
+        subhead: '2021, Nov 19 - Dec 12'
         text: >
-          BUIDL IT was a Web 3.0/Blockchain hackathon designed to promote web3
+          BUIDL IT was a Web 3.0/Blockchain hackathon designed to promote Web3
           development and talent in India.
         link: 'https://buidlit.polygon.technology/'
         buttonLabel: View event
