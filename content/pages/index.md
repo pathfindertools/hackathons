@@ -287,6 +287,8 @@ blocks:
           800 likeminded engineers, designers, and creators joined us to build
           and learn over one full weekend. We met new friends, created something
           awesome and learned from the best!
+        link: 'https://amsterdam.ethglobal.com/'
+        buttonLabel: View event
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
