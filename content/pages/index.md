@@ -120,17 +120,6 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
-        headline: ETHAmsterdam
-        subhead: '2022, Apr 22-24'
-        text: >
-          Join over 800 likeminded engineers, designers, and creators to build
-          and learn over one full weekend. Meet new friends, create something
-          awesome and learn from the best!
-        link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
         headline: Metaverse Hackathon
         subhead: '2022, Apr 20 - Jun 20'
@@ -278,6 +267,25 @@ blocks:
     headline: Past Events
     body: ''
     items:
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1651062207/hackathons/FOtDw7FWQAsE0MU_wulfuv.png
+        headline: ETHAmsterdam
+        subhead: '2022, Apr 22-24'
+        text: >
+          800 likeminded engineers, designers, and creators joined us to build
+          and learn over one full weekend. We met new friends, created something
+          awesome and learned from the best!
+        link: 'https://amsterdam.ethglobal.com/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
+        headline: Gamedev.js
+        subhead: '2022, Apr 13-26'
+        text: "Gamedev.js Jam\_celebrates\_Web games\_- build an HTML5 game within\_13 days\_of the jam on a given theme.\n"
+        link: 'https://gamedevjs.com/jam/2022/'
+        buttonLabel: View event
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
