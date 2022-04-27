@@ -280,6 +280,15 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1651062207/hackathons/FOtDw7FWQAsE0MU_wulfuv.png
+        headline: ETHAmsterdam
+        subhead: '2022, Apr 22-24'
+        text: >
+          800 likeminded engineers, designers, and creators joined us to build
+          and learn over one full weekend. We met new friends, created something
+          awesome and learned from the best!
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
         headline: Gamedev.js
         subhead: '2022, Apr 13-26'
