@@ -280,6 +280,14 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
+        headline: Gamedev.js
+        subhead: '2022, Apr 13-26'
+        text: "Gamedev.js Jam\_celebrates\_Web games\_- build an HTML5 game within\_13 days\_of the jam on a given theme.\n"
+        link: 'https://gamedevjs.com/jam/2022/'
+        buttonLabel: View event
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
         headline: DAOHacks
         subhead: '2022, Apr 08-10'
