@@ -120,17 +120,6 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648569806/FOtDw7FWQAsE0MU_ylxaif.png
-        headline: ETHAmsterdam
-        subhead: '2022, Apr 22-24'
-        text: >
-          Join over 800 likeminded engineers, designers, and creators to build
-          and learn over one full weekend. Meet new friends, create something
-          awesome and learn from the best!
-        link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
         headline: Metaverse Hackathon
         subhead: '2022, Apr 20 - Jun 20'
