@@ -65,6 +65,10 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - headline: CORTX Hackathon 2022
+        subhead: '2022, Jan 29 - Jul 30'
+        link: 'https://seagate-cortx-hackathon2022.devpost.com/'
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651176463/Screen_Shot_2022-04-28_at_13.07.09_u9k90d.png
