@@ -67,6 +67,19 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1651176463/Screen_Shot_2022-04-28_at_13.07.09_u9k90d.png
+        label: ''
+        headline: Graph Hack
+        subhead: '2022, Jun 3-5'
+        text: >
+          This three-day hackathon unites developers, innovators, and creatives
+          to build the future of the internet together. Build the dapps of
+          tomorrow, compete for bounties, and learn best practices from top
+          developers in the space.
+        link: 'https://thegraph.com/graph-hack/2022/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
         headline: Hack Money
         subhead: '2022, May 06-27'
