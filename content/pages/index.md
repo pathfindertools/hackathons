@@ -66,6 +66,7 @@ blocks:
     body: ''
     items:
       - headline: CORTX & Filecoin Integration Challenge
+        subhead: '2022, May 06 - Jul 09'
         text: >
           ### Change the way the world does data by connecting CORTX™— Seagate’s
           open-source object storage software — with the tools and platforms
