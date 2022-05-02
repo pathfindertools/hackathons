@@ -65,7 +65,10 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: CORTX & Filecoin Integration Challenge
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1651519920/CORTX_Challenge_znc0ep.png
+        headline: CORTX & Filecoin Integration Challenge
         subhead: '2022, May 06 - Jul 09'
         text: >
           ### Change the way the world does data by connecting CORTX™— Seagate’s
