@@ -115,6 +115,7 @@ blocks:
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
+          alt: World Innovation Day by United Nations
         label: ''
         headline: World Innovation Day 2022
         subhead: '2022, Apr 29 - May 03'
