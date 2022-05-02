@@ -76,7 +76,7 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651176463/Screen_Shot_2022-04-28_at_13.07.09_u9k90d.png
+            http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
         label: ''
         headline: Graph Hack
         subhead: '2022, Jun 3-5'
