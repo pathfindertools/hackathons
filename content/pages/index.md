@@ -162,6 +162,7 @@ blocks:
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
+          alt: 22 Hedera Hackathon
         headline: 22 Hedera Hackathon
         subhead: '2022, Mar 31 - May 16'
         text: >
