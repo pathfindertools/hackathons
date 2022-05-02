@@ -65,6 +65,13 @@ blocks:
     subhead: ''
     body: ''
     items:
+      - headline: CORTX & Filecoin Integration Challenge
+        text: >
+          ### Change the way the world does data by connecting CORTX™— Seagate’s
+          open-source object storage software — with the tools and platforms
+          that underpin the data revolution.
+        link: >-
+          https://seagate-cortx-hackathon2022.devpost.com/?preview_token=C6N1ciySB33jxk3RKSsLDrWMfJIu4TnUW8qv8qSgIaw%3D
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651176463/Screen_Shot_2022-04-28_at_13.07.09_u9k90d.png
