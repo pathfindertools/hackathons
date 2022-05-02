@@ -69,7 +69,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651519920/CORTX_Challenge_znc0ep.png
         headline: CORTX & Filecoin Integration Challenge
-        subhead: '2022, May 06 - Jul 09'
+        subhead: '2022, May 06 - Jul 11'
         text: >
           ### Change the way the world does data by connecting CORTX™— Seagate’s
           open-source object storage software — with the tools and platforms
