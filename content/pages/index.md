@@ -72,6 +72,7 @@ blocks:
           that underpin the data revolution.
         link: >-
           https://seagate-cortx-hackathon2022.devpost.com/?preview_token=C6N1ciySB33jxk3RKSsLDrWMfJIu4TnUW8qv8qSgIaw%3D
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651176463/Screen_Shot_2022-04-28_at_13.07.09_u9k90d.png
