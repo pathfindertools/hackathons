@@ -103,7 +103,7 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650535817/L2_Rollathon_vlw3up.png
+            http://res.cloudinary.com/protocolai/image/upload/v1651523215/L2_Rollathon_vlw3up_1_tvmzmp.png
           alt: L2 Rollathon by Gitcoin
         headline: Gitcoin L2 Rollathon
         subhead: '2022, May 02-22'
