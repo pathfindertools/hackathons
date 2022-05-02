@@ -151,6 +151,7 @@ blocks:
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
+          alt: Metaverse Hackathon by KEN Labs
         headline: Metaverse Hackathon
         subhead: '2022, Apr 20 - Jun 20'
         text: >
