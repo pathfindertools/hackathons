@@ -92,7 +92,7 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650487728/hackathons/hackmoney_fsgl3c.png
+            http://res.cloudinary.com/protocolai/image/upload/v1651521383/hackmoney_s3i6gg.png
         headline: Hack Money
         subhead: '2022, May 06-27'
         text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
