@@ -175,7 +175,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
           alt: 'Decentralized Internet, Networks, Protocol, & Systems Workshop'
         headline: DINPS
-        subhead: '2022, Jan - Jul'
+        subhead: 'Jan - Jul, 2022'
         text: >
           The **DINPS** workshop aims to bring together researchers and
           practitioners in the fields of decentralized systems, peer-to-peer
