@@ -656,7 +656,7 @@ blocks:
     body: >
       We encourage builders who want to take their hackathon submissions to the
       next level to apply to our grants' and accelerator programs. Check out
-      follow-on opportunities available to you below
+      follow-on opportunities below.
     items:
       - headline: Filecoin Grants
         subhead: >-
