@@ -84,7 +84,7 @@ blocks:
           alt: 'Graph Hack Hackathon - San Francisco '
         label: ''
         headline: Graph Hack
-        subhead: '2022, Jun 3-5'
+        subhead: 'Jun 3-5, 2022'
         text: >
           This three-day hackathon unites developers, innovators, and creatives
           to build the future of the internet together. Build the dapps of
