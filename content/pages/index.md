@@ -164,7 +164,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
           alt: 22 Hedera Hackathon
         headline: 22 Hedera Hackathon
-        subhead: '2022, Mar 31 - May 16'
+        subhead: 'Mar 31 - May 16, 2022'
         text: >
           Build the next game-changing decentralized application with Hedera
           Smart Contracts and Filecoin and IPFS.
