@@ -70,7 +70,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
           alt: CORTX Integration Challenge by Seagate and Filecoin
         headline: CORTX & Filecoin Integration Challenge
-        subhead: '2022, May 06 - Jul 11'
+        subhead: 'May 06-Jul 11, 2022'
         text: >
           ### Change the way the world does data by connecting CORTX™— Seagate’s
           open-source object storage software — with the tools and platforms
@@ -84,7 +84,7 @@ blocks:
           alt: 'Graph Hack Hackathon - San Francisco '
         label: ''
         headline: Graph Hack
-        subhead: '2022, Jun 3-5'
+        subhead: 'Jun 3-5, 2022'
         text: >
           This three-day hackathon unites developers, innovators, and creatives
           to build the future of the internet together. Build the dapps of
@@ -97,7 +97,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1651521383/hackmoney_s3i6gg.png
           alt: Hack Money by ETHGlobal
         headline: Hack Money
-        subhead: '2022, May 06-27'
+        subhead: 'May 06-27, 2022'
         text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
         link: 'https://defi.ethglobal.com/'
         buttonLabel: Learn more and Register
@@ -106,7 +106,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1651523215/L2_Rollathon_vlw3up_1_tvmzmp.png
           alt: L2 Rollathon by Gitcoin
         headline: Gitcoin L2 Rollathon
-        subhead: '2022, May 02-22'
+        subhead: 'May 02-22, 2022'
         text: >
           Learn about scaling protocols and tooling to create the best possible
           UX for the future of Web3 and win bounties worth thousands of dollars!
@@ -118,7 +118,7 @@ blocks:
           alt: World Innovation Day by United Nations
         label: ''
         headline: World Innovation Day 2022
-        subhead: '2022, Apr 29 - May 03'
+        subhead: 'Apr 29 - May 03, 2022'
         text: >
           Use your skills in generating new ideas and solutions for health &
           wellbeing, economic growth, decent work and quality education.
@@ -130,7 +130,7 @@ blocks:
           alt: P2P Paris Hackathon
         label: ''
         headline: P2P Paris Hackathon
-        subhead: '2022, Apr 27 - May 01'
+        subhead: 'Apr 27 - May 01, 2022'
         text: >
           Propose innovative decentralized solutions and build them alongside
           great builders of the Peer-to-Peer ecosystem.
@@ -141,7 +141,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
           alt: Chainlink Spring '22 Hackathon
         headline: Chainlink Spring 22
-        subhead: '2022, Apr 22 - May 27'
+        subhead: 'Apr 22 - May 27, 2022'
         text: >
           Join us for the biggest Chainlink hackathon yet. Build the next
           generation of Web3 applications alongside thousands of developers,
@@ -153,7 +153,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
           alt: Metaverse Hackathon by KEN Labs
         headline: Metaverse Hackathon
-        subhead: '2022, Apr 20 - Jun 20'
+        subhead: 'Apr 20 - Jun 20, 2022'
         text: >
           An 8-week hackathon focused on Metaverse! Build projects on IPFS to
           answer challenges and compete for the $50k prize pool.
@@ -164,7 +164,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
           alt: 22 Hedera Hackathon
         headline: 22 Hedera Hackathon
-        subhead: '2022, Mar 31 - May 16'
+        subhead: 'Mar 31 - May 16, 2022'
         text: >
           Build the next game-changing decentralized application with Hedera
           Smart Contracts and Filecoin and IPFS.
@@ -175,7 +175,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
           alt: 'Decentralized Internet, Networks, Protocol, & Systems Workshop'
         headline: DINPS
-        subhead: '2022, Jan - Jul'
+        subhead: 'Jan - Jul, 2022'
         text: >
           The **DINPS** workshop aims to bring together researchers and
           practitioners in the fields of decentralized systems, peer-to-peer
