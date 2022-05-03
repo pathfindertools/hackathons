@@ -654,9 +654,9 @@ blocks:
     headline: Post-hackathon opportunities
     subhead: ''
     body: >
-      We encourage builders who want to their hackathon submissions to the next
-      level to apply to our grants' and accelerator programs. Check out
-      follow-on opportunities available to you.
+      We encourage builders who want to take their hackathon submissions to the
+      next level to apply to our grants' and accelerator programs. Check out
+      follow-on opportunities available to you below
     items:
       - headline: Filecoin Grants
         subhead: >-
