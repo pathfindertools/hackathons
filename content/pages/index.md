@@ -141,7 +141,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
           alt: Chainlink Spring '22 Hackathon
         headline: Chainlink Spring 22
-        subhead: '2022, Apr 22 - May 27'
+        subhead: 'Apr 22 - May 27, 2022'
         text: >
           Join us for the biggest Chainlink hackathon yet. Build the next
           generation of Web3 applications alongside thousands of developers,
