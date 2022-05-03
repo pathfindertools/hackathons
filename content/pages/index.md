@@ -118,7 +118,7 @@ blocks:
           alt: World Innovation Day by United Nations
         label: ''
         headline: World Innovation Day 2022
-        subhead: '2022, Apr 29 - May 03'
+        subhead: 'Apr 29 - May 03, 2022'
         text: >
           Use your skills in generating new ideas and solutions for health &
           wellbeing, economic growth, decent work and quality education.
