@@ -260,7 +260,7 @@ blocks:
         buttonFillStyles: bg-primary
         textColor: white
         backgroundColor: primary
-      - label: '*Thursdays 2:30p UTC / 6:30p Eastern'
+      - label: '*Thursdays 2pm UTC / 6pm Eastern'
         link: ''
         type: link
         textColor: white
