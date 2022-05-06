@@ -66,10 +66,18 @@ blocks:
     body: ''
     items:
       - image:
-          src: ''
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
         label: ''
         headline: SegmentFault's 'Coding with Filecoin'
         subhead: 'May 10-July, 2022'
+        text: >
+          'Coding with Filecoin' is for Chinese-speaking developers with at
+          least one year of development experience. Join to learn about Web3 and
+          Filecoin from experts in the field. The program is followed by a
+          one-month hackathon.
+        link: 'http://www.studycn.work/'
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
