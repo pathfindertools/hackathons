@@ -66,6 +66,11 @@ blocks:
     body: ''
     items:
       - image:
+          src: ''
+        label: ''
+        headline: SegmentFault's 'Coding with Filecoin'
+        subhead: 'May 10-July, 2022'
+      - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
           alt: CORTX Integration Challenge by Seagate and Filecoin
