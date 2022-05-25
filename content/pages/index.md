@@ -193,7 +193,7 @@ blocks:
           networks, and edge computing. 1st submission deadline: 2022, 5 Mar.
         link: 'https://research.protocol.ai/sites/dinps/'
         buttonLabel: Learn more and Register
-    navigationLabel: Curent & Upcoming
+    navigationLabel: Current & Upcoming
     _template: photoCards
   - style:
       alignment: 'flex-row-reverse text-left items-start '
