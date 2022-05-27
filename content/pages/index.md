@@ -67,6 +67,38 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
+        headline: BlockJam2022
+        subhead: 'Jun 18-Jul 4, 2022'
+        text: >
+          BlockJam is a 16-day online conference and hackathon starting to
+          educate and excite traditional game developers about how blockchain
+          can take their games to the next level. Over $50,000 up for grabs in
+          bounties!
+        link: 'https://globalblockjam.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
+        headline: HackFS 2022 (season 3)
+        subhead: 'Jul 8 - 27, 2022'
+        text: >
+          Build the foundation for the decentralized web. A Hackathon by
+          ETHGlobal and Protocol Labs.
+        link: 'https://fs.ethglobal.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653656057/ETHNEWYORK_Filecoin_yw3fei.png
+        headline: ETHNewYork
+        subhead: 'Jun 24 - 25, 2022'
+        text: >
+          New York's premier blockchain hackathon is back! Discover a new
+          frontier with ETHereum and build innovative projects to win bounties!
+        link: 'https://ny.ethglobal.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
         label: ''
         headline: '''Coding with Filecoin''-Course'
@@ -346,6 +378,13 @@ blocks:
         subhead: 'May 02-22, 2022'
         text: ''
         link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653655498/Screen_Shot_2022-05-27_at_6.14.28_PM_j9v5lf.png
+        headline: World Innovation Day 2022
+        subhead: 'Apr 29 - May 03, 2022'
+        link: 'https://www.hackmakers.com/worldinnovationday2021'
         buttonLabel: View event
       - image:
           src: >-
