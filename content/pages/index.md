@@ -105,62 +105,6 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651521383/hackmoney_s3i6gg.png
-          alt: Hack Money by ETHGlobal
-        headline: Hack Money
-        subhead: 'May 06-27, 2022'
-        text: "Join us at\_[HackMoney 2022](https://defi.ethglobal.com/?ref=email), where you can make your mark on the DeFi ecosystem alongside developers and creatives from around the world. If you enjoyed last year's event, strap in—because this year we're going even bigger!\n"
-        link: 'https://defi.ethglobal.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651523215/L2_Rollathon_vlw3up_1_tvmzmp.png
-          alt: L2 Rollathon by Gitcoin
-        headline: Gitcoin L2 Rollathon
-        subhead: 'May 02-22, 2022'
-        text: >
-          Learn about scaling protocols and tooling to create the best possible
-          UX for the future of Web3 and win bounties worth thousands of dollars!
-        link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650376045/World_Innovation_Day_Filecoin_yjlrbo.png
-          alt: World Innovation Day by United Nations
-        label: ''
-        headline: World Innovation Day 2022
-        subhead: 'Apr 29 - May 03, 2022'
-        text: >
-          Use your skills in generating new ideas and solutions for health &
-          wellbeing, economic growth, decent work and quality education.
-        link: 'https://www.worldinnovationday.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650535234/P2P_Paris_IPFS_Filecoin_dfuadd.png
-          alt: P2P Paris Hackathon
-        label: ''
-        headline: P2P Paris Hackathon
-        subhead: 'Apr 27 - May 01, 2022'
-        text: >
-          Propose innovative decentralized solutions and build them alongside
-          great builders of the Peer-to-Peer ecosystem.
-        link: 'https://p2p.paris/en/event/hackathon-1/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1647609232/Chainlink_Spring_2022_Hackathon_-_Announcement_Banner_V1_prpfaf.png
-          alt: Chainlink Spring '22 Hackathon
-        headline: Chainlink Spring 22
-        subhead: 'Apr 22 - May 27, 2022'
-        text: >
-          Join us for the biggest Chainlink hackathon yet. Build the next
-          generation of Web3 applications alongside thousands of developers,
-          creators, artists, and mentors.
-        link: 'https://chain.link/hackathon'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
           alt: Metaverse Hackathon by KEN Labs
         headline: Metaverse Hackathon
@@ -169,17 +113,6 @@ blocks:
           An 8-week hackathon focused on Metaverse! Build projects on IPFS to
           answer challenges and compete for the $50k prize pool.
         link: 'https://kencloud.com/hack.html'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1647593297/Hedera_Filecoin_gr9riz.png
-          alt: 22 Hedera Hackathon
-        headline: 22 Hedera Hackathon
-        subhead: 'Mar 31 - May 16, 2022'
-        text: >
-          Build the next game-changing decentralized application with Hedera
-          Smart Contracts and Filecoin and IPFS.
-        link: 'https://hedera22.devpost.com/'
         buttonLabel: Learn more and Register
       - image:
           src: >-
@@ -316,10 +249,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1651062207/hackathons/FOtDw7FWQAsE0MU_wulfuv.png
         headline: ETHAmsterdam
         subhead: '2022, Apr 22-24'
-        text: >
-          800 likeminded engineers, designers, and creators joined us to build
-          and learn over one full weekend. We met new friends, created something
-          awesome and learned from the best!
+        text: ''
         link: 'https://amsterdam.ethglobal.com/'
         buttonLabel: View event
       - image:
