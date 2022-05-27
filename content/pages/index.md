@@ -192,13 +192,13 @@ blocks:
       For further support, reach out to our Developer advocates through our free
       office hours.
     buttons:
-      - label: IPFS-Filecoin Getting Started Guide
+      - label: 'Get start with IPFS-Filecoin '
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         type: solid
         buttonFillStyles: bg-primary
         textColor: white
         backgroundColor: primary
-      - label: ' Join Weekly Community Office Hours*'
+      - label: ' Join Community Office Hours*'
         link: 'https://bitly.protocol.ai/Community-Office-Hours'
         type: solid
         buttonFillStyles: bg-primary
@@ -217,6 +217,84 @@ blocks:
         backgroundColor: primary
     navigationLabel: Start Building
     _template: feature
+  - style:
+      textAlignment: text-left
+      minHeight: min-h-0
+      padding: pt-10 pb-10 pr-10 pl-10
+      contentWidth: w-9/12
+      columns: '3'
+      labelStyles: 'text-white undefined undefined undefined '
+      headlineStyles: 'text-primary undefined text-5xl mb-3.5 '
+      subheadStyles: 'text-white undefined undefined undefined '
+      textStyles: 'text-white undefined text-xl mb-10 '
+      contentOrder: labelHeadingsContent
+    cardStyle:
+      fillStyles: bg-accent1
+      padding: pt-5 pb-5 pr-5 pl-5
+      type: solid
+      imageStyles: ' undefined undefined undefined'
+      labelStyles: 'text-white undefined undefined undefined '
+      headlineStyles: text-white undefined text-2xl mb-1.5 font-bold
+      subheadStyles: 'text-gray-light undefined undefined mb-3 '
+      textStyles: 'text-white undefined undefined undefined '
+      buttonType: link
+      buttonTextColor: primary
+    background:
+      fillStyles: bg-black
+    label: ''
+    headline: Post-hackathon opportunities
+    subhead: ''
+    body: >
+      We encourage builders who want to take their hackathon submissions to the
+      next level to apply to our grants' and accelerator programs. Check out
+      follow-on opportunities below.
+    items:
+      - headline: Filecoin Grants
+        subhead: >-
+          Explore our grants program and unlock additional funding to keep
+          working on your project.
+        text: |
+          *   [Apply Here](https://github.com/filecoin-project/devgrants)
+      - headline: Accelerators
+        subhead: >-
+          Apply to an accelerator and turn your project into a pitch-ready
+          concept
+        text: >
+          *   [Outlier Ventures Filecoin Base
+          Camp](https://outlierventures.io/base-camp/filecoin-base-camp/)
+
+          *   [Defi Alliance](https://www.defialliance.co/#Programs)
+      - headline: Get Hired
+        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
+        text: >
+          *   Protocol Labs Network [Jobs
+          Board](https://bitly.protocol.ai/3KNG27i)
+        link: ''
+    navigationLabel: Post-hackathon Opportunities
+    _template: photoCards
+  - style:
+      textAlignment: text-right
+      minHeight: min-h-0
+      padding: pt-10 pb-10 pr-10 pl-10
+      width: normal
+      labelStyles: 'undefined undefined undefined undefined '
+      headlineStyles: 'undefined undefined undefined undefined '
+      subheadStyles: 'undefined undefined undefined undefined '
+      textStyles: 'undefined undefined undefined undefined '
+      contentOrder: labelHeadingsContent
+    background:
+      fillStyles: bg-black
+    label: ''
+    headline: ''
+    subhead: ''
+    body: ''
+    buttons:
+      - label: You have a hackathon proposal? Contact us!
+        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
+        type: outline
+        textColor: white
+        backgroundColor: primary
+    _template: banner
   - style:
       textAlignment: text-left
       minHeight: min-h-0
@@ -418,9 +496,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1637777239/Home/asia-season_l26qti_raiuiu.png
         headline: Asia Hackathon Season
         subhead: '2021, August - November'
-        text: >
-          Join us on a journey across the universe of Filecoin and IPFS across
-          four distinct hackathon events.
+        text: ''
         link: asia-hackathon-season
         buttonLabel: View Event
       - image:
@@ -428,9 +504,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
         headline: Cal Hacks 8.0
         subhead: '2021, Oct 22-24'
-        text: >
-          Join us at the world's largest collegiate hackathon. Cal Hacks 8.0 is
-          open to all college students over the age of 18.
+        text: ''
         link: 'https://calhacks.io/'
         buttonLabel: View event
       - image:
@@ -438,9 +512,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873560/Home/saturn_yqmuc2.png
         headline: Saturn Hackathon
         subhead: '2021, Aug 04 - Oct 24 '
-        text: >
-          Filecoin and IPFS are proud to host the Saturn track at the [Wanxiang
-          Blockchain Week 2021]().
+        text: ''
         link: 'https://www.blockchainlabs.org/week2021/hackathon'
         buttonLabel: View event
       - image:
@@ -448,9 +520,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1637618449/Home/jupiter_jaufi9_sexthe.png
         headline: Jupiter Hackathon
         subhead: '2021, Aug 25 - Oct 23'
-        text: >
-          Show us your best hacks in this IPFS-exclusive multi-week hackathon
-          with technical support from Alibaba Cloud.
+        text: ''
         link: 'https://tianchi.aliyun.com/specials/promotion/ipfs-hackathon'
         buttonLabel: View event
       - image:
@@ -458,9 +528,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/eth-online_kyyrez.png
         headline: ETHOnline
         subhead: '2021, Sep 17 - Oct 15'
-        text: >
-          ETHOnline is a global hackathon and summit series devoted to
-          celebrating what's possible on Ethereum.
+        text: ''
         link: 'https://online.ethglobal.com/'
         buttonLabel: View event
       - image:
@@ -468,9 +536,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1637618583/Home/pennapps_ezsubz_jehzfp.png
         headline: PennApps
         subhead: '2021, September'
-        text: >
-          PennApps is a student-run college hackathon hosted yearly since 2009.
-          The theme in 2021: Cloud.
+        text: ''
         link: 'https://2021f.pennapps.com/'
         buttonLabel: View event
       - image:
@@ -478,9 +544,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/filecoin-educate_dbkggj.png
         headline: 'Encode Filecoin Club: Educate'
         subhead: '2021, Jul - Sep'
-        text: >
-          Educating the next generation of students about Filecoin’s technology
-          in a 12-week pre-hackathon series.
+        text: ''
         link: 'https://www.encode.club/filecoin-educate'
         buttonLabel: View event
       - image:
@@ -488,9 +552,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1637618887/Home/nft-vision_brbnuv_irjteh.png
         headline: NFT Vision Hack
         subhead: '2021, Jul - Aug'
-        text: >
-          This global online hackathon brought together some of the most
-          talented creatives
+        text: ''
         link: 'https://www.nftvisionhack.com/'
         buttonLabel: View event
       - image:
@@ -498,9 +560,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
         headline: HackFS
         subhead: '2021, Jul - Aug'
-        text: >
-          Build the foundation for the decentralized web. A virtual Hackathon by
-          ETHGlobal and Protocol Labs.
+        text: ''
         link: 'https://hackfs.com/'
         buttonLabel: View event
       - image:
@@ -508,9 +568,7 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1637619110/Home/browsers3000_s3w9ps_dn3can.png
         headline: Browsers 3000
         subhead: '2021, Jul - Aug'
-        text: >
-          A six week virtual event to accelerate the development of Web3 in the
-          browser.
+        text: ''
         link: 'https://events.protocol.ai/2021/browsers3000/'
         buttonLabel: View event
       - image:
@@ -518,91 +576,11 @@ blocks:
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/dora-hacks_tnfawd.png
         headline: Dora Hacks
         subhead: '2021, May - Jul'
-        text: >
-          Protocal Labs partnership with DoraHacks to innovate and push the
-          internet forward.
+        text: ''
         link: 'https://events.protocol.ai/2021/dorahacks/'
         buttonLabel: View event
     navigationLabel: Past Events
     _template: photoCards
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
-      contentWidth: w-9/12
-      columns: '3'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-5xl mb-3.5 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined text-xl mb-10 '
-      contentOrder: labelHeadingsContent
-    cardStyle:
-      fillStyles: bg-accent1
-      padding: pt-5 pb-5 pr-5 pl-5
-      type: solid
-      imageStyles: ' undefined undefined undefined'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: text-white undefined text-2xl mb-1.5 font-bold
-      subheadStyles: 'text-gray-light undefined undefined mb-3 '
-      textStyles: 'text-white undefined undefined undefined '
-      buttonType: link
-      buttonTextColor: primary
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: Post-hackathon opportunities
-    subhead: ''
-    body: >
-      We encourage builders who want to take their hackathon submissions to the
-      next level to apply to our grants' and accelerator programs. Check out
-      follow-on opportunities below.
-    items:
-      - headline: Filecoin Grants
-        subhead: >-
-          Explore our grants program and unlock additional funding to keep
-          working on your project.
-        text: |
-          *   [Apply Here](https://github.com/filecoin-project/devgrants)
-      - headline: Accelerators
-        subhead: >-
-          Apply to an accelerator and turn your project into a pitch-ready
-          concept
-        text: >
-          *   [Outlier Ventures Filecoin Base
-          Camp](https://outlierventures.io/base-camp/filecoin-base-camp/)
-
-          *   [Defi Alliance](https://www.defialliance.co/#Programs)
-      - headline: Get Hired
-        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
-        text: >
-          *   Protocol Labs Network [Jobs
-          Board](https://bitly.protocol.ai/3KNG27i)
-        link: ''
-    navigationLabel: Post-hackathon Opportunities
-    _template: photoCards
-  - style:
-      textAlignment: text-right
-      minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
-      width: normal
-      labelStyles: 'undefined undefined undefined undefined '
-      headlineStyles: 'undefined undefined undefined undefined '
-      subheadStyles: 'undefined undefined undefined undefined '
-      textStyles: 'undefined undefined undefined undefined '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: ''
-    subhead: ''
-    body: ''
-    buttons:
-      - label: You have a hackathon proposal? Contact us!
-        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
-        type: outline
-        textColor: white
-        backgroundColor: primary
-    _template: banner
 meta:
   pageTitle: Hackathons
   pageDescription: >-
