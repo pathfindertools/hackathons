@@ -353,6 +353,8 @@ blocks:
         label: ''
         headline: 22 Hedera Hackathon
         subhead: 'Mar 31 - May 16, 2022'
+        link: 'https://hedera22.devpost.com/'
+        buttonLabel: View event
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653655230/Screen_Shot_2022-05-27_at_6.10.16_PM_a5oxph.png
