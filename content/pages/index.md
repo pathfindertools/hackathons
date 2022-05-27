@@ -324,6 +324,45 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653653779/Screen_Shot_2022-05-27_at_5.45.54_PM_q5fg7v.png
+        label: ''
+        headline: Chainlink Spring 22
+        subhead: 'Apr 22 - May 27, 2022'
+        text: ''
+        link: 'https://chain.link/hackathon'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653653910/Screen_Shot_2022-05-27_at_5.48.11_PM_h281ml.png
+        headline: Hack Money
+        subhead: 'May 06-27, 2022'
+        text: ''
+        link: 'https://hackathon.money/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653654025/Screen_Shot_2022-05-27_at_5.50.11_PM_vomsz0.png
+        headline: Gitcoin L2 Rollathon
+        subhead: 'May 02-22, 2022'
+        text: ''
+        link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653655073/hackathons/hedera_banner_o1rtkt.png
+        label: ''
+        headline: 22 Hedera Hackathon
+        subhead: 'Mar 31 - May 16, 2022'
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653655230/Screen_Shot_2022-05-27_at_6.10.16_PM_a5oxph.png
+        label: ''
+        headline: P2P Paris Hackathon
+        subhead: 'Apr 27 - May 01, 2022'
+        link: 'https://p2p.paris/en/'
+        buttonLabel: View event
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651062207/hackathons/FOtDw7FWQAsE0MU_wulfuv.png
         headline: ETHAmsterdam
         subhead: '2022, Apr 22-24'
