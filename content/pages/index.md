@@ -321,11 +321,11 @@ blocks:
     subhead: ''
     body: ''
     buttons:
-      - label: Questions about our Judging Criteria?
+      - label: Questions about our Judging criteria? Learn more.
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
         type: solid
-        textColor: black
+        textColor: white
         backgroundColor: primary
       - label: You have a hackathon proposal? Contact us!
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
