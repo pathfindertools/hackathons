@@ -67,6 +67,9 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1654013715/hackathons/1000_x_300_nlsjqg.jpg
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
         headline: BlockJam2022
         subhead: 'Jun 18-Jul 4, 2022'
