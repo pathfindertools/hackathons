@@ -67,6 +67,18 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1654013715/hackathons/1000_x_300_nlsjqg.jpg
+        label: ''
+        headline: Web3athon
+        subhead: Jun 9 - Aug 31 2022
+        text: >
+          Web3athon invites coders, designers, policymakers, urban planners, and
+          artists worldwide to join this virtual hackathon. Hands-on tech
+          support and over $500k in prizes from over 17 sponsors!
+        link: 'https://web3athon.xyz/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
         headline: BlockJam2022
         subhead: 'Jun 18-Jul 4, 2022'
@@ -321,6 +333,12 @@ blocks:
     subhead: ''
     body: ''
     buttons:
+      - label: Read FAQs about our Hackathons Judging Criteria
+        link: >-
+          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
+        type: solid
+        textColor: white
+        backgroundColor: accent1
       - label: You have a hackathon proposal? Contact us!
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
         type: outline
@@ -384,6 +402,7 @@ blocks:
             http://res.cloudinary.com/protocolai/image/upload/v1653655498/Screen_Shot_2022-05-27_at_6.14.28_PM_j9v5lf.png
         headline: World Innovation Day 2022
         subhead: 'Apr 29 - May 03, 2022'
+        text: ''
         link: 'https://www.hackmakers.com/worldinnovationday2021'
         buttonLabel: View event
       - image:
@@ -392,6 +411,7 @@ blocks:
         label: ''
         headline: 22 Hedera Hackathon
         subhead: 'Mar 31 - May 16, 2022'
+        text: ''
         link: 'https://hedera22.devpost.com/'
         buttonLabel: View event
       - image:
@@ -400,6 +420,7 @@ blocks:
         label: ''
         headline: P2P Paris Hackathon
         subhead: 'Apr 27 - May 01, 2022'
+        text: ''
         link: 'https://p2p.paris/en/'
         buttonLabel: View event
       - image:
@@ -655,7 +676,7 @@ blocks:
           src: >-
             https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/dora-hacks_tnfawd.png
         headline: Dora Hacks
-        subhead: '2021, May - Jul'
+        subhead: '2021, May - July'
         text: ''
         link: 'https://events.protocol.ai/2021/dorahacks/'
         buttonLabel: View event
