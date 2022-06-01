@@ -39,8 +39,8 @@ blocks:
     _template: banner
   - style:
       minHeight: min-h-0
-      fullWidth: true
-      padding: pt-20 pr-10 pb-20 pl-10
+      fullWidth: false
+      padding: pt-20 pb-20 pr-10 pl-10
     background:
       fillStyles: bg-black
     markup: |-
