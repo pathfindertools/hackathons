@@ -253,7 +253,7 @@ blocks:
         type: link
         textColor: white
         backgroundColor: primary
-      - label: ' Schedule a 15-minute call'
+      - label: ' Schedule a 15-minute 1:1 call'
         link: 'https://bitly.protocol.ai/3txOYHL'
         type: solid
         buttonFillStyles: bg-primary
