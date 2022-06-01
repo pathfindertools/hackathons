@@ -242,7 +242,7 @@ blocks:
         buttonFillStyles: bg-primary
         textColor: white
         backgroundColor: primary
-      - label: ' Join Community Office Hours*'
+      - label: ' Join the Community Office Hours*'
         link: 'https://bitly.protocol.ai/Community-Office-Hours'
         type: solid
         buttonFillStyles: bg-primary
