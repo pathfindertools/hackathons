@@ -4,7 +4,7 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: pt-24 pb-10 pr-10 pl-10
+      padding: pt-24 pb-5 pr-10 pl-10
       width: narrow
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: 'text-primary undefined text-5xl mb-10 '
@@ -37,6 +37,16 @@ blocks:
         textColor: white
         backgroundColor: primary
     _template: banner
+  - background:
+      fillStyles: bg-black
+    label: ''
+    headline: ''
+    subhead: ''
+    body: ''
+    items:
+      - label: Why we do hackathons
+        video: ckKDv6iY0pQ
+    _template: modals
   - style:
       textAlignment: text-left
       minHeight: min-h-0

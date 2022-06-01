@@ -758,7 +758,40 @@ type PagesBlocksEmbed {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed
+type PagesBlocksModalsBackgroundOrnaments {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+type PagesBlocksModalsBackground {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksModalsBackgroundOrnaments]
+}
+
+type PagesBlocksModalsItems {
+  label: String
+  video: String
+}
+
+type PagesBlocksModals {
+  background: PagesBlocksModalsBackground
+  rule: String
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  items: [PagesBlocksModalsItems]
+  rule2: String
+  navigationLabel: String
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksModals
 
 type PagesMeta {
   pageTitle: String
@@ -1472,12 +1505,46 @@ input PagesBlocksEmbedMutation {
   navigationLabel: String
 }
 
+input PagesBlocksModalsBackgroundOrnamentsMutation {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+input PagesBlocksModalsBackgroundMutation {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksModalsBackgroundOrnamentsMutation]
+}
+
+input PagesBlocksModalsItemsMutation {
+  label: String
+  video: String
+}
+
+input PagesBlocksModalsMutation {
+  background: PagesBlocksModalsBackgroundMutation
+  rule: String
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  items: [PagesBlocksModalsItemsMutation]
+  rule2: String
+  navigationLabel: String
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
   textCards: PagesBlocksTextCardsMutation
   banner: PagesBlocksBannerMutation
   embed: PagesBlocksEmbedMutation
+  modals: PagesBlocksModalsMutation
 }
 
 input PagesMetaMutation {

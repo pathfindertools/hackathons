@@ -4,6 +4,7 @@ import { photoCardsBlockSchema } from "./photo-cards";
 import { textCardsBlockSchema } from "./text-cards";
 import { bannerBlockSchema } from "./banner";
 import { embedBlockSchema } from "./embed";
+import { modalsBlockSchema } from "./modals";
 
 export default defineSchema({
   collections: [
@@ -287,6 +288,7 @@ export default defineSchema({
             textCardsBlockSchema,
             bannerBlockSchema,
             embedBlockSchema,
+            modalsBlockSchema,
           ],
         },
         {
