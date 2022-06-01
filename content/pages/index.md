@@ -43,11 +43,16 @@ blocks:
       padding: pt-20 pb-20 pr-10 pl-10
     background:
       fillStyles: bg-black
-    markup: >-
-      <div class="fixed inset-0 z-50 border-8" onclick="() =>
-      console.log('hello')">
+    markup: |+
+      <script>
+      const myFunction = () => {
+        document.getElementById("demo").innerHTML = "Hello World";
+      }
+      </script>
+
+      <div class="fixed inset-0 z-50" onclick="myFunction()">
         <div class="absolute inset-0 bg-accent1 opacity-95"></div>
-        <div class="w-1/2 p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        <div class="max-w-desktop-full w-full p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <button class="absolute top-8 right-8 height-6 width-6">
             <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
@@ -68,6 +73,8 @@ blocks:
           </div>
         </div>
       </div>
+
+
     _template: embed
   - style:
       textAlignment: text-left
