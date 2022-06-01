@@ -44,7 +44,7 @@ blocks:
     background:
       fillStyles: bg-black
     markup: >-
-      <div class="fixed inset-0 z-10 border-8" onclick="() =>
+      <div class="fixed inset-0 z-50 border-8" onclick="() =>
       console.log('hello')">
         <div class="absolute inset-0 bg-accent1 opacity-95"></div>
         <div class="w-1/2 p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
