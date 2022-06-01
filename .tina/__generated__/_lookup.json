@@ -48,7 +48,8 @@
       "photoCards": "PagesBlocksPhotoCards",
       "textCards": "PagesBlocksTextCards",
       "banner": "PagesBlocksBanner",
-      "embed": "PagesBlocksEmbed"
+      "embed": "PagesBlocksEmbed",
+      "modals": "PagesBlocksModals"
     }
   },
   "PagesDocument": {
