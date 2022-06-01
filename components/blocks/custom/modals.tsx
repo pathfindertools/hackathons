@@ -17,9 +17,9 @@ const Modal = ({ data, parentField = "", className }) => {
         <div className="items-center">
           <div className="mx-auto max-w-full">
             <div className="relative height-0" style={{ paddingBottom: "56.25%" }}>
-              <iframe src={`https://www.youtube.com/embed/${data.video}`} title="YouTube video player" frameborder="0"
+              <iframe src={`https://www.youtube.com/embed/${data.video}`} title="YouTube video player" frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen style={{position: "absolute", top: "0px", left: "0px", width: "100%", height: "100%"}}></iframe>
+                allowFullScreen style={{position: "absolute", top: "0px", left: "0px", width: "100%", height: "100%"}}></iframe>
             </div>
           </div>
         </div>
