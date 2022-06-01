@@ -50,7 +50,7 @@ blocks:
       }
       </script>
 
-      <div class="fixed inset-0 z-50" onclick="myFunction()">
+      <div class="hidden fixed inset-0 z-50" onclick="myFunction()">
         <div class="absolute inset-0 bg-accent1 opacity-95"></div>
         <div class="max-w-desktop-full w-full p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <button class="absolute top-8 right-8 height-6 width-6">
