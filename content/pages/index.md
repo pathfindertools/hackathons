@@ -236,7 +236,7 @@ blocks:
       For further support, reach out to our Developer advocates through our free
       office hours.
     buttons:
-      - label: 'Get start with IPFS-Filecoin '
+      - label: 'Get started with IPFS and Filecoin '
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         type: solid
         buttonFillStyles: bg-primary
