@@ -43,10 +43,29 @@ blocks:
       padding: pt-20 pb-20 pr-10 pl-10
     background:
       fillStyles: bg-black
-    markup: |-
-      <div class="mx-auto max-w-full">
-        <div class="relative height-0" style="padding-bottom: 56.25%;">
-          <iframe src="https://www.youtube.com/embed/ckKDv6iY0pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+    markup: >-
+      <div class="fixed inset-0 z-10 border-8" onclick="() =>
+      console.log('hello')">
+        <div class="absolute inset-0 bg-accent1 opacity-95"></div>
+        <div class="w-1/2 p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <button class="absolute top-8 right-8 height-6 width-6">
+            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.67172 0.67172C1.08194 0.261627 1.63824 0.03125 2.21828 0.03125C2.79833 0.03125 3.35463 0.261627 3.76485 0.67172L11.4998 8.40672L19.2348 0.67172C19.6474 0.273249 20.2 0.0527618 20.7735 0.0577458C21.3471 0.0627299 21.8957 0.292787 22.3013 0.698367C22.7069 1.10395 22.937 1.6526 22.9419 2.22616C22.9469 2.79971 22.7264 3.35228 22.328 3.76485L14.593 11.4998L22.328 19.2348C22.7264 19.6474 22.9469 20.2 22.9419 20.7735C22.937 21.3471 22.7069 21.8957 22.3013 22.3013C21.8957 22.7069 21.3471 22.937 20.7735 22.9419C20.2 22.9469 19.6474 22.7264 19.2348 22.328L11.4998 14.593L3.76485 22.328C3.35228 22.7264 2.79971 22.9469 2.22616 22.9419C1.6526 22.937 1.10395 22.7069 0.698367 22.3013C0.292787 21.8957 0.0627299 21.3471 0.0577458 20.7735C0.0527618 20.2 0.273249 19.6474 0.67172 19.2348L8.40672 11.4998L0.67172 3.76485C0.261627 3.35463 0.03125 2.79833 0.03125 2.21828C0.03125 1.63824 0.261627 1.08194 0.67172 0.67172Z"
+                fill="#FF7E7E" />
+            </svg>
+          </button>
+          <div class="flex flex-col">
+            <div class="markdown items-center">
+              <div class="mx-auto max-w-full">
+                <div class="relative height-0" style="padding-bottom: 56.25%;">
+                  <iframe src="https://www.youtube.com/embed/ckKDv6iY0pQ" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     _template: embed
