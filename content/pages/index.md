@@ -173,38 +173,6 @@ blocks:
     navigationLabel: Current & Upcoming
     _template: photoCards
   - style:
-      alignment: 'flex-row-reverse text-left items-start '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: pt-24 pb-24 pr-0 pl-10
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-5 pb-5 undefined undefined
-      labelStyles: 'text-black undefined text-base undefined '
-      headlineStyles: 'text-black undefined text-5xl mb-5 '
-      subheadStyles: 'text-black undefined undefined undefined '
-      textStyles: 'text-black undefined text-xl mb-9 '
-      contentOrder: headingsLabelContent
-    background:
-      fillStyles: bg-accent3
-      position: object-center
-    image:
-      src: >-
-        http://res.cloudinary.com/protocolai/image/upload/v1643128562/Hall_of_Fame_grccee.png
-    label: ''
-    headline: Hall of Fame
-    subhead: ''
-    body: >
-      More than 5,000 people have participated in Filecoin and IPFS hackathons
-      over the last 12 months. More than 130 teams have won prizes. Thank you to
-      all builders!
-    buttons:
-      - label: Click here to explore past winners
-        link: 'https://airtable.com/shr2xqq48PEHWzSBu'
-        type: outline
-        textColor: ''
-        backgroundColor: accent1
-    navigationLabel: Hall of Fame
-    _template: feature
-  - style:
       alignment: 'flex-row text-left items-start '
       featureContent: 'w-1/2 min-h-0 '
       padding: pt-20 pb-20 pr-10 pl-10
@@ -224,7 +192,7 @@ blocks:
       src: >-
         https://res.cloudinary.com/protocolai/image/upload/v1637777563/Home/hackathon-hex_gmb1ze_blzjir.svg
     label: ''
-    headline: Start Building
+    headline: Start building
     subhead: ''
     body: >
       Visit our resources page to learn about the key concepts behind IPFS and
@@ -260,6 +228,38 @@ blocks:
         textColor: white
         backgroundColor: primary
     navigationLabel: Start Building
+    _template: feature
+  - style:
+      alignment: 'flex-row-reverse text-left items-start '
+      featureContent: 'w-1/2 min-h-0 '
+      padding: pt-24 pb-24 pr-0 pl-10
+      featureImage: 'object-center object-contain '
+      imagePadding: pt-5 pb-5 undefined undefined
+      labelStyles: 'text-black undefined text-base undefined '
+      headlineStyles: 'text-black undefined text-5xl mb-5 '
+      subheadStyles: 'text-black undefined undefined undefined '
+      textStyles: 'text-black undefined text-xl mb-9 '
+      contentOrder: headingsLabelContent
+    background:
+      fillStyles: bg-accent3
+      position: object-center
+    image:
+      src: >-
+        http://res.cloudinary.com/protocolai/image/upload/v1643128562/Hall_of_Fame_grccee.png
+    label: ''
+    headline: Hall of Fame
+    subhead: ''
+    body: >
+      More than 5,000 people have participated in Filecoin and IPFS hackathons
+      over the last 12 months. More than 130 teams have won prizes. Thank you to
+      all builders!
+    buttons:
+      - label: Click here to explore past winners
+        link: 'https://airtable.com/shr2xqq48PEHWzSBu'
+        type: outline
+        textColor: ''
+        backgroundColor: accent1
+    navigationLabel: Hall of Fame
     _template: feature
   - style:
       textAlignment: text-left
