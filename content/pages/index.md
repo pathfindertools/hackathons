@@ -38,6 +38,19 @@ blocks:
         backgroundColor: primary
     _template: banner
   - style:
+      minHeight: min-h-0
+      fullWidth: true
+      padding: pt-20 pr-10 pb-20 pl-10
+    background:
+      fillStyles: bg-black
+    markup: |-
+      <div class="mx-auto max-w-full">
+        <div class="relative height-0" style="padding-bottom: 56.25%;">
+          <iframe src="https://www.youtube.com/embed/ckKDv6iY0pQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
+        </div>
+      </div>
+    _template: embed
+  - style:
       textAlignment: text-left
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-10 pl-10
