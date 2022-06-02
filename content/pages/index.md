@@ -114,18 +114,14 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654181261/hackathons/image_2_mgtrkl.png
-        headline: GR14
-        subhead: 'Jun 8 - 22, 2022'
+      - headline: Sustainable Blockchain Hackathon
+        subhead: 'Jun 23 - Jul 18, 2022'
         text: >
-          Protocol Labs is excited to host our own Gitcoin Grants Matching Round
-          to help fund open source projects in the greater Protocol Labs (IPFS /
-          Filecoin) ecosystem using Quadratic Funding.
-        link: >-
-          https://docs.google.com/document/d/1anipY2WO1mUUWHzscpVO9zayHvBWpewPf5r4HIXzQwA/edit
-        buttonLabel: Learn more
+          We want to turn sustainability into a Web3 superpower, and we need
+          your help! If you are a builder interested in laying the foundation
+          for tomorrow’s verifiably sustainable web, come join us.
+        link: 'https://gitcoin.co/hackathon/sustainable/onboard'
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1654013715/hackathons/1000_x_300_nlsjqg.jpg
@@ -170,6 +166,18 @@ blocks:
           frontier with ETHereum and build innovative projects to win bounties!
         link: 'https://ny.ethglobal.com/'
         buttonLabel: Learn more and Register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1654181261/hackathons/image_2_mgtrkl.png
+        headline: GR14
+        subhead: 'Jun 8 - 22, 2022'
+        text: >
+          Protocol Labs is excited to host our own Gitcoin Grants Matching Round
+          to help fund open source projects in the greater Protocol Labs (IPFS /
+          Filecoin) ecosystem using Quadratic Funding.
+        link: >-
+          https://docs.google.com/document/d/1anipY2WO1mUUWHzscpVO9zayHvBWpewPf5r4HIXzQwA/edit
+        buttonLabel: Learn more
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
