@@ -2,6 +2,10 @@ query PageQuery {
   ...LayoutQueryFragment
 }
 
+query EventQuery {
+  ...LayoutQueryFragment
+}
+
 query ContentQuery($relativePath: String!) {
   ...LayoutQueryFragment
   getPagesDocument(relativePath: $relativePath) {

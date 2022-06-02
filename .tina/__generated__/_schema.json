@@ -10134,6 +10134,1159 @@
                 "blocks",
                 "modals"
               ]
+            },
+            {
+              "name": "eventCards",
+              "label": "Event Cards",
+              "ui": {
+                "defaultItem": {
+                  "label": "",
+                  "headline": "This is a headline",
+                  "subhead": "Here is a subhead",
+                  "body": {
+                    "children": [
+                      {
+                        "type": "p",
+                        "children": [
+                          {
+                            "text": "This is a rich text component you can add hyperlinks, etc."
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "style": {
+                    "textAlignment": "text-left",
+                    "minHeight": "min-h-0",
+                    "padding": "pt-20 pr-20 pb-20 pl-20",
+                    "contentWidth": "w-full",
+                    "columns": "3",
+                    "labelStyles": "text-black font-sans text-sm mb-0",
+                    "headlineStyles": "text-black font-sans text-5xl mb-0",
+                    "subheadStyles": "text-black font-sans text-3xl mb-0",
+                    "textStyles": "text-black font-sans text-md mb-0",
+                    "contentOrder": "labelHeadingsContent"
+                  },
+                  "cardStyle": {
+                    "fillStyles": "bg-gray",
+                    "padding": "pt-4 pr-4 pb-4 pl-4",
+                    "labelStyles": "text-black text-sm mb-0",
+                    "headlineStyles": "text-black text-2xl mb-0",
+                    "subheadStyles": "text-black text-lg mb-0",
+                    "textStyles": "text-black text-sm mb-0",
+                    "buttonType": "solid",
+                    "buttonFillStyles": "",
+                    "buttonTextColor": ""
+                  }
+                }
+              },
+              "fields": [
+                {
+                  "type": "object",
+                  "label": "Section Styles",
+                  "name": "style",
+                  "ui": {
+                    "component": "group"
+                  },
+                  "fields": [
+                    {
+                      "label": "Text Alignment",
+                      "name": "textAlignment",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Left",
+                          "value": "text-left"
+                        },
+                        {
+                          "label": "Center",
+                          "value": "text-center"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "text-right"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "textAlignment"
+                      ]
+                    },
+                    {
+                      "label": "Minimum Height",
+                      "name": "minHeight",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField",
+                        "mobileMode": true
+                      },
+                      "options": [
+                        {
+                          "label": "none",
+                          "value": "min-h-0"
+                        },
+                        {
+                          "label": "400",
+                          "value": "min-h-100"
+                        },
+                        {
+                          "label": "480",
+                          "value": "min-h-120"
+                        },
+                        {
+                          "label": "560",
+                          "value": "min-h-140"
+                        },
+                        {
+                          "label": "640",
+                          "value": "min-h-160"
+                        },
+                        {
+                          "label": "720",
+                          "value": "min-h-180"
+                        },
+                        {
+                          "label": "800",
+                          "value": "min-h-200"
+                        },
+                        {
+                          "label": "Screen",
+                          "value": "min-h-screen"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "minHeight"
+                      ]
+                    },
+                    {
+                      "label": "Content Padding",
+                      "name": "padding",
+                      "type": "string",
+                      "ui": {
+                        "component": "paddingControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "padding"
+                      ]
+                    },
+                    {
+                      "label": "Content Width",
+                      "name": "contentWidth",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "100%",
+                          "value": "w-full"
+                        },
+                        {
+                          "label": "75%",
+                          "value": "w-9/12"
+                        },
+                        {
+                          "label": "66%",
+                          "value": "w-8/12"
+                        },
+                        {
+                          "label": "50%",
+                          "value": "w-6/12"
+                        },
+                        {
+                          "label": "33%",
+                          "value": "w-4/12"
+                        },
+                        {
+                          "label": "25%",
+                          "value": "w-3/12"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "contentWidth"
+                      ]
+                    },
+                    {
+                      "label": "Columns",
+                      "name": "columns",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "type": "string",
+                      "options": [
+                        {
+                          "label": "1",
+                          "value": "1"
+                        },
+                        {
+                          "label": "2",
+                          "value": "2"
+                        },
+                        {
+                          "label": "3",
+                          "value": "3"
+                        },
+                        {
+                          "label": "4",
+                          "value": "4"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "columns"
+                      ]
+                    },
+                    {
+                      "label": "Typography",
+                      "name": "typographyTitle",
+                      "type": "string",
+                      "ui": {
+                        "component": "ruledTitle"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "typographyTitle"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Label Style",
+                      "name": "labelStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "labelStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Headline Style",
+                      "name": "headlineStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "headlineStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Subhead Style",
+                      "name": "subheadStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "subheadStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Text Style",
+                      "name": "textStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "textStyles"
+                      ]
+                    },
+                    {
+                      "label": "Content Order",
+                      "name": "contentOrder",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Label Headline Text",
+                          "value": "labelHeadingsContent"
+                        },
+                        {
+                          "label": "Label Text Headline",
+                          "value": "labelContentHeadings"
+                        },
+                        {
+                          "label": "Headline Label Text",
+                          "value": "headingsLabelContent"
+                        },
+                        {
+                          "label": "Headline Text Label",
+                          "value": "headingsContentLabel"
+                        },
+                        {
+                          "label": "Text Label Headline",
+                          "value": "contentLabelHeadings"
+                        },
+                        {
+                          "label": "Text Headline Label",
+                          "value": "contentHeadingsLabel"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "style",
+                        "contentOrder"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "style"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "label": "Card Style",
+                  "name": "cardStyle",
+                  "ui": {
+                    "component": "group"
+                  },
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Background",
+                      "name": "fillStyles",
+                      "ui": {
+                        "component": "fillControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "fillStyles"
+                      ]
+                    },
+                    {
+                      "label": "Padding",
+                      "name": "padding",
+                      "type": "string",
+                      "ui": {
+                        "component": "paddingControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "padding"
+                      ]
+                    },
+                    {
+                      "label": "Type",
+                      "name": "type",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Solid Background",
+                          "value": "solid"
+                        },
+                        {
+                          "label": "Semi Transparent",
+                          "value": "transparent"
+                        },
+                        {
+                          "label": "Horizontal Fade",
+                          "value": "fadeH"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "type"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Image",
+                      "name": "imageStyles",
+                      "ui": {
+                        "component": "imageControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "imageStyles"
+                      ]
+                    },
+                    {
+                      "label": "Typography",
+                      "name": "typographyTitle",
+                      "type": "string",
+                      "ui": {
+                        "component": "ruledTitle"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "typographyTitle"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Label",
+                      "name": "labelStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "labelStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Headline",
+                      "name": "headlineStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "headlineStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Subhead",
+                      "name": "subheadStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "subheadStyles"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Text",
+                      "name": "textStyles",
+                      "ui": {
+                        "component": "typeControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "textStyles"
+                      ]
+                    },
+                    {
+                      "label": "Button",
+                      "name": "buttonTitle",
+                      "type": "string",
+                      "ui": {
+                        "component": "ruledTitle"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "buttonTitle"
+                      ]
+                    },
+                    {
+                      "label": "Type",
+                      "name": "buttonType",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Solid",
+                          "value": "solid"
+                        },
+                        {
+                          "label": "Outline",
+                          "value": "outline"
+                        },
+                        {
+                          "label": "Link",
+                          "value": "link"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "buttonType"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Background",
+                      "name": "buttonFillStyles",
+                      "ui": {
+                        "component": "fillControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "buttonFillStyles"
+                      ]
+                    },
+                    {
+                      "label": "Button Text Color",
+                      "name": "buttonTextColor",
+                      "type": "string",
+                      "ui": {
+                        "component": "selectField"
+                      },
+                      "options": [
+                        {
+                          "label": "Primary",
+                          "value": "primary"
+                        },
+                        {
+                          "label": "Accent 1",
+                          "value": "accent1"
+                        },
+                        {
+                          "label": "Accent 2",
+                          "value": "accent2"
+                        },
+                        {
+                          "label": "Accent 3",
+                          "value": "accent3"
+                        },
+                        {
+                          "label": "Accent 4",
+                          "value": "accent4"
+                        },
+                        {
+                          "label": "White",
+                          "value": "white"
+                        },
+                        {
+                          "label": "Gray Light",
+                          "value": "grayLight"
+                        },
+                        {
+                          "label": "Gray",
+                          "value": "gray"
+                        },
+                        {
+                          "label": "Gray Dark",
+                          "value": "grayDark"
+                        },
+                        {
+                          "label": "Black",
+                          "value": "black"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "cardStyle",
+                        "buttonTextColor"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "cardStyle"
+                  ]
+                },
+                {
+                  "label": "Background",
+                  "name": "background",
+                  "type": "object",
+                  "fields": [
+                    {
+                      "type": "string",
+                      "label": "Background",
+                      "name": "fillStyles",
+                      "ui": {
+                        "component": "fillControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "background",
+                        "fillStyles"
+                      ]
+                    },
+                    {
+                      "label": "Image",
+                      "name": "src",
+                      "type": "image",
+                      "ui": {
+                        "clearable": true
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "background",
+                        "src"
+                      ]
+                    },
+                    {
+                      "label": "Image Position",
+                      "name": "position",
+                      "ui": {
+                        "component": "select"
+                      },
+                      "type": "string",
+                      "options": [
+                        {
+                          "label": "Center",
+                          "value": "object-center"
+                        },
+                        {
+                          "label": "Top",
+                          "value": "object-top"
+                        },
+                        {
+                          "label": "Right Top",
+                          "value": "object-right-top"
+                        },
+                        {
+                          "label": "Right",
+                          "value": "object-right"
+                        },
+                        {
+                          "label": "Right Bottom",
+                          "value": "object-right-bottom"
+                        },
+                        {
+                          "label": "Bottom",
+                          "value": "object-bottom"
+                        },
+                        {
+                          "label": "Left Bottom",
+                          "value": "object-left-bottom"
+                        },
+                        {
+                          "label": "Left",
+                          "value": "object-left"
+                        },
+                        {
+                          "label": "Left Top",
+                          "value": "object-left-top"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "background",
+                        "position"
+                      ]
+                    },
+                    {
+                      "label": "Ornaments",
+                      "name": "ornaments",
+                      "type": "object",
+                      "list": true,
+                      "fields": [
+                        {
+                          "label": "Image",
+                          "name": "src",
+                          "type": "image",
+                          "ui": {
+                            "clearable": true
+                          },
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "src"
+                          ]
+                        },
+                        {
+                          "label": "Alignment",
+                          "name": "alignment",
+                          "ui": {
+                            "component": "select"
+                          },
+                          "type": "string",
+                          "options": [
+                            {
+                              "label": "Center",
+                              "value": "center"
+                            },
+                            {
+                              "label": "Top",
+                              "value": "top"
+                            },
+                            {
+                              "label": "Right Top",
+                              "value": "top-right"
+                            },
+                            {
+                              "label": "Right",
+                              "value": "right"
+                            },
+                            {
+                              "label": "Right Bottom",
+                              "value": "bottom-right"
+                            },
+                            {
+                              "label": "Bottom",
+                              "value": "bottom"
+                            },
+                            {
+                              "label": "Left Bottom",
+                              "value": "bottom-left"
+                            },
+                            {
+                              "label": "Left",
+                              "value": "left"
+                            },
+                            {
+                              "label": "Left Top",
+                              "value": "top-left"
+                            }
+                          ],
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "alignment"
+                          ]
+                        },
+                        {
+                          "label": "Width",
+                          "name": "width",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "width"
+                          ]
+                        },
+                        {
+                          "label": "Height",
+                          "name": "height",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "height"
+                          ]
+                        },
+                        {
+                          "label": "X Offset",
+                          "name": "xOffset",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "xOffset"
+                          ]
+                        },
+                        {
+                          "label": "Y Offset",
+                          "name": "yOffset",
+                          "type": "string",
+                          "namespace": [
+                            "pages",
+                            "blocks",
+                            "eventCards",
+                            "background",
+                            "ornaments",
+                            "yOffset"
+                          ]
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "background",
+                        "ornaments"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "background"
+                  ]
+                },
+                {
+                  "label": "Label",
+                  "name": "label",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "label"
+                  ]
+                },
+                {
+                  "label": "Headline",
+                  "name": "headline",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "headline"
+                  ]
+                },
+                {
+                  "label": "Subhead",
+                  "name": "subhead",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "subhead"
+                  ]
+                },
+                {
+                  "label": "Body",
+                  "name": "body",
+                  "type": "rich-text",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "body"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "label": "Buttons",
+                  "name": "buttons",
+                  "list": true,
+                  "ui": {
+                    "component": "itemListField",
+                    "defaultItem": {
+                      "label": "Button Label",
+                      "link": "/",
+                      "type": "solid",
+                      "textColor": "black",
+                      "backgroundColor": "primary"
+                    }
+                  },
+                  "fields": [
+                    {
+                      "label": "Label",
+                      "name": "label",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "label"
+                      ]
+                    },
+                    {
+                      "label": "Link",
+                      "name": "link",
+                      "type": "string",
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "link"
+                      ]
+                    },
+                    {
+                      "label": "Type",
+                      "name": "type",
+                      "type": "string",
+                      "ui": {
+                        "component": "select"
+                      },
+                      "options": [
+                        {
+                          "label": "Solid",
+                          "value": "solid"
+                        },
+                        {
+                          "label": "Outline",
+                          "value": "outline"
+                        },
+                        {
+                          "label": "Link",
+                          "value": "link"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "type"
+                      ]
+                    },
+                    {
+                      "type": "string",
+                      "label": "Background",
+                      "name": "buttonFillStyles",
+                      "ui": {
+                        "component": "fillControl"
+                      },
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "buttonFillStyles"
+                      ]
+                    },
+                    {
+                      "label": "Text Color",
+                      "name": "textColor",
+                      "type": "string",
+                      "ui": {
+                        "component": "select"
+                      },
+                      "options": [
+                        {
+                          "label": "Primary",
+                          "value": "primary"
+                        },
+                        {
+                          "label": "Accent 1",
+                          "value": "accent1"
+                        },
+                        {
+                          "label": "Accent 2",
+                          "value": "accent2"
+                        },
+                        {
+                          "label": "Accent 3",
+                          "value": "accent3"
+                        },
+                        {
+                          "label": "Accent 4",
+                          "value": "accent4"
+                        },
+                        {
+                          "label": "White",
+                          "value": "white"
+                        },
+                        {
+                          "label": "Gray Light",
+                          "value": "grayLight"
+                        },
+                        {
+                          "label": "Gray",
+                          "value": "gray"
+                        },
+                        {
+                          "label": "Gray Dark",
+                          "value": "grayDark"
+                        },
+                        {
+                          "label": "Black",
+                          "value": "black"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "textColor"
+                      ]
+                    },
+                    {
+                      "label": "Border Color",
+                      "name": "backgroundColor",
+                      "type": "string",
+                      "ui": {
+                        "component": "select"
+                      },
+                      "options": [
+                        {
+                          "label": "Primary",
+                          "value": "primary"
+                        },
+                        {
+                          "label": "Accent 1",
+                          "value": "accent1"
+                        },
+                        {
+                          "label": "Accent 2",
+                          "value": "accent2"
+                        },
+                        {
+                          "label": "Accent 3",
+                          "value": "accent3"
+                        },
+                        {
+                          "label": "Accent 4",
+                          "value": "accent4"
+                        },
+                        {
+                          "label": "White",
+                          "value": "white"
+                        },
+                        {
+                          "label": "Gray Light",
+                          "value": "grayLight"
+                        },
+                        {
+                          "label": "Gray",
+                          "value": "gray"
+                        },
+                        {
+                          "label": "Gray Dark",
+                          "value": "grayDark"
+                        },
+                        {
+                          "label": "Black",
+                          "value": "black"
+                        }
+                      ],
+                      "namespace": [
+                        "pages",
+                        "blocks",
+                        "eventCards",
+                        "buttons",
+                        "backgroundColor"
+                      ]
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "buttons"
+                  ]
+                },
+                {
+                  "type": "string",
+                  "label": "Status",
+                  "name": "status",
+                  "ui": {
+                    "component": "selectField"
+                  },
+                  "options": [
+                    {
+                      "label": "Current",
+                      "value": "current"
+                    },
+                    {
+                      "label": "Archived",
+                      "value": "archived"
+                    }
+                  ],
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "status"
+                  ]
+                },
+                {
+                  "label": "Navigation Label",
+                  "name": "navigationLabel",
+                  "description": "Add a jump to this section to the navigation.",
+                  "type": "string",
+                  "namespace": [
+                    "pages",
+                    "blocks",
+                    "eventCards",
+                    "navigationLabel"
+                  ]
+                }
+              ],
+              "namespace": [
+                "pages",
+                "blocks",
+                "eventCards"
+              ]
             }
           ],
           "namespace": [
@@ -10192,6 +11345,127 @@
       ],
       "namespace": [
         "pages"
+      ]
+    },
+    {
+      "label": "Events",
+      "name": "event",
+      "path": "content/events",
+      "fields": [
+        {
+          "type": "string",
+          "label": "Status",
+          "name": "status",
+          "ui": {
+            "component": "selectField"
+          },
+          "options": [
+            {
+              "label": "Current",
+              "value": "current"
+            },
+            {
+              "label": "Archived",
+              "value": "archived"
+            }
+          ],
+          "namespace": [
+            "event",
+            "status"
+          ]
+        },
+        {
+          "label": "Image",
+          "name": "image",
+          "type": "object",
+          "fields": [
+            {
+              "label": "Image Source",
+              "name": "src",
+              "type": "image",
+              "ui": {
+                "clearable": true
+              },
+              "namespace": [
+                "event",
+                "image",
+                "src"
+              ]
+            },
+            {
+              "name": "alt",
+              "label": "Alt Text",
+              "type": "string",
+              "namespace": [
+                "event",
+                "image",
+                "alt"
+              ]
+            }
+          ],
+          "namespace": [
+            "event",
+            "image"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Label",
+          "name": "label",
+          "namespace": [
+            "event",
+            "label"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Title",
+          "name": "headline",
+          "namespace": [
+            "event",
+            "headline"
+          ]
+        },
+        {
+          "label": "Subhead",
+          "name": "subhead",
+          "type": "string",
+          "namespace": [
+            "event",
+            "subhead"
+          ]
+        },
+        {
+          "label": "Text",
+          "name": "text",
+          "type": "rich-text",
+          "namespace": [
+            "event",
+            "text"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Link",
+          "name": "link",
+          "namespace": [
+            "event",
+            "link"
+          ]
+        },
+        {
+          "type": "string",
+          "label": "Button Label",
+          "name": "buttonLabel",
+          "description": "A button will be included if you have a link and button label, with only a link the entire card is linked",
+          "namespace": [
+            "event",
+            "buttonLabel"
+          ]
+        }
+      ],
+      "namespace": [
+        "event"
       ]
     }
   ]

@@ -5,6 +5,7 @@ import { textCardsBlockSchema } from "./text-cards";
 import { bannerBlockSchema } from "./banner";
 import { embedBlockSchema } from "./embed";
 import { modalsBlockSchema } from "./modals";
+import { eventCardsBlockSchema } from "./event-cards";
 
 export default defineSchema({
   collections: [
@@ -289,6 +290,7 @@ export default defineSchema({
             bannerBlockSchema,
             embedBlockSchema,
             modalsBlockSchema,
+            eventCardsBlockSchema,
           ],
         },
         {
@@ -319,6 +321,76 @@ export default defineSchema({
               }
             },
           ]
+        },
+      ],
+    },
+    {
+      label: 'Events',
+      name: 'event',
+      path: 'content/events',
+      fields: [
+        {
+          type: "string",
+          label: "Status",
+          name: "status",
+          ui: {
+            component: "selectField",
+          },
+          options: [
+            { label: "Current", value: "current" },
+            { label: "Archived", value: "archived" },
+          ]
+        },
+        {
+          label: "Image",
+          name: "image",
+          type: "object",
+          fields: [
+            {
+              label: "Image Source",
+              name: "src",
+              type: "image",
+              ui: {
+                clearable: true,
+              }
+            },
+            {
+              name: "alt",
+              label: "Alt Text",
+              type: "string",
+            },
+          ],
+        },
+        {
+          type: "string",
+          label: "Label",
+          name: "label",
+        },
+        {
+          type: "string",
+          label: "Title",
+          name: "headline",
+        },
+        {
+          label: "Subhead",
+          name: "subhead",
+          type: "string",
+        },
+        {
+          label: "Text",
+          name: "text",
+          type: "rich-text",
+        },
+        {
+          type: "string",
+          label: "Link",
+          name: "link",
+        },
+        {
+          type: "string",
+          label: "Button Label",
+          name: "buttonLabel",
+          description: "A button will be included if you have a link and button label, with only a link the entire card is linked"
         },
       ],
     },

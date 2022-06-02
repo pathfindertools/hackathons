@@ -2,7 +2,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Buttons } from "../buttons";
 import { CardGrid } from "../card-grid";
 
-const Card = ({ data, index, cardstyle, parentField = ""  }) => {
+const Card = ({ data, index, cardstyle, parentField = "" }) => {
   const wrapClasses =  data.link && data.buttonLabel ? 'pb-20' : '';
   const backgroundClasses = {
     solid: `${cardstyle?.fillStyles}`,
@@ -59,12 +59,37 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
   );
 };
 
-export const Cards = ({ data, parentField = "" }) => {
+export const Cards = ({ data, parentField = "", events = null }) => {
+  const isEventCards = events ? true : false
+  const items = isEventCards ?
+  events?.getEventList?.edges?.filter(item => item.node?.data?.status === 'current').map(item => {
+    return {
+      image: item.node.data.image,
+      label: item.node.data.label,
+      headline: item.node.data.headline,
+      subhead: item.node.data.subhead,
+      text: item.node.data.text,
+      link: item.node.data.link,
+      buttonLabel: item.node.data.buttonLabel,  
+    }
+  }) :
+  data.items.map(item => {
+    return {
+      image: item.image,
+      label: item.label,
+      headline: item.headline,
+      subhead: item.subhead,
+      text: item.text,
+      link: item.link,
+      buttonLabel: item.buttonLabel,  
+    }
+  })
   return (
+
     <CardGrid data={data} parentField={parentField} children={(
-      data.items &&
-        data.items.map(function (block, index) {
-          return <Card key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
+      items &&
+        items.map(function (item, index) {
+          return <Card key={index} index={index} data={item} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>
   );

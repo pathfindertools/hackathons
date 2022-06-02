@@ -52,6 +52,8 @@ type Query {
   getGlobalList(before: String, after: String, first: Float, last: Float): GlobalConnection!
   getPagesDocument(relativePath: String): PagesDocument!
   getPagesList(before: String, after: String, first: Float, last: Float): PagesConnection!
+  getEventDocument(relativePath: String): EventDocument!
+  getEventList(before: String, after: String, first: Float, last: Float): EventConnection!
 }
 
 type DocumentConnectionEdges {
@@ -77,7 +79,7 @@ type Collection {
   documents(before: String, after: String, first: Float, last: Float): DocumentConnection!
 }
 
-union DocumentNode = GlobalDocument | PagesDocument
+union DocumentNode = GlobalDocument | PagesDocument | EventDocument
 
 type GlobalColors {
   primary: String
@@ -791,7 +793,75 @@ type PagesBlocksModals {
   navigationLabel: String
 }
 
-union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksModals
+type PagesBlocksEventCardsStyle {
+  textAlignment: String
+  minHeight: String
+  padding: String
+  contentWidth: String
+  columns: String
+  typographyTitle: String
+  labelStyles: String
+  headlineStyles: String
+  subheadStyles: String
+  textStyles: String
+  contentOrder: String
+}
+
+type PagesBlocksEventCardsCardStyle {
+  fillStyles: String
+  padding: String
+  type: String
+  imageStyles: String
+  typographyTitle: String
+  labelStyles: String
+  headlineStyles: String
+  subheadStyles: String
+  textStyles: String
+  buttonTitle: String
+  buttonType: String
+  buttonFillStyles: String
+  buttonTextColor: String
+}
+
+type PagesBlocksEventCardsBackgroundOrnaments {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+type PagesBlocksEventCardsBackground {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksEventCardsBackgroundOrnaments]
+}
+
+type PagesBlocksEventCardsButtons {
+  label: String
+  link: String
+  type: String
+  buttonFillStyles: String
+  textColor: String
+  backgroundColor: String
+}
+
+type PagesBlocksEventCards {
+  style: PagesBlocksEventCardsStyle
+  cardStyle: PagesBlocksEventCardsCardStyle
+  background: PagesBlocksEventCardsBackground
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  buttons: [PagesBlocksEventCardsButtons]
+  status: String
+  navigationLabel: String
+}
+
+union PagesBlocks = PagesBlocksFeature | PagesBlocksPhotoCards | PagesBlocksTextCards | PagesBlocksBanner | PagesBlocksEmbed | PagesBlocksModals | PagesBlocksEventCards
 
 type PagesMeta {
   pageTitle: String
@@ -825,6 +895,42 @@ type PagesConnection implements Connection {
   edges: [PagesConnectionEdges]
 }
 
+type EventImage {
+  src: String
+  alt: String
+}
+
+type Event {
+  status: String
+  image: EventImage
+  label: String
+  headline: String
+  subhead: String
+  text: JSON
+  link: String
+  buttonLabel: String
+}
+
+type EventDocument implements Node & Document {
+  id: ID!
+  sys: SystemInfo!
+  data: Event!
+  form: JSON!
+  values: JSON!
+  dataJSON: JSON!
+}
+
+type EventConnectionEdges {
+  cursor: String
+  node: EventDocument
+}
+
+type EventConnection implements Connection {
+  pageInfo: PageInfo
+  totalCount: Float!
+  edges: [EventConnectionEdges]
+}
+
 type Mutation {
   addPendingDocument(collection: String!, relativePath: String!, template: String): DocumentNode!
   updateDocument(collection: String, relativePath: String!, params: DocumentMutation!): DocumentNode!
@@ -833,11 +939,14 @@ type Mutation {
   createGlobalDocument(relativePath: String!, params: GlobalMutation!): GlobalDocument!
   updatePagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
   createPagesDocument(relativePath: String!, params: PagesMutation!): PagesDocument!
+  updateEventDocument(relativePath: String!, params: EventMutation!): EventDocument!
+  createEventDocument(relativePath: String!, params: EventMutation!): EventDocument!
 }
 
 input DocumentMutation {
   global: GlobalMutation
   pages: PagesMutation
+  event: EventMutation
 }
 
 input GlobalColorsMutation {
@@ -1538,6 +1647,74 @@ input PagesBlocksModalsMutation {
   navigationLabel: String
 }
 
+input PagesBlocksEventCardsStyleMutation {
+  textAlignment: String
+  minHeight: String
+  padding: String
+  contentWidth: String
+  columns: String
+  typographyTitle: String
+  labelStyles: String
+  headlineStyles: String
+  subheadStyles: String
+  textStyles: String
+  contentOrder: String
+}
+
+input PagesBlocksEventCardsCardStyleMutation {
+  fillStyles: String
+  padding: String
+  type: String
+  imageStyles: String
+  typographyTitle: String
+  labelStyles: String
+  headlineStyles: String
+  subheadStyles: String
+  textStyles: String
+  buttonTitle: String
+  buttonType: String
+  buttonFillStyles: String
+  buttonTextColor: String
+}
+
+input PagesBlocksEventCardsBackgroundOrnamentsMutation {
+  src: String
+  alignment: String
+  width: String
+  height: String
+  xOffset: String
+  yOffset: String
+}
+
+input PagesBlocksEventCardsBackgroundMutation {
+  fillStyles: String
+  src: String
+  position: String
+  ornaments: [PagesBlocksEventCardsBackgroundOrnamentsMutation]
+}
+
+input PagesBlocksEventCardsButtonsMutation {
+  label: String
+  link: String
+  type: String
+  buttonFillStyles: String
+  textColor: String
+  backgroundColor: String
+}
+
+input PagesBlocksEventCardsMutation {
+  style: PagesBlocksEventCardsStyleMutation
+  cardStyle: PagesBlocksEventCardsCardStyleMutation
+  background: PagesBlocksEventCardsBackgroundMutation
+  label: String
+  headline: String
+  subhead: String
+  body: JSON
+  buttons: [PagesBlocksEventCardsButtonsMutation]
+  status: String
+  navigationLabel: String
+}
+
 input PagesBlocksMutation {
   feature: PagesBlocksFeatureMutation
   photoCards: PagesBlocksPhotoCardsMutation
@@ -1545,6 +1722,7 @@ input PagesBlocksMutation {
   banner: PagesBlocksBannerMutation
   embed: PagesBlocksEmbedMutation
   modals: PagesBlocksModalsMutation
+  eventCards: PagesBlocksEventCardsMutation
 }
 
 input PagesMetaMutation {
@@ -1557,6 +1735,22 @@ input PagesMutation {
   draft: Boolean
   blocks: [PagesBlocksMutation]
   meta: PagesMetaMutation
+}
+
+input EventImageMutation {
+  src: String
+  alt: String
+}
+
+input EventMutation {
+  status: String
+  image: EventImageMutation
+  label: String
+  headline: String
+  subhead: String
+  text: JSON
+  link: String
+  buttonLabel: String
 }
 
 schema {

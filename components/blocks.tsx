@@ -6,7 +6,7 @@ import { Banner } from "./blocks/banner";
 import { Embed } from "./blocks/embed";
 import { Modals } from "./blocks/custom/modals";
 
-export const Blocks = (props: Pages | Global) => {
+export const Blocks = (props: any ) => {
   return (
     <>
       {props.blocks
@@ -38,6 +38,12 @@ export const Blocks = (props: Pages | Global) => {
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
                     <Cards data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksEventCards":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <Cards data={block} parentField={`blocks.${i}`} events={props.events} />
                   </div>
                 );
               case "PagesBlocksEmbed":
