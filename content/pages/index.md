@@ -127,7 +127,7 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654013715/hackathons/1000_x_300_nlsjqg.jpg
+            http://res.cloudinary.com/protocolai/image/upload/v1654252351/hackathons/1000_x_300_i34r7b.jpg
         label: ''
         headline: Web3athon
         subhead: Jun 9 - Aug 31 2022
