@@ -114,7 +114,10 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - headline: Sustainable Blockchain Hackathon
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
+        headline: Sustainable Blockchain Hackathon
         subhead: 'Jun 23 - Jul 18, 2022'
         text: >
           We want to turn sustainability into a Web3 superpower, and we need
