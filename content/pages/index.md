@@ -44,7 +44,7 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - label: Why we do hackathons
+      - label: Why join a hackathon
         video: ckKDv6iY0pQ
     _template: modals
   - style:
