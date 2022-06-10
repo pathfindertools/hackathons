@@ -5,7 +5,7 @@ image:
   alt: 
 headline: web3con
 subhead: 2022, Feb 28 - Mar 06
-text: "undefined"
+text: 
 link: https://www.web3con.dev/
 buttonLabel: 'View Event '
 ---

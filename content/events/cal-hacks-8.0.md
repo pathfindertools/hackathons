@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Cal Hacks 8.0
 subhead: 2021, Oct 22-24
-text: "undefined"
+text: 
 link: https://calhacks.io/
 buttonLabel: View event
 ---

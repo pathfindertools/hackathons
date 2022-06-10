@@ -5,7 +5,7 @@ image:
   alt: 
 headline: BuildQuest 2022 ETHGlobal
 subhead: 2022, Mar 04-16
-text: "undefined"
+text: 
 link: https://buildquest.ethglobal.com/
 buttonLabel: View event
 ---

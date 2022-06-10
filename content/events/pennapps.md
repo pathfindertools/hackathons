@@ -5,7 +5,7 @@ image:
   alt: 
 headline: PennApps
 subhead: 2021, September
-text: "undefined"
+text: 
 link: https://2021f.pennapps.com/
 buttonLabel: View event
 ---

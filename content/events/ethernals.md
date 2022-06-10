@@ -5,7 +5,7 @@ image:
   alt: 
 headline: ETHernals
 subhead: 2022, Feb 25 - Mar 27
-text: "undefined"
+text: 
 link: https://ethernals.devfolio.co/
 buttonLabel: View event
 ---

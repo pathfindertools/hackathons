@@ -5,7 +5,7 @@ image:
   alt: 
 headline: START Hack + Summit '22
 subhead: 2022, Mar 23-26
-text: "undefined"
+text: 
 link: www.starthack.eu
 buttonLabel: View event
 ---

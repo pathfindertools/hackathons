@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Filecoin @Polygon BUIDL IT
 subhead: 2021, Nov 19 - Dec 12
-text: "undefined"
+text: 
 link: https://buidlit.polygon.technology/
 buttonLabel: View event
 ---

@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Encode Filecoin Club - Educate
 subhead: 2021, Jul - Sep
-text: "undefined"
+text: 
 link: https://www.encode.club/filecoin-educate
 buttonLabel: View event
 ---

@@ -5,7 +5,7 @@ image:
   alt: 
 headline: NFT Vision Hack
 subhead: 2021, Jul - Aug
-text: "undefined"
+text: 
 link: https://www.nftvisionhack.com/
 buttonLabel: View event
 ---

@@ -5,7 +5,7 @@ image:
   alt: 
 headline: DAOHacks
 subhead: 2022, Apr 08-10
-text: "undefined"
+text: 
 link: https://dao.ethglobal.com/
 buttonLabel: View event
 ---

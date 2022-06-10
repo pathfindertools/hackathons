@@ -5,7 +5,7 @@ image:
   alt: 
 headline: ETHAmsterdam
 subhead: 2022, Apr 22-24
-text: "undefined"
+text: 
 link: https://amsterdam.ethglobal.com/
 buttonLabel: View event
 ---

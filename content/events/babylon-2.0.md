@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Babylon 2.0
 subhead: 2021, Oct 29 - Nov 20
-text: "undefined"
+text: 
 link: https://worldblockchainhackathon.com/
 buttonLabel: View event
 ---

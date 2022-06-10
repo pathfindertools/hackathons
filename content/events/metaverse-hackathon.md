@@ -1,7 +1,7 @@
 ---
 status: current
 image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png,
+  src: http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
   alt: Metaverse Hackathon by KEN Labs
 headline: Metaverse Hackathon
 subhead: Apr 20 - Jun 20, 2022

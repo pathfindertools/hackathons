@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Gamedev.js
 subhead: 2022, Apr 13-26
-text: "undefined"
+text: 
 link: https://gamedevjs.com/jam/2022/
 buttonLabel: View event
 ---

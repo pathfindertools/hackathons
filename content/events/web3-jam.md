@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Web3 Jam
 subhead: 2021, Nov 12-24
-text: "undefined"
+text: 
 link: https://jam.ethglobal.com/
 buttonLabel: View event
 ---

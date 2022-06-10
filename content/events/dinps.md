@@ -1,7 +1,7 @@
 ---
 status: current
 image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg,
+  src: http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
   alt: Decentralized Internet, Networks, Protocol, & Systems Workshop
 headline: DINPS
 subhead: Jan - Jul, 2022

@@ -5,7 +5,7 @@ image:
   alt: 
 headline: NFTHACK 2022 ETHGlobal
 subhead: 2022, Jan 14-16
-text: "undefined"
+text: 
 link: https://nft.ethglobal.co/
 buttonLabel: View Event
 ---

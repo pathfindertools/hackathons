@@ -5,7 +5,7 @@ image:
   alt: 
 headline: World Innovation Day 2022
 subhead: Apr 29 - May 03, 2022
-text: "undefined"
+text: 
 link: https://www.hackmakers.com/worldinnovationday2021
 buttonLabel: View event
 ---

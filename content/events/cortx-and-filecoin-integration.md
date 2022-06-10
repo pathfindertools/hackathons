@@ -1,7 +1,7 @@
 ---
 status: current
 image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png,
+  src: http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
   alt: CORTX Integration Challenge by Seagate and Filecoin
 headline: CORTX and Filecoin Integration Challenge
 subhead: May 06-Jul 11, 2022

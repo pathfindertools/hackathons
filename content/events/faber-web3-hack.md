@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Faber Web3 Hack
 subhead: 2022, Feb 21 - Mar 31
-text: "undefined"
+text: 
 link: https://faberweb3.devpost.com/
 buttonLabel: View event
 ---

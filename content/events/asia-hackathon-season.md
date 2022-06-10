@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Asia Hackathon Season
 subhead: 2021, August - November
-text: "undefined"
+text: 
 link: asia-hackathon-season
 buttonLabel: View Event
 ---

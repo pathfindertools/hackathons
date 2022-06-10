@@ -5,7 +5,7 @@ image:
   alt: 
 headline: ETHDenver 2022
 subhead: 2022, Feb 11 - Mar 21
-text: "undefined"
+text: 
 link: www.ethdenver.com
 buttonLabel: View event
 ---

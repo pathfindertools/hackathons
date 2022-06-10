@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Browsers 3000
 subhead: 2021, Jul - Aug
-text: "undefined"
+text: 
 link: https://events.protocol.ai/2021/browsers3000/
 buttonLabel: View event
 ---

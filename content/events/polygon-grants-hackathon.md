@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Polygon Grants Hackathon
 subhead: 2021, Aug 30 - Dec 30
-text: "undefined"
+text: 
 link: https://www.polygongrantshackathon.com/
 buttonLabel: View Event
 ---

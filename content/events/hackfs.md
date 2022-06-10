@@ -5,7 +5,7 @@ image:
   alt: 
 headline: HackFS
 subhead: 2021, Jul - Aug
-text: "undefined"
+text: 
 link: https://hackfs.com/
 buttonLabel: View event
 ---

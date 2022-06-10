@@ -1,7 +1,7 @@
 ---
 status: current
 image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png,
+  src: http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
   alt: Graph Hack Hackathon - San Francisco
 headline: Graph Hack
 subhead: Jun 3-5, 2022

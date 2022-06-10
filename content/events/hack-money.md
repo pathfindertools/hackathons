@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Hack Money
 subhead: May 06-27, 2022
-text: "undefined"
+text: 
 link: https://hackathon.money/
 buttonLabel: View event
 ---

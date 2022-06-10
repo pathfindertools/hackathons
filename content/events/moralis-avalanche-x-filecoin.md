@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Moralis Avalanche x Filecoin
 subhead: 2021, Dec 06 - 2022, Jan 31
-text: "undefined"
+text: 
 link: https://moralis.io/avalanche-hackathon/
 buttonLabel: View Event
 ---

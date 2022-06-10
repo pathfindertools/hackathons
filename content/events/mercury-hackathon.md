@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Mercury Hackathon
 subhead: 2021, Sep 20 – Nov 08
-text: "undefined"
+text: 
 link: https://mercuryhackathon2021.com/
 buttonLabel: View event
 ---

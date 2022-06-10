@@ -5,7 +5,7 @@ image:
   alt: 
 headline: P2P Paris Hackathon
 subhead: Apr 27 - May 01, 2022
-text: "undefined"
+text: 
 link: https://p2p.paris/en/
 buttonLabel: View event
 ---

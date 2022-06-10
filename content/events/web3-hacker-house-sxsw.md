@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Web3 Hacker House @ SXSW
 subhead: 2022, Mar 14-15
-text: "undefined"
+text: 
 link: https://twitter.com/Filecoin/status/1504497339330969603
 buttonLabel: View event
 ---

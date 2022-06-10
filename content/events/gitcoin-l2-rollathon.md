@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Gitcoin L2 Rollathon
 subhead: May 02-22, 2022
-text: "undefined"
+text: 
 link: https://gitcoin.co/hackathon/Rollathon/onboard
 buttonLabel: View event
 ---

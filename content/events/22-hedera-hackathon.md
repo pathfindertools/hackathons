@@ -5,7 +5,7 @@ image:
   alt: 
 headline: 22 Hedera Hackathon
 subhead: Mar 31 - May 16, 2022
-text: "undefined"
+text: 
 link: https://hedera22.devpost.com/
 buttonLabel: View event
 ---

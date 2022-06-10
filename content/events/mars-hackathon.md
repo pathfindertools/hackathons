@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Mars Hackathon
 subhead: 2021, Sep 07 - Nov 06
-text: "undefined"
+text: 
 link: https://www.marshackathon2021.com/
 buttonLabel: View event
 ---

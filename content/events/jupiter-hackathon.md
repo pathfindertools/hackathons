@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Jupiter Hackathon
 subhead: 2021, Aug 25 - Oct 23
-text: "undefined"
+text: 
 link: https://tianchi.aliyun.com/specials/promotion/ipfs-hackathon
 buttonLabel: View event
 ---

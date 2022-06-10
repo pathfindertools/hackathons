@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Holon Innovate '21
 subhead: 2021, Nov 09-25
-text: "undefined"
+text: 
 link: https://taikai.network/en/holon/challenges/holon-innovate
 buttonLabel: View event
 ---

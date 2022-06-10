@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Chainlink Hackathon
 subhead: 2021, Oct 22 - Nov 28
-text: "undefined"
+text: 
 link: https://chain.link/hackathon
 buttonLabel: View event
 ---

@@ -5,7 +5,7 @@ image:
   alt: 
 headline: Dora Hacks
 subhead: 2021, May - July
-text: "undefined"
+text: 
 link: https://events.protocol.ai/2021/dorahacks/
 buttonLabel: View event
 ---

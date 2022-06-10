@@ -5,7 +5,7 @@ image:
   alt: 
 headline: NFT Hack with Filecoin
 subhead: 2021, Oct 05 - Nov 28
-text: "undefined"
+text: 
 link: https://www.encode.club/nft-hack
 buttonLabel: View event
 ---
