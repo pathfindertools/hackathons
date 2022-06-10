@@ -62,7 +62,7 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
 export const Cards = ({ data, parentField = "", events = null }) => {
   const isEventCards = events ? true : false
   const items = isEventCards ?
-  events?.getEventList?.edges?.filter(item => item.node?.data?.status === 'current').map(item => {
+  events?.getEventList?.edges?.filter(item => item.node?.data?.status === data.status).map(item => {
     return {
       image: item.node.data.image,
       label: item.node.data.label,
@@ -73,7 +73,7 @@ export const Cards = ({ data, parentField = "", events = null }) => {
       buttonLabel: item.node.data.buttonLabel,  
     }
   }) :
-  data.items.map(item => {
+  data.items?.map(item => {
     return {
       image: item.image,
       label: item.label,

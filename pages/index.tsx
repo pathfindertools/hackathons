@@ -13,7 +13,7 @@ export default function HomePage(
   });
   return (
     <Layout pageData={data.getPagesDocument.data} globalData={data.getGlobalDocument.data}>
-      <Blocks {...data.getPagesDocument.data} />
+      <Blocks {...data.getPagesDocument.data} events={props.events} />
     </Layout>
   );
 }
@@ -23,11 +23,13 @@ export const getStaticProps = async ({ params }) => {
   const tinaProps = await client.ContentQuery({
     relativePath: `index.md`,
   });
+  const eventProps = await client.getEventList();
   return {
     props: {
       data: tinaProps.data,
       query: tinaProps.query,
       variables: tinaProps.variables,
+      events: eventProps.data
     },
   };
 };
