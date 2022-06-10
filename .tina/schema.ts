@@ -420,9 +420,9 @@ export const tinaConfig = defineConfig({
      */
     import("tinacms").then(({ RouteMappingPlugin }) => {
       const RouteMapping = new RouteMappingPlugin((collection, document) => {
-        // if (["authors", "global"].includes(collection.name)) {
-        //   return undefined;
-        // }
+        if (["event", "global"].includes(collection.name)) {
+          return undefined;
+        }
         if (["pages"].includes(collection.name)) {
           if (document.sys.filename === "home") {
             return `/`;
@@ -480,9 +480,8 @@ export const tinaConfig = defineConfig({
   },
   formifyCallback: ({ formConfig, createForm, createGlobalForm }) => {
     if (formConfig.id === "getGlobalDocument") {
-      return createGlobalForm(formConfig);
+      return createGlobalForm(formConfig, { layout: 'fullscreen' });
     }
-
     return createForm(formConfig);
   },
 });
