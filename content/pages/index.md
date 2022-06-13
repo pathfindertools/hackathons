@@ -383,7 +383,7 @@ blocks:
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
-          *   Protocol Labs Network [Jobs
+          Check out open roles on the Protocol Labs Network [Jobs
           Board](https://bitly.protocol.ai/3KNG27i)
         link: ''
     navigationLabel: Post-hackathon Opportunities
