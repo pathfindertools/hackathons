@@ -369,21 +369,21 @@ blocks:
         subhead: >-
           Explore our grants program and unlock additional funding to keep
           working on your project.
-        text: |
-          *   [Apply Here](https://github.com/filecoin-project/devgrants)
+        text: >
+          [Learn more and apply
+          Here](https://github.com/filecoin-project/devgrants)
       - headline: Accelerators
         subhead: >-
           Apply to an accelerator and turn your project into a pitch-ready
           concept
         text: >
-          *   [Outlier Ventures Filecoin Base
-          Camp](https://outlierventures.io/base-camp/filecoin-base-camp/)
-
-          *   [Defi Alliance](https://www.defialliance.co/#Programs)
+          [Learn more and
+          apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
+          "Learn more about our accelerator programs")
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
-          *   Protocol Labs Network [Jobs
+          Check out open roles on the Protocol Labs Network [Jobs
           Board](https://bitly.protocol.ai/3KNG27i)
         link: ''
     navigationLabel: Post-hackathon Opportunities
