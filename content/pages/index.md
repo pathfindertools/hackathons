@@ -378,7 +378,7 @@ blocks:
         text: >
           [Learn more
           ](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
-          "Learn more about our accelerator programs")
+          "Learn more about our accelerator programs")and apply
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
