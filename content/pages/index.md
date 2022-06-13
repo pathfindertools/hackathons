@@ -376,10 +376,9 @@ blocks:
           Apply to an accelerator and turn your project into a pitch-ready
           concept
         text: >
-          *   [Outlier Ventures Filecoin Base
-          Camp](https://outlierventures.io/base-camp/filecoin-base-camp/)
-
-          *   [Defi Alliance](https://www.defialliance.co/#Programs)
+          [Learn more
+          ](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
+          "Learn more about our accelerator programs")
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
