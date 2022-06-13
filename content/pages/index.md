@@ -369,8 +369,9 @@ blocks:
         subhead: >-
           Explore our grants program and unlock additional funding to keep
           working on your project.
-        text: |
-          *   [Apply Here](https://github.com/filecoin-project/devgrants)
+        text: >
+          [Learn more and apply
+          Here](https://github.com/filecoin-project/devgrants)
       - headline: Accelerators
         subhead: >-
           Apply to an accelerator and turn your project into a pitch-ready
