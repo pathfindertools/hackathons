@@ -116,6 +116,15 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
+        label: ''
+        headline: BUIDLIT Summer 2022 Polygon
+        subhead: 'Jun 15 - Aug 25, 2022'
+        text: ''
+        link: 'https://buidlit.polygon.technology/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
         headline: HackFS 2022 (season 3)
         subhead: 'Jul 8 - 27, 2022'
