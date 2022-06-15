@@ -116,6 +116,16 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
+        headline: HackFS 2022 (season 3)
+        subhead: 'Jul 8 - 27, 2022'
+        text: >
+          Build the foundation for the decentralized web. A Hackathon by
+          ETHGlobal and Protocol Labs.
+        link: 'https://fs.ethglobal.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
         label: ''
         headline: FIL Toronto Weekend Hack
@@ -139,18 +149,6 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654252351/hackathons/1000_x_300_i34r7b.jpg
-        label: ''
-        headline: Web3athon
-        subhead: Jun 9 - Aug 31 2022
-        text: >
-          Web3athon invites coders, designers, policymakers, urban planners, and
-          artists worldwide to join this virtual hackathon. Hands-on tech
-          support and over $500k in prizes from over 17 sponsors!
-        link: 'https://web3athon.xyz/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
         headline: BlockJam2022
         subhead: 'Jun 18-Jul 4, 2022'
@@ -163,13 +161,15 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
-        headline: HackFS 2022 (season 3)
-        subhead: 'Jul 8 - 27, 2022'
+            http://res.cloudinary.com/protocolai/image/upload/v1654252351/hackathons/1000_x_300_i34r7b.jpg
+        label: ''
+        headline: Web3athon
+        subhead: Jun 9 - Aug 31 2022
         text: >
-          Build the foundation for the decentralized web. A Hackathon by
-          ETHGlobal and Protocol Labs.
-        link: 'https://fs.ethglobal.com/'
+          Web3athon invites coders, designers, policymakers, urban planners, and
+          artists worldwide to join this virtual hackathon. Hands-on tech
+          support and over $500k in prizes from over 17 sponsors!
+        link: 'https://web3athon.xyz/'
         buttonLabel: Learn more and Register
       - image:
           src: >-
