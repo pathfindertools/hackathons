@@ -128,7 +128,7 @@ blocks:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
         label: ''
-        headline: FIL Toronto Weekend Hack
+        headline: FIL Toronto 3-Day Hack
         subhead: 'July 4-6, 2022'
         text: >
           At this in-person event in Toronto, connect with the growing and
