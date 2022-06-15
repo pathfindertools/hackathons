@@ -116,6 +116,18 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
+        label: ''
+        headline: FIL Toronto Weekend Hack
+        subhead: 'July 4-6, 2022'
+        text: >
+          At this in-person event in Toronto, connect with the growing and
+          vibrant community of web3 enthusiasts and build projects that can grow
+          into the next big start-up.
+        link: 'https://fil-toronto.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
         headline: Sustainable Blockchain Hackathon
         subhead: 'Jun 23 - Jul 18, 2022'
@@ -378,8 +390,7 @@ blocks:
           concept
         text: >
           [Learn more and
-          apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
-          "Learn more about our accelerator programs")
+          apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
