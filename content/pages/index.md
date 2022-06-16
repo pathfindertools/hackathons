@@ -117,6 +117,14 @@ blocks:
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655413069/hackathons/676x380_geha0x.webp
+        headline: London Reactor Meetup - Web3
+        subhead: 'Jun 29, 2022 '
+        text: >
+          Join our hackathons developer advocate team in London for an unique
+          meetup about IPFS, Filecoin and NFTs.
+        link: >-
+          https://www.meetup.com/microsoft-reactor-london/events/286612428/?_xtd=gqFyqTI2NTg0NzQyOKFwpmlwaG9uZQ&from=ref
+        buttonLabel: Learn more and Register
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
