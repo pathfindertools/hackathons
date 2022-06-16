@@ -116,6 +116,9 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655413069/hackathons/676x380_geha0x.webp
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
         label: ''
         headline: BUIDLIT Summer 2022 Polygon
