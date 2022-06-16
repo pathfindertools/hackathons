@@ -149,6 +149,27 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655413069/hackathons/676x380_geha0x.webp
+        headline: London Reactor Meetup - Web3
+        subhead: 'Jun 29, 2022 '
+        text: >
+          Join our hackathons developer advocate team in London for an unique
+          meetup about IPFS, Filecoin and NFTs.
+        link: >-
+          https://www.meetup.com/microsoft-reactor-london/events/286612428/?_xtd=gqFyqTI2NTg0NzQyOKFwpmlwaG9uZQ&from=ref
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1653656057/ETHNEWYORK_Filecoin_yw3fei.png
+        headline: ETHNewYork
+        subhead: 'Jun 24 - 26, 2022'
+        text: >
+          New York's premier blockchain hackathon is back! Discover a new
+          frontier with ETHereum and build innovative projects to win bounties!
+        link: 'https://ny.ethglobal.com/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
         headline: Sustainable Blockchain Hackathon
         subhead: 'Jun 23 - Jul 18, 2022'
@@ -181,16 +202,6 @@ blocks:
           artists worldwide to join this virtual hackathon. Hands-on tech
           support and over $500k in prizes from over 17 sponsors!
         link: 'https://web3athon.xyz/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653656057/ETHNEWYORK_Filecoin_yw3fei.png
-        headline: ETHNewYork
-        subhead: 'Jun 24 - 25, 2022'
-        text: >
-          New York's premier blockchain hackathon is back! Discover a new
-          frontier with ETHereum and build innovative projects to win bounties!
-        link: 'https://ny.ethglobal.com/'
         buttonLabel: Learn more and Register
       - image:
           src: >-
