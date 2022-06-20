@@ -372,7 +372,7 @@ blocks:
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-10 pl-10
       contentWidth: w-9/12
-      columns: '3'
+      columns: '4'
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: 'text-primary undefined text-5xl mb-3.5 '
       subheadStyles: 'text-white undefined undefined undefined '
@@ -413,6 +413,11 @@ blocks:
         text: >
           [Learn more and
           apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
+      - label: ''
+        headline: PL Network Launchpad
+        text: |
+          [Learn more and apply](https://pl-launchpad.io/)
+        link: 'https://pl-launchpad.io/'
       - headline: Get Hired
         subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
         text: >
