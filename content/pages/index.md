@@ -241,31 +241,6 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
-          alt: 'Graph Hack Hackathon - San Francisco '
-        label: ''
-        headline: Graph Hack
-        subhead: 'Jun 3-5, 2022'
-        text: >
-          This three-day hackathon unites developers, innovators, and creatives
-          to build the future of the internet together. Build the dapps of
-          tomorrow, compete for bounties, and learn best practices from top
-          developers in the space.
-        link: 'https://thegraph.com/graph-hack/2022/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
-          alt: Metaverse Hackathon by KEN Labs
-        headline: Metaverse Hackathon
-        subhead: 'Apr 20 - Jun 20, 2022'
-        text: >
-          An 8-week hackathon focused on Metaverse! Build projects on IPFS to
-          answer challenges and compete for the $50k prize pool.
-        link: 'https://kencloud.com/hack.html'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
           alt: 'Decentralized Internet, Networks, Protocol, & Systems Workshop'
         headline: DINPS
@@ -399,22 +374,25 @@ blocks:
       next level to apply to our grants' and accelerator programs. Check out
       follow-on opportunities below.
     items:
-      - headline: Filecoin Grants
+      - headline: Grants
         subhead: >-
-          Explore our grants program and unlock additional funding to keep
-          working on your project.
+          Explore the Filecoin grants program and unlock additional funding to
+          keep working on your project.
         text: >
           [Learn more and apply
           Here](https://github.com/filecoin-project/devgrants)
       - headline: Accelerators
         subhead: >-
           Apply to an accelerator and turn your project into a pitch-ready
-          concept
+          concept.
         text: >
           [Learn more and
           apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
       - label: ''
-        headline: PL Network Launchpad
+        headline: Launchpad
+        subhead: >-
+          A 6-week hiring & onboarding program designed for accelerating
+          technical growth in the Web3 space.
         text: |
           [Learn more and apply](https://pl-launchpad.io/)
         link: 'https://pl-launchpad.io/'
@@ -482,6 +460,22 @@ blocks:
     headline: Past Events
     body: ''
     items:
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655720446/hackathons/Screen_Shot_2022-06-20_at_2.20.37_PM_iuttli.png
+        headline: Graph Hack
+        subhead: 'Jun 3-5, 2022'
+        text: ''
+        link: 'https://thegraph.com/graph-hack/2022/'
+        buttonLabel: View event
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655720577/hackathons/image_ldbpld_lfnvrm.png
+        label: ''
+        headline: Metaverse Hackathon
+        subhead: 'Apr 20 - Jun 20, 2022'
+        link: 'https://kencloud.com/hack.html'
+        buttonLabel: View event
       - image:
           src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653653779/Screen_Shot_2022-05-27_at_5.45.54_PM_q5fg7v.png
