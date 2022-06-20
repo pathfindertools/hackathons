@@ -127,7 +127,7 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655721826/Screen_Shot_2022-06-20_at_06.43.17_ltss0i.png
+            http://res.cloudinary.com/protocolai/image/upload/v1655722020/Screen_Shot_2022-06-20_at_06.46.47_sh0ccu.png
         headline: Filecoin中国区黑客松
         subhead: 'June 20 - Jul 20, 2022'
         text: >
