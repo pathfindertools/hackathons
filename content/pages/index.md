@@ -50,7 +50,7 @@ blocks:
   - style:
       minHeight: min-h-0
       fullWidth: false
-      padding: pt-20 pb-20 pr-10 pl-10
+      padding: pt-0 pb-0 pr-0 pl-0
     background:
       fillStyles: bg-black
     markup: |+
@@ -89,7 +89,7 @@ blocks:
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
+      padding: pt-20 pb-10 pr-10 pl-10
       contentWidth: w-full
       columns: '3'
       labelStyles: 'text-white undefined undefined undefined '
