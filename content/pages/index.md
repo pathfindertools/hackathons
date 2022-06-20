@@ -127,6 +127,17 @@ blocks:
         buttonLabel: Learn more and Register
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655721826/Screen_Shot_2022-06-20_at_06.43.17_ltss0i.png
+        headline: Filecoin中国区黑客松
+        subhead: 'June 20 - Jul 20, 2022'
+        text: >
+          本次比赛是继“Filecoin 分布式存储实战教程——「Coding with
+          Filecoin」”系列课程(http://www.studycn.work/)上线后举办的中国区黑客松赛事，旨在培养全球开发者以及初创企业发展创新性的应用、解决主要问题以及让Filecoin
+          & IPFS的分布式存储和云服务成为现实。
+        link: 'https://www.hackathon.city/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
         headline: HackFS 2022 (season 3)
         subhead: 'Jul 8 - 27, 2022'
@@ -474,6 +485,7 @@ blocks:
         label: ''
         headline: Metaverse Hackathon
         subhead: 'Apr 20 - Jun 20, 2022'
+        text: ''
         link: 'https://kencloud.com/hack.html'
         buttonLabel: View event
       - image:
