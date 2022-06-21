@@ -116,16 +116,6 @@ blocks:
     items:
       - image:
           src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655805027/hackathons/Screen_Shot_2022-06-21_at_1.49.53_PM_lv1uq2.png
-        headline: Web3 Infinity Hackathon | FIL Singapore
-        subhead: 'Jul 1 - Aug 16, 2022'
-        text: >
-          Get an opportunity to play a key role in the Web3.0 World, learn
-          practical skills & win bounties worth $100k+!!
-        link: 'https://hackathon.fil-singapore.io/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
         label: ''
         headline: BUIDLIT Summer 2022 Polygon
@@ -145,6 +135,16 @@ blocks:
           Filecoin」”系列课程(http://www.studycn.work/)上线后举办的中国区黑客松赛事，旨在培养全球开发者以及初创企业发展创新性的应用、解决主要问题以及让Filecoin
           & IPFS的分布式存储和云服务成为现实。
         link: 'https://www.hackathon.city/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655805027/hackathons/Screen_Shot_2022-06-21_at_1.49.53_PM_lv1uq2.png
+        headline: Web3 Infinity Hackathon | FIL Singapore
+        subhead: 'Jul 1 - Aug 16, 2022'
+        text: >
+          Get an opportunity to play a key role in the Web3.0 World, learn
+          practical skills & win bounties worth $100k+!!
+        link: 'https://hackathon.fil-singapore.io/'
         buttonLabel: Learn more and Register
       - image:
           src: >-
