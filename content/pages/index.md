@@ -116,6 +116,16 @@ blocks:
     items:
       - image:
           src: >-
+            http://res.cloudinary.com/protocolai/image/upload/v1655805027/hackathons/Screen_Shot_2022-06-21_at_1.49.53_PM_lv1uq2.png
+        headline: Web3 Infinity Hackathon | FIL Singapore
+        subhead: 'Jul 1 - Aug 16, 2022'
+        text: >
+          Get an opportunity to play a key role in the Web3.0 World, learn
+          practical skills & win bounties worth $100k+!!
+        link: 'https://hackathon.fil-singapore.io/'
+        buttonLabel: Learn more and Register
+      - image:
+          src: >-
             http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
         label: ''
         headline: BUIDLIT Summer 2022 Polygon
