@@ -1,6 +1,7 @@
 import React from "react";
 import type { Pages, Global } from "../.tina/__generated__/types";
 import { Cards } from "./blocks/cards";
+import { EventCards } from "./blocks/event-cards";
 import { Feature } from "./blocks/feature";
 import { Banner } from "./blocks/banner";
 import { Embed } from "./blocks/embed";
@@ -43,7 +44,7 @@ export const Blocks = (props: any ) => {
               case "PagesBlocksEventCards":
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
-                    <Cards data={block} parentField={`blocks.${i}`} events={props.events} />
+                    <EventCards data={block} parentField={`blocks.${i}`} events={props.events} />
                   </div>
                 );
               case "PagesBlocksEmbed":

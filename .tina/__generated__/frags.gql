@@ -701,6 +701,8 @@ fragment EventParts on Event {
     src
     alt
   }
+  startDate
+  endDate
   label
   headline
   subhead

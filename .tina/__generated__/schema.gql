@@ -903,6 +903,8 @@ type EventImage {
 type Event {
   status: String
   image: EventImage
+  startDate: String
+  endDate: String
   label: String
   headline: String
   subhead: String
@@ -1745,6 +1747,8 @@ input EventImageMutation {
 input EventMutation {
   status: String
   image: EventImageMutation
+  startDate: String
+  endDate: String
   label: String
   headline: String
   subhead: String

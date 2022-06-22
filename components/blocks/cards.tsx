@@ -15,7 +15,7 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
       <div>
         {data.image && (
           <img
-            alt={data.image.alt}
+            alt={data.image.alt || data.headline}
             src={data.image.src}
             className={`w-full ${cardstyle?.imageStyles}`}
             data-tinafield={`${parentField}.${index}.image`}
@@ -42,11 +42,11 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
         )}
         {data.link && data.buttonLabel && (
           <Buttons buttons={[{
+            textColor: cardstyle?.textColor,
+            buttonFillStyles: cardstyle?.buttonFillStyles,
+            backgroundColor: cardstyle?.backgroundColor,
             link: data.link,
             label: data.buttonLabel,
-            textColor: cardstyle?.buttonType === 'link' ? cardstyle?.accentColor : cardstyle?.buttonTextColor,
-            backgroundColor: data.accentColor ? data.accentColor : cardstyle?.accentColor,
-            buttonFillStyles: cardstyle?.buttonFillStyles,
             type: cardstyle?.buttonType
           }]} className="absolute bottom-4"  data-tinafield={`${parentField}.${index}.link`} />
         )}
@@ -59,37 +59,12 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
   );
 };
 
-export const Cards = ({ data, parentField = "", events = null }) => {
-  const isEventCards = events ? true : false
-  const items = isEventCards ?
-  events?.getEventList?.edges?.filter(item => item.node?.data?.status === data.status).map(item => {
-    return {
-      image: item.node.data.image,
-      label: item.node.data.label,
-      headline: item.node.data.headline,
-      subhead: item.node.data.subhead,
-      text: item.node.data.text,
-      link: item.node.data.link,
-      buttonLabel: item.node.data.buttonLabel,  
-    }
-  }) :
-  data.items?.map(item => {
-    return {
-      image: item.image,
-      label: item.label,
-      headline: item.headline,
-      subhead: item.subhead,
-      text: item.text,
-      link: item.link,
-      buttonLabel: item.buttonLabel,  
-    }
-  })
+export const Cards = ({ data, parentField = "" }) => {
   return (
-
     <CardGrid data={data} parentField={parentField} children={(
-      items &&
-        items.map(function (item, index) {
-          return <Card key={index} index={index} data={item} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
+      data.items &&
+        data.items.map(function (block, index) {
+          return <Card key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>
   );

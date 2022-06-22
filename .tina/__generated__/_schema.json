@@ -11378,6 +11378,12 @@
           "label": "Image",
           "name": "image",
           "type": "object",
+          "ui": {
+            "defaultItem": {
+              "src": "",
+              "alt": ""
+            }
+          },
           "fields": [
             {
               "label": "Image Source",
@@ -11406,6 +11412,30 @@
           "namespace": [
             "event",
             "image"
+          ]
+        },
+        {
+          "type": "datetime",
+          "label": "Start Date",
+          "name": "startDate",
+          "ui": {
+            "dateFormat": "DD MM YYYY"
+          },
+          "namespace": [
+            "event",
+            "startDate"
+          ]
+        },
+        {
+          "type": "datetime",
+          "label": "End Date",
+          "name": "endDate",
+          "ui": {
+            "dateFormat": "DD MM YYYY"
+          },
+          "namespace": [
+            "event",
+            "endDate"
           ]
         },
         {

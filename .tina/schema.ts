@@ -345,6 +345,12 @@ export default defineSchema({
           label: "Image",
           name: "image",
           type: "object",
+          ui: {
+            defaultItem: {
+              src: "",
+              alt: "",
+            }
+          },
           fields: [
             {
               label: "Image Source",
@@ -360,6 +366,22 @@ export default defineSchema({
               type: "string",
             },
           ],
+        },
+        {
+          type: "datetime",
+          label: "Start Date",
+          name: "startDate",
+          ui: {
+            dateFormat: "DD MM YYYY" // eg 'YYYY MM DD'
+          }
+        },
+        {
+          type: "datetime",
+          label: "End Date",
+          name: "endDate",
+          ui: {
+            dateFormat: "DD MM YYYY" // eg 'YYYY MM DD'
+          }
         },
         {
           type: "string",
@@ -402,7 +424,7 @@ const apiURL =
   process.env.NODE_ENV == "development"
     ? "http://localhost:4001/graphql"
     : `https://content.tinajs.io/content/${process.env.NEXT_PUBLIC_TINA_CLIENT_ID}/github/${branch}`;
-
+ 
 export const tinaConfig = defineConfig({
   apiURL,
   mediaStore: async () => {
@@ -420,18 +442,13 @@ export const tinaConfig = defineConfig({
      */
     import("tinacms").then(({ RouteMappingPlugin }) => {
       const RouteMapping = new RouteMappingPlugin((collection, document) => {
-        if (["event", "global"].includes(collection.name)) {
-          return undefined;
-        }
         if (["pages"].includes(collection.name)) {
-          if (document.sys.filename === "home") {
-            return `/`;
-          } if (document.sys.filename) {
+          if (document.sys.filename) {
             return `/${document.sys.filename}`;
           }
           return undefined;
         }
-        return `/${collection.name}/${document.sys.filename}`;
+        return undefined;
       });
       cms.plugins.add(RouteMapping);
     });
