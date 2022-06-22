@@ -2,7 +2,9 @@
 status: archived
 image:
   src: http://res.cloudinary.com/protocolai/image/upload/v1653655498/Screen_Shot_2022-05-27_at_6.14.28_PM_j9v5lf.png
-  alt: 
+  alt: ' '
+startDate: '2022-04-29T05:00:00.000Z'
+endDate: '2022-05-03T05:00:00.000Z'
 headline: World Innovation Day 2022
 subhead: Apr 29 - May 03, 2022
 text: 

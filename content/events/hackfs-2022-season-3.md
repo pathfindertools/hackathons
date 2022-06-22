@@ -2,7 +2,9 @@
 status: current
 image:
   src: http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
-  alt: 
+  alt: ' '
+startDate: '2022-07-08T05:00:00.000Z'
+endDate: '2022-07-27T05:00:00.000Z'
 headline: HackFS 2022 Season 3
 subhead: Jul 8 - 27, 2022
 text: "Build the foundation for the decentralized web. A Hackathon by ETHGlobal and Protocol Labs."

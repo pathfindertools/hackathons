@@ -1,9 +1,11 @@
 ---
-status: current
+status: archived
 image:
   src: >-
     http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
   alt: Block Jam 2022
+startDate: '2022-06-18T05:00:00.000Z'
+endDate: '2022-07-04T05:00:00.000Z'
 headline: BlockJam2022
 subhead: 'Jun 18-Jul 4, 2022'
 text: >
