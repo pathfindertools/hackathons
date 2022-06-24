@@ -1,5 +1,4 @@
 ---
-status: archived
 image:
   src: >-
     http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
@@ -12,6 +11,5 @@ text: >
   excite traditional game developers about how blockchain can take their games
   to the next level. Over $50,000 up for grabs in bounties!
 link: 'https://globalblockjam.com/'
-buttonLabel: Learn more and Register
 ---
 

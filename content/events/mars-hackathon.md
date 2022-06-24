@@ -1,5 +1,4 @@
 ---
-status: archived
 image:
   src: https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
   alt: ' '
@@ -8,5 +7,4 @@ endDate: '2021-11-06T05:00:00.000Z'
 headline: Mars Hackathon
 text: 
 link: https://www.marshackathon2021.com/
-buttonLabel: View event
 ---

@@ -1,5 +1,4 @@
 ---
-status: archived
 image:
   src: http://res.cloudinary.com/protocolai/image/upload/v1637618242/Home/nft-hack_hgtmay_rwonbm.png
   alt: ' '
@@ -8,5 +7,4 @@ endDate: '2021-11-28T05:00:00.000Z'
 headline: NFT Hack with Filecoin
 text: 
 link: https://www.encode.club/nft-hack
-buttonLabel: View event
 ---
