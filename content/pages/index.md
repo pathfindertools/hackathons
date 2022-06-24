@@ -127,7 +127,7 @@ blocks:
   - style:
       alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-24 pb-24 pr-0 pl-10 sm:pt-9 sm:pb-10 sm:pr-10 sm:pl-10'
+      padding: 'pt-24 pb-24 pr-10 pl-10 sm:pt-9 sm:pb-10 sm:pr-10 sm:pl-10'
       featureImage: 'object-center object-scale-down '
       imagePadding: 'pt-10 pb-10 pr-10 undefined sm:pt-10 sm:pb-0 sm:pr-20 sm:pl-20'
       labelStyles: 'text-black undefined text-base undefined '
