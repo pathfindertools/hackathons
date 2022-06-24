@@ -7630,7 +7630,7 @@ json5@^2.1.2:
 jsonfile@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
-  integrity sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==
+  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
 
@@ -8845,10 +8845,10 @@ next-svgr@^0.0.2:
   dependencies:
     "@svgr/webpack" "^4.3.0"
 
-next-tinacms-cloudinary@3.4.3:
-  version "3.4.3"
-  resolved "https://registry.yarnpkg.com/next-tinacms-cloudinary/-/next-tinacms-cloudinary-3.4.3.tgz#cbeed12a6f9092404c8ad10013dc00166f60d864"
-  integrity sha512-8nvY5l+kA0Yg3Wcpm88N7ByqGfJtSAE7nwp9XZC9RoXq3ZlIpv0npR01IqINZ9U6u8THcudVBLhf2Wi2Hw4xNg==
+next-tinacms-cloudinary@3.5.11:
+  version "3.5.11"
+  resolved "https://registry.yarnpkg.com/next-tinacms-cloudinary/-/next-tinacms-cloudinary-3.5.11.tgz#16b88faf6631569cb43a3aba7b26b9947cf39bbe"
+  integrity sha512-C/LBbqtWyIcCZHvl8ymGYYP+cyJnE7/h01e1ro9l2glU9Eoh0eLYVo1QRVWNR5EEhe6PMvR2fp6FzK1mOOLGOA==
   dependencies:
     cloudinary "^1.25.2"
     multer "^1.4.2"
@@ -9154,7 +9154,7 @@ os-browserify@0.3.0:
 os-tmpdir@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/os-tmpdir/-/os-tmpdir-1.0.2.tgz#bbe67406c79aa85c5cfec766fe5734555dfa1274"
-  integrity sha512-D2FR03Vir7FIu45XBY20mTb+/ZSWB00sjU9jdQXt83gDrI4Ztz5Fs7/yy74g2N5SVQY4xY1qDr4rNddwYRVX0g==
+  integrity sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
 
 p-finally@^1.0.0:
   version "1.0.0"

@@ -4,7 +4,7 @@ blocks:
   - style:
       textAlignment: text-center
       minHeight: min-h-0
-      padding: pt-24 pb-5 pr-10 pl-10
+      padding: pt-24 pb-0 pr-10 pl-10
       width: narrow
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: 'text-primary undefined text-5xl mb-10 '
@@ -27,15 +27,11 @@ blocks:
     buttons:
       - label: Subscribe to our mailing list
         link: 'http://eepurl.com/hSf2nv'
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
     _template: banner
   - background:
       fillStyles: bg-black
@@ -44,7 +40,7 @@ blocks:
     subhead: ''
     body: ''
     items:
-      - label: Why we do hackathons
+      - label: Why join a hackathon
         video: ckKDv6iY0pQ
     _template: modals
   - style:
@@ -67,9 +63,7 @@ blocks:
       headlineStyles: text-white undefined text-xl mb-0 font-bold
       subheadStyles: 'text-gray undefined text-base mb-4 '
       textStyles: 'text-white undefined text-base mb-0 '
-      buttonType: outline
-      buttonFillStyles: bg-black
-      buttonTextColor: white
+      buttonType: whiteOutline
     background:
       fillStyles: bg-black
     label: ''
@@ -77,6 +71,7 @@ blocks:
     subhead: ''
     body: ''
     status: current
+    navigationLabel: Current & Upcoming
     _template: eventCards
   - style:
       alignment: 'flex-row text-left items-start '
@@ -112,31 +107,20 @@ blocks:
     buttons:
       - label: 'Get started with IPFS and Filecoin '
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
       - label: ' Join the Community Office Hours*'
         link: 'https://bitly.protocol.ai/Community-Office-Hours'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
       - label: '*Thursdays 2.00 pm UTC / 6.00 pm Eastern'
         link: ''
-        type: link
-        textColor: white
-        backgroundColor: primary
+        type: minor
       - label: ' Schedule a 15-minute 1:1 call'
         link: 'https://bitly.protocol.ai/3txOYHL'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
     navigationLabel: Start Building
     _template: feature
   - style:
-      alignment: 'flex-row-reverse text-left items-start '
+      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
       padding: pt-24 pb-24 pr-0 pl-10
       featureImage: 'object-center object-contain '
@@ -162,9 +146,7 @@ blocks:
     buttons:
       - label: Click here to explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
-        type: outline
-        textColor: ''
-        backgroundColor: accent1
+        type: blackOutline
     navigationLabel: Hall of Fame
     _template: feature
   - style:
@@ -188,7 +170,6 @@ blocks:
       subheadStyles: 'text-gray-light undefined undefined mb-3 '
       textStyles: 'text-white undefined undefined undefined '
       buttonType: link
-      buttonTextColor: primary
     background:
       fillStyles: bg-black
     label: ''
@@ -223,7 +204,7 @@ blocks:
     navigationLabel: Post-hackathon Opportunities
     _template: photoCards
   - style:
-      textAlignment: text-right
+      textAlignment: text-center
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-10 pl-10
       width: normal
@@ -242,14 +223,10 @@ blocks:
       - label: Read FAQs about our Hackathons Judging Criteria
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
       - label: You have a hackathon proposal? Contact us!
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
     _template: banner
   - style:
       textAlignment: text-left
@@ -268,12 +245,10 @@ blocks:
       type: solid
       imageStyles: ' undefined undefined undefined'
       labelStyles: 'text-white undefined text-sm mb-0 '
-      headlineStyles: text-white undefined text-xl mb-0 font-bold
-      subheadStyles: 'text-gray undefined text-base mb-4 '
+      headlineStyles: text-white undefined text-lg mb-0 font-bold
+      subheadStyles: 'text-gray undefined text-sm mb-4 '
       textStyles: 'text-white undefined text-base mb-0 '
-      buttonType: outline
-      buttonFillStyles: bg-black
-      buttonTextColor: white
+      buttonType: whiteOutline
     background:
       fillStyles: bg-black
     label: ''
@@ -281,6 +256,7 @@ blocks:
     subhead: ''
     body: ''
     status: archived
+    navigationLabel: Past Events
     _template: eventCards
 meta:
   pageTitle: Hackathons

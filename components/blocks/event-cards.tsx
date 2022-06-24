@@ -45,12 +45,12 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
     
     return {
       image: item.node.data.image,
-      label: item.node.data.label,
+      label: '',
       headline: item.node.data.headline,
       subhead: subhead,
       text: data.status === 'current' ? item.node.data.text : '',
       link: item.node.data.link,
-      buttonLabel: item.node.data.buttonLabel,  
+      buttonLabel: data.status === 'current' ? 'Learn More & Register' : 'View Event'
     }
   })
   data.items = items;

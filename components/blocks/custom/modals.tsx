@@ -46,7 +46,7 @@ export const Modals = ({ data, parentField = "" }) => {
           labelStyles="text-white text-center text-sm"
           headlineStyles="text-white text-center text-xl font-2 font-bold"
           subheadStyles="text-white text-center text-lg"
-          textStyles="text-white text-center text-md font-1 mb-8"
+          textStyles="text-white text-center text-md font-1 mb-2"
           width="w-full"
           parentField={parentField}
           alignment={undefined}

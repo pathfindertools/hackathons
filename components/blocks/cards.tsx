@@ -2,7 +2,7 @@ import { TinaMarkdown } from "tinacms/dist/rich-text";
 import { Buttons } from "../buttons";
 import { CardGrid } from "../card-grid";
 
-const Card = ({ data, index, cardstyle, parentField = "" }) => {
+const Card = ({ data, index, cardstyle, parentField = ""  }) => {
   const wrapClasses =  data.link && data.buttonLabel ? 'pb-20' : '';
   const backgroundClasses = {
     solid: `${cardstyle?.fillStyles}`,
@@ -12,12 +12,12 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <div>
+      <div className="relative w-full" style={{paddingTop: '56%'}}>
         {data.image && (
           <img
             alt={data.image.alt || data.headline}
             src={data.image.src}
-            className={`w-full ${cardstyle?.imageStyles}`}
+            className={`absolute inset-0 h-full w-full object-cover`}
             data-tinafield={`${parentField}.${index}.image`}
           />
         )}
@@ -42,9 +42,6 @@ const Card = ({ data, index, cardstyle, parentField = "" }) => {
         )}
         {data.link && data.buttonLabel && (
           <Buttons buttons={[{
-            textColor: cardstyle?.textColor,
-            buttonFillStyles: cardstyle?.buttonFillStyles,
-            backgroundColor: cardstyle?.backgroundColor,
             link: data.link,
             label: data.buttonLabel,
             type: cardstyle?.buttonType

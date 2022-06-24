@@ -1,9 +1,7 @@
 import type { TinaTemplate } from "@tinacms/cli";
 import { backgroundSchema } from "./shared/background";
-import { buttonsSchema } from "./shared/buttons";
 import { cardsSchema } from "./shared/cards";
 import { navigationLabelSchema } from "./shared/navigation-label";
-import { colorOptions } from "./shared/options"
 
 export const eventCardsBlockSchema: TinaTemplate = {
   name: "eventCards",
@@ -153,27 +151,12 @@ export const eventCardsBlockSchema: TinaTemplate = {
             component: "selectField",
           },
           options: [
-            { label: "Solid", value: "solid" },
-            { label: "Outline", value: "outline" },
-            { label: "Link", value: "link" },
+            { label: "Primary", value: "primary" },
+            { label: "Secondary", value: "secondary" },
+            { label: "Minor", value: "minor" },
+            { label: "Black Outline", value: "blackOutline" },
+            { label: "White Outline", value: "whiteOutline" },
           ],
-        },
-        {
-          type: "string",
-          label: "Background",
-          name: "buttonFillStyles",
-          ui: {
-            component: "fillControl"
-          }
-        },
-        {
-          label: "Button Text Color",
-          name: "buttonTextColor",
-          type: "string",
-          ui: {
-            component: "selectField",
-          },
-          options: colorOptions,
         },
       ],
     },
@@ -198,7 +181,42 @@ export const eventCardsBlockSchema: TinaTemplate = {
       name: "body",
       type: "rich-text",
     },
-    buttonsSchema,
+    {
+      type: "object",
+      label: "Buttons",
+      name: "buttons",
+      list: true,
+      ui: {
+        component: 'itemListField',
+        defaultItem: {
+          label: "Button Label",
+          link: "/",
+          type: "primary",
+        },
+      },
+      fields: [
+        {
+          label: "Link",
+          name: "link",
+          type: "string",
+        },
+        {
+          label: "Type",
+          name: "type",
+          type: "string",
+          ui: {
+            component: "select",
+          },
+          options: [
+            { label: "Primary", value: "primary" },
+            { label: "Secondary", value: "secondary" },
+            { label: "Minor", value: "minor" },
+            { label: "Black Outline", value: "blackOutline" },
+            { label: "White Outline", value: "whiteOutline" },
+          ],
+        },
+      ],
+    },
     {
       type: "string",
       label: "Status",
