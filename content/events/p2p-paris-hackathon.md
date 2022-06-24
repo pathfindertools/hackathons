@@ -6,7 +6,6 @@ image:
 startDate: '2022-04-27T05:00:00.000Z'
 endDate: '2022-05-01T05:00:00.000Z'
 headline: P2P Paris Hackathon
-subhead: Apr 27 - May 01, 2022
 text: 
 link: https://p2p.paris/en/
 buttonLabel: View event

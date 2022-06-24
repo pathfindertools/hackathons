@@ -6,7 +6,6 @@ image:
 startDate: '2021-10-22T05:00:00.000Z'
 endDate: '2021-10-24T05:00:00.000Z'
 headline: Cal Hacks 8.0
-subhead: 2021, Oct 22-24
 text: 
 link: https://calhacks.io/
 buttonLabel: View event

@@ -6,7 +6,6 @@ image:
 startDate: '2022-04-22T05:00:00.000Z'
 endDate: '2022-05-27T05:00:00.000Z'
 headline: Chainlink Spring 22
-subhead: Apr 22 - May 27, 2022
 text: 
 link: https://chain.link/hackathon
 buttonLabel: View event

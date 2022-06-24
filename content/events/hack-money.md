@@ -6,7 +6,6 @@ image:
 startDate: '2022-05-06T05:00:00.000Z'
 endDate: '2022-05-27T05:00:00.000Z'
 headline: Hack Money
-subhead: May 06-27, 2022
 text: 
 link: https://hackathon.money/
 buttonLabel: View event

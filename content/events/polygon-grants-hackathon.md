@@ -6,7 +6,6 @@ image:
 startDate: '2021-08-30T05:00:00.000Z'
 endDate: '2021-12-30T05:00:00.000Z'
 headline: Polygon Grants Hackathon
-subhead: 2021, Aug 30 - Dec 30
 text: 
 link: https://www.polygongrantshackathon.com/
 buttonLabel: View Event

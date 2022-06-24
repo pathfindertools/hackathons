@@ -6,7 +6,6 @@ image:
 startDate: '2022-03-04T05:00:00.000Z'
 endDate: '2022-03-16T05:00:00.000Z'
 headline: BuildQuest 2022 ETHGlobal
-subhead: 2022, Mar 04-16
 text: 
 link: https://buildquest.ethglobal.com/
 buttonLabel: View event

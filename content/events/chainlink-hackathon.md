@@ -6,7 +6,6 @@ image:
 startDate: '2021-10-22T05:00:00.000Z'
 endDate: '2021-11-28T05:00:00.000Z'
 headline: Chainlink Hackathon
-subhead: 2021, Oct 22 - Nov 28
 text: 
 link: https://chain.link/hackathon
 buttonLabel: View event

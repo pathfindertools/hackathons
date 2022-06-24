@@ -6,7 +6,6 @@ image:
 startDate: '2022-02-11T05:00:00.000Z'
 endDate: '2022-03-21T05:00:00.000Z'
 headline: ETHDenver 2022
-subhead: 2022, Feb 11 - Mar 21
 text: 
 link: www.ethdenver.com
 buttonLabel: View event

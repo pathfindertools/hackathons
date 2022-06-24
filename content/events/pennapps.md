@@ -6,7 +6,6 @@ image:
 startDate: '2021-09-01T05:00:00.000Z'
 endDate: '2021-09-30T05:00:00.000Z'
 headline: PennApps
-subhead: 2021, September
 text: 
 link: https://2021f.pennapps.com/
 buttonLabel: View event

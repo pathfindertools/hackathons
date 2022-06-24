@@ -6,7 +6,6 @@ image:
 startDate: '2022-04-08T05:00:00.000Z'
 endDate: '2022-04-10T05:00:00.000Z'
 headline: DAOHacks
-subhead: 2022, Apr 08-10
 text: 
 link: https://dao.ethglobal.com/
 buttonLabel: View event

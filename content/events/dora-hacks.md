@@ -6,7 +6,6 @@ image:
 startDate: '2021-05-01T05:00:00.000Z'
 endDate: '2021-07-31T05:00:00.000Z'
 headline: Dora Hacks
-subhead: 2021, May - July
 text: 
 link: https://events.protocol.ai/2021/dorahacks/
 buttonLabel: View event

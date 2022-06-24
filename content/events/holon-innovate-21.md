@@ -6,7 +6,6 @@ image:
 startDate: '2021-11-09T05:00:00.000Z'
 endDate: '2021-11-25T05:00:00.000Z'
 headline: Holon Innovate '21
-subhead: 2021, Nov 09-25
 text: 
 link: https://taikai.network/en/holon/challenges/holon-innovate
 buttonLabel: View event

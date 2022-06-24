@@ -6,7 +6,6 @@ image:
 startDate: '2022-05-02T05:00:00.000Z'
 endDate: '2022-05-22T05:00:00.000Z'
 headline: Gitcoin L2 Rollathon
-subhead: May 02-22, 2022
 text: 
 link: https://gitcoin.co/hackathon/Rollathon/onboard
 buttonLabel: View event
