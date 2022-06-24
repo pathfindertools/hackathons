@@ -56,11 +56,12 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
   );
 };
 
-export const Cards = ({ data, parentField = "" }) => {
+export const Cards = ({ data, events, parentField = "" }) => {
+  const items = events || data.items
   return (
     <CardGrid data={data} parentField={parentField} children={(
-      data.items &&
-        data.items.map(function (block, index) {
+      items &&
+        items.map(function (block, index) {
           return <Card key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>

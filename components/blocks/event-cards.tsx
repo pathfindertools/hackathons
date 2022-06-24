@@ -3,7 +3,6 @@ import { Cards } from "./cards";
 export const EventCards = ({ data, parentField = "", events = null }) => {
   const currentDate = new Date()
 
-  console.log(data)
   const filteredItems = events?.getEventList?.edges?.filter(item => {
     const endString = item?.node?.data?.endDate
     const endStringTimeCorrected = `${endString.substr(0, endString.indexOf('T'))}T23:59:59.000Z`;
@@ -53,8 +52,8 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
       buttonLabel: data.status === 'current' ? 'Learn More & Register' : 'View Event'
     }
   })
-  data.items = items;
+
   return (
-    <Cards data={data} parentField={parentField} />
+    <Cards data={data} events={items} parentField={parentField} />
   );
 };
