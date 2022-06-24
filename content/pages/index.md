@@ -2,31 +2,19 @@
 draft: true
 blocks:
   - style:
-      alignment: flex-row-reverse text-left items-center
-      featureContent: w-1/2 min-h-0
-      padding: pt-20 pb-20 pr-10 pl-20
-      featureImage: object-center object-scale-down
-      imagePadding: pt-20 pb-20 pr-20 pl-10
-      labelStyles: text-black font-1 text-sm mb-0
-      headlineStyles: text-black font-1 text-5xl mb-0
-      subheadStyles: text-black font-1 text-3xl mb-0
-      textStyles: text-black font-1 text-md mb-0
-      contentOrder: labelHeadingsContent
-    label: ''
-    headline: This is the main headline
-    subhead: Here is a subhead
-    body: |
-      This is a rich text component you can add hyperlinks, etc.
-    _template: feature
-  - style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: pt-24 pb-0 pr-10 pl-10
-      width: narrow
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-5xl mb-10 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined text-xl mb-8 '
+      alignment: 'flex-col text-center items-center items-center-vertical '
+      featureContent: 'w-3/4 min-h-0 '
+      padding: pt-10 pb-0 pr-10 pl-10
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-40 pb-0 pr-10 pl-10 sm:pt-20 sm:pb-0 sm:pr-10 sm:pl-10'
+      labelStyles: 'text-white font-1 text-2xl mb-0 '
+      headlineStyles: >-
+        text-primary font-1 text-4xl mb-10  sm:text-primary sm:font-1
+        sm:text-3xl sm:mb-10 
+      subheadStyles: 'text-gray-light font-1 text-3xl mb-0 '
+      textStyles: >-
+        text-white font-1 text-xl mb-10  sm:text-white sm:font-1 sm:text-lg
+        sm:mb-10 
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
@@ -49,7 +37,7 @@ blocks:
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
         type: secondary
-    _template: banner
+    _template: feature
   - background:
       fillStyles: bg-black
     label: ''
@@ -91,11 +79,11 @@ blocks:
     navigationLabel: Current & Upcoming
     _template: eventCards
   - style:
-      alignment: 'flex-row text-left items-start '
+      alignment: 'flex-row text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-10 pb-10 pr-5 pl-10
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-10 pb-10 pr-5 pl-10 sm:pt-0 sm:pb-0 sm:pr-32 sm:pl-32'
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: 'text-white undefined text-5xl mb-5 '
       subheadStyles: 'text-white undefined undefined undefined '
@@ -137,11 +125,11 @@ blocks:
     navigationLabel: Start Building
     _template: feature
   - style:
-      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: pt-24 pb-24 pr-0 pl-10
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-5 pb-5 undefined undefined
+      padding: 'pt-24 pb-24 pr-0 pl-10 sm:pt-9 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-10 pb-10 pr-10 undefined sm:pt-10 sm:pb-0 sm:pr-20 sm:pl-20'
       labelStyles: 'text-black undefined text-base undefined '
       headlineStyles: 'text-black undefined text-5xl mb-5 '
       subheadStyles: 'text-black undefined undefined undefined '
@@ -181,12 +169,11 @@ blocks:
       fillStyles: bg-accent1
       padding: pt-5 pb-5 pr-5 pl-5
       type: solid
-      imageStyles: ' undefined undefined undefined'
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: text-white undefined text-2xl mb-1.5 font-bold
       subheadStyles: 'text-gray-light undefined undefined mb-3 '
       textStyles: 'text-white undefined undefined undefined '
-      buttonType: link
+      buttonType: primary
     background:
       fillStyles: bg-black
     label: ''
@@ -219,7 +206,7 @@ blocks:
           Board](https://bitly.protocol.ai/3KNG27i)
         link: ''
     navigationLabel: Post-hackathon Opportunities
-    _template: photoCards
+    _template: textCards
   - style:
       textAlignment: text-center
       minHeight: min-h-0

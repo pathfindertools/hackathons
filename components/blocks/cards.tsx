@@ -12,7 +12,7 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <div className="relative w-full" style={{paddingTop: '56%'}}>
+      <div className="relative w-full" style={data.image && {paddingTop: '56%'}}>
         {data.image && (
           <img
             alt={data.image.alt || data.headline}
