@@ -2,14 +2,19 @@
 draft: true
 blocks:
   - style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: pt-24 pb-5 pr-10 pl-10
-      width: narrow
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-5xl mb-10 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined text-xl mb-8 '
+      alignment: 'flex-col text-center items-center items-center-vertical '
+      featureContent: 'w-3/4 min-h-0 '
+      padding: pt-10 pb-0 pr-10 pl-10
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-40 pb-0 pr-10 pl-10 sm:pt-20 sm:pb-0 sm:pr-10 sm:pl-10'
+      labelStyles: 'text-white font-1 text-2xl mb-0 '
+      headlineStyles: >-
+        text-primary font-1 text-4xl mb-10  sm:text-primary sm:font-1
+        sm:text-3xl sm:mb-10 
+      subheadStyles: 'text-gray-light font-1 text-3xl mb-0 '
+      textStyles: >-
+        text-white font-1 text-xl mb-10  sm:text-white sm:font-1 sm:text-lg
+        sm:mb-10 
       contentOrder: labelHeadingsContent
     background:
       fillStyles: bg-black
@@ -27,16 +32,12 @@ blocks:
     buttons:
       - label: Subscribe to our mailing list
         link: 'http://eepurl.com/hSf2nv'
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
-        type: outline
-        textColor: white
-        backgroundColor: primary
-    _template: banner
+        type: secondary
+    _template: feature
   - background:
       fillStyles: bg-black
     label: ''
@@ -48,238 +49,41 @@ blocks:
         video: ckKDv6iY0pQ
     _template: modals
   - style:
-      minHeight: min-h-0
-      fullWidth: false
-      padding: pt-0 pb-0 pr-0 pl-0
-    background:
-      fillStyles: bg-black
-    markup: |+
-      <script>
-      const myFunction = () => {
-        document.getElementById("demo").innerHTML = "Hello World";
-      }
-      </script>
-
-      <div class="hidden fixed inset-0 z-50" onclick="myFunction()">
-        <div class="absolute inset-0 bg-accent1 opacity-95"></div>
-        <div class="max-w-desktop-full w-full p-20 sm:px-4 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <button class="absolute top-8 right-8 height-6 width-6">
-            <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M0.67172 0.67172C1.08194 0.261627 1.63824 0.03125 2.21828 0.03125C2.79833 0.03125 3.35463 0.261627 3.76485 0.67172L11.4998 8.40672L19.2348 0.67172C19.6474 0.273249 20.2 0.0527618 20.7735 0.0577458C21.3471 0.0627299 21.8957 0.292787 22.3013 0.698367C22.7069 1.10395 22.937 1.6526 22.9419 2.22616C22.9469 2.79971 22.7264 3.35228 22.328 3.76485L14.593 11.4998L22.328 19.2348C22.7264 19.6474 22.9469 20.2 22.9419 20.7735C22.937 21.3471 22.7069 21.8957 22.3013 22.3013C21.8957 22.7069 21.3471 22.937 20.7735 22.9419C20.2 22.9469 19.6474 22.7264 19.2348 22.328L11.4998 14.593L3.76485 22.328C3.35228 22.7264 2.79971 22.9469 2.22616 22.9419C1.6526 22.937 1.10395 22.7069 0.698367 22.3013C0.292787 21.8957 0.0627299 21.3471 0.0577458 20.7735C0.0527618 20.2 0.273249 19.6474 0.67172 19.2348L8.40672 11.4998L0.67172 3.76485C0.261627 3.35463 0.03125 2.79833 0.03125 2.21828C0.03125 1.63824 0.261627 1.08194 0.67172 0.67172Z"
-                fill="#FF7E7E" />
-            </svg>
-          </button>
-          <div class="flex flex-col">
-            <div class="markdown items-center">
-              <div class="mx-auto max-w-full">
-                <div class="relative height-0" style="padding-bottom: 56.25%;">
-                  <iframe src="https://www.youtube.com/embed/ckKDv6iY0pQ" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-    _template: embed
-  - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-20 pb-10 pr-10 pl-10
+      padding: pt-20 pb-20 pr-10 pl-10
       contentWidth: w-full
       columns: '3'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-3xl mb-9 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined undefined undefined '
+      labelStyles: 'text-primary font-sans text-sm mb-0 '
+      headlineStyles: 'text-primary font-sans text-3xl mb-10 '
+      subheadStyles: 'text-primary font-sans text-3xl mb-0 '
+      textStyles: 'text-primary font-sans undefined mb-0 '
       contentOrder: labelHeadingsContent
     cardStyle:
       fillStyles: from-accent1 to-black bg-gradient-to-r
-      padding: pt-5 pb-5 pr-5 pl-5
-      type: fadeH
-      imageStyles: ' object-cover undefined undefined'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: text-white undefined text-xl undefined font-bold
-      subheadStyles: 'text-gray undefined undefined mb-4 '
-      textStyles: 'text-white undefined undefined undefined '
-      buttonType: outline
-      buttonTextColor: white
+      padding: pt-4 pb-4 pr-4 pl-4
+      type: solid
+      imageStyles: ' undefined undefined undefined'
+      labelStyles: 'text-white undefined text-sm mb-0 '
+      headlineStyles: text-white undefined text-xl mb-0 font-bold
+      subheadStyles: 'text-gray undefined text-base mb-4 '
+      textStyles: 'text-white undefined text-base mb-0 '
+      buttonType: whiteOutline
     background:
       fillStyles: bg-black
+    label: ''
     headline: Current & Upcoming Events
     subhead: ''
     body: ''
-    items:
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653656057/ETHNEWYORK_Filecoin_yw3fei.png
-        headline: ETHNewYork
-        subhead: 'Jun 24 - 26, 2022'
-        text: >
-          New York's premier blockchain hackathon is back! Discover a new
-          frontier with ETHereum and build innovative projects to win bounties!
-        link: 'https://ny.ethglobal.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
-        headline: Sustainable Blockchain Hackathon
-        subhead: 'Jun 23 - Jul 18, 2022'
-        text: >
-          We want to turn sustainability into a Web3 superpower, and we need
-          your help! If you are a builder interested in laying the foundation
-          for tomorrow’s verifiably sustainable web, come join us.
-        link: 'https://gitcoin.co/hackathon/sustainable/onboard'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
-        label: ''
-        headline: BUIDLIT Summer 2022 Polygon
-        subhead: 'Jun 15 - Aug 25, 2022'
-        text: >
-          A global web3 hackathon aimed at promoting web3 development. 50k USD
-          worth of prizes available on the Filecoin track!
-        link: 'https://buidlit.polygon.technology/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655722020/Screen_Shot_2022-06-20_at_06.46.47_sh0ccu.png
-        headline: Filecoin中国区黑客松
-        subhead: 'June 20 - Jul 20, 2022'
-        text: >
-          本次比赛是继“Filecoin 分布式存储实战教程——「Coding with
-          Filecoin」”系列课程(http://www.studycn.work/)上线后举办的中国区黑客松赛事，旨在培养全球开发者以及初创企业发展创新性的应用、解决主要问题以及让Filecoin
-          & IPFS的分布式存储和云服务成为现实。
-        link: 'https://www.hackathon.city/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655806371/Hackathon_Banner_asqb4f.jpg
-        headline: Web3 Infinity Hackathon | FIL Singapore
-        subhead: 'Jul 1 - Aug 16, 2022'
-        text: >
-          Get an opportunity to play a key role in the Web3.0 World, learn
-          practical skills & win bounties worth $100k+!!
-        link: 'https://hackathon.fil-singapore.io/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653656173/Hack_FS_buju2t.png
-        headline: HackFS 2022 (season 3)
-        subhead: 'Jul 8 - 27, 2022'
-        text: >
-          Build the foundation for the decentralized web. A Hackathon by
-          ETHGlobal and Protocol Labs.
-        link: 'https://fs.ethglobal.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
-        label: ''
-        headline: FIL Toronto 3-Day Hack
-        subhead: 'July 4-6, 2022'
-        text: >
-          At this in-person event in Toronto, connect with the growing and
-          vibrant community of web3 enthusiasts and build projects that can grow
-          into the next big start-up.
-        link: 'https://fil-toronto.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
-        headline: BlockJam2022
-        subhead: 'Jun 18-Jul 4, 2022'
-        text: >
-          BlockJam is a 16-day online conference and hackathon starting to
-          educate and excite traditional game developers about how blockchain
-          can take their games to the next level. Over $50,000 up for grabs in
-          bounties!
-        link: 'https://globalblockjam.com/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655413069/hackathons/676x380_geha0x.webp
-        headline: London Reactor Meetup - Web3
-        subhead: 'Jun 29, 2022 '
-        text: >
-          Join our hackathons developer advocate team in London for a unique
-          meetup about IPFS, Filecoin and NFTs.
-        link: >-
-          https://www.meetup.com/microsoft-reactor-london/events/286612428/?_xtd=gqFyqTI2NTg0NzQyOKFwpmlwaG9uZQ&from=ref
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654252351/hackathons/1000_x_300_i34r7b.jpg
-        label: ''
-        headline: Web3athon
-        subhead: Jun 9 - Aug 31 2022
-        text: >
-          Web3athon invites coders, designers, policymakers, urban planners, and
-          artists worldwide to join this virtual hackathon. Hands-on tech
-          support and over $500k in prizes from over 17 sponsors!
-        link: 'https://web3athon.xyz/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1654181261/hackathons/image_2_mgtrkl.png
-        headline: GR14
-        subhead: 'Jun 8 - 22, 2022'
-        text: >
-          Protocol Labs is excited to host our own Gitcoin Grants Matching Round
-          to help fund open source projects in the greater Protocol Labs (IPFS /
-          Filecoin) ecosystem using Quadratic Funding.
-        link: >-
-          https://docs.google.com/document/d/1anipY2WO1mUUWHzscpVO9zayHvBWpewPf5r4HIXzQwA/edit
-        buttonLabel: Learn more
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
-        label: ''
-        headline: '''Coding with Filecoin''-Course'
-        subhead: 'May 10-July, 2022'
-        text: >
-          Filecoin 团队将推出中文的Filecoin分布式存储实战技术教程——“Coding with
-          Filecoin”，该课程将从5月10号开始，为期8周共10门课，将有来自Filecoin生态的杰出开发者进行手把手代码教学，课程结束后将进行一场为期30天、线上线下相结合的Filecoin黑客松Hackathon大赛，欢迎大家积极参与!
-        link: 'http://www.studycn.work/'
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
-          alt: CORTX Integration Challenge by Seagate and Filecoin
-        headline: CORTX & Filecoin Integration Challenge
-        subhead: 'May 06-Jul 11, 2022'
-        text: >
-          ### Change the way the world does data by connecting CORTX™— Seagate’s
-          open-source object storage software — with the tools and platforms
-          that underpin the data revolution.
-        link: >-
-          https://seagate-cortx-hackathon2022.devpost.com/?preview_token=C6N1ciySB33jxk3RKSsLDrWMfJIu4TnUW8qv8qSgIaw%3D
-        buttonLabel: Learn more and Register
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
-          alt: 'Decentralized Internet, Networks, Protocol, & Systems Workshop'
-        headline: DINPS
-        subhead: 'Jan - Jul, 2022'
-        text: >
-          The **DINPS** workshop aims to bring together researchers and
-          practitioners in the fields of decentralized systems, peer-to-peer
-          networks, and edge computing. 1st submission deadline: 2022, 5 Mar.
-        link: 'https://research.protocol.ai/sites/dinps/'
-        buttonLabel: Learn more and Register
+    status: current
     navigationLabel: Current & Upcoming
-    _template: photoCards
+    _template: eventCards
   - style:
-      alignment: 'flex-row text-left items-start '
+      alignment: 'flex-row text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-10 pb-10 pr-5 pl-10
+      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-10 pb-10 pr-5 pl-10 sm:pt-0 sm:pb-0 sm:pr-32 sm:pl-32'
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: 'text-white undefined text-5xl mb-5 '
       subheadStyles: 'text-white undefined undefined undefined '
@@ -308,35 +112,24 @@ blocks:
     buttons:
       - label: 'Get started with IPFS and Filecoin '
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
       - label: ' Join the Community Office Hours*'
         link: 'https://bitly.protocol.ai/Community-Office-Hours'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
       - label: '*Thursdays 2.00 pm UTC / 6.00 pm Eastern'
         link: ''
-        type: link
-        textColor: white
-        backgroundColor: primary
+        type: minor
       - label: ' Schedule a 15-minute 1:1 call'
         link: 'https://bitly.protocol.ai/3txOYHL'
-        type: solid
-        buttonFillStyles: bg-primary
-        textColor: white
-        backgroundColor: primary
+        type: primary
     navigationLabel: Start Building
     _template: feature
   - style:
-      alignment: 'flex-row-reverse text-left items-start '
+      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
       featureContent: 'w-1/2 min-h-0 '
-      padding: pt-24 pb-24 pr-0 pl-10
-      featureImage: 'object-center object-contain '
-      imagePadding: pt-5 pb-5 undefined undefined
+      padding: 'pt-24 pb-24 pr-10 pl-10 sm:pt-9 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: 'object-center object-scale-down '
+      imagePadding: 'pt-10 pb-10 pr-10 undefined sm:pt-10 sm:pb-0 sm:pr-20 sm:pl-20'
       labelStyles: 'text-black undefined text-base undefined '
       headlineStyles: 'text-black undefined text-5xl mb-5 '
       subheadStyles: 'text-black undefined undefined undefined '
@@ -358,9 +151,7 @@ blocks:
     buttons:
       - label: Click here to explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
-        type: outline
-        textColor: ''
-        backgroundColor: accent1
+        type: blackOutline
     navigationLabel: Hall of Fame
     _template: feature
   - style:
@@ -378,13 +169,11 @@ blocks:
       fillStyles: bg-accent1
       padding: pt-5 pb-5 pr-5 pl-5
       type: solid
-      imageStyles: ' undefined undefined undefined'
       labelStyles: 'text-white undefined undefined undefined '
       headlineStyles: text-white undefined text-2xl mb-1.5 font-bold
       subheadStyles: 'text-gray-light undefined undefined mb-3 '
       textStyles: 'text-white undefined undefined undefined '
-      buttonType: link
-      buttonTextColor: primary
+      buttonType: primary
     background:
       fillStyles: bg-black
     label: ''
@@ -424,9 +213,9 @@ blocks:
           Board](https://bitly.protocol.ai/3KNG27i)
         link: ''
     navigationLabel: Post-hackathon Opportunities
-    _template: photoCards
+    _template: textCards
   - style:
-      textAlignment: text-right
+      textAlignment: text-center
       minHeight: min-h-0
       padding: pt-10 pb-10 pr-10 pl-10
       width: normal
@@ -445,369 +234,41 @@ blocks:
       - label: Read FAQs about our Hackathons Judging Criteria
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
       - label: You have a hackathon proposal? Contact us!
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
-        type: outline
-        textColor: white
-        backgroundColor: primary
+        type: secondary
     _template: banner
   - style:
       textAlignment: text-left
       minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
+      padding: pt-20 pb-20 pr-10 pl-10
       contentWidth: w-full
       columns: '4'
-      labelStyles: 'undefined undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-4xl mb-9 '
-      subheadStyles: 'undefined undefined undefined undefined '
-      textStyles: 'undefined undefined undefined undefined '
+      labelStyles: 'text-primary font-sans text-sm mb-0 '
+      headlineStyles: 'text-primary font-sans text-3xl mb-10 '
+      subheadStyles: 'text-primary font-sans text-3xl mb-0 '
+      textStyles: 'text-primary font-sans undefined mb-0 '
       contentOrder: labelHeadingsContent
     cardStyle:
       fillStyles: from-accent1 to-black bg-gradient-to-r
-      padding: pt-5 pb-5 pr-5 pl-5
-      type: fadeH
+      padding: pt-4 pb-4 pr-4 pl-4
+      type: solid
       imageStyles: ' undefined undefined undefined'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: text-white undefined text-xl undefined font-bold
-      subheadStyles: 'text-gray-light undefined undefined mb-5 '
-      textStyles: 'text-white undefined undefined undefined '
-      buttonType: outline
-      buttonTextColor: white
+      labelStyles: 'text-white undefined text-sm mb-0 '
+      headlineStyles: text-white undefined text-lg mb-0 font-bold
+      subheadStyles: 'text-gray undefined text-sm mb-4 '
+      textStyles: 'text-white undefined text-base mb-0 '
+      buttonType: whiteOutline
     background:
       fillStyles: bg-black
+    label: ''
     headline: Past Events
+    subhead: ''
     body: ''
-    items:
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655720446/hackathons/Screen_Shot_2022-06-20_at_2.20.37_PM_iuttli.png
-        headline: Graph Hack
-        subhead: 'Jun 3-5, 2022'
-        text: ''
-        link: 'https://thegraph.com/graph-hack/2022/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1655720577/hackathons/image_ldbpld_lfnvrm.png
-        label: ''
-        headline: Metaverse Hackathon
-        subhead: 'Apr 20 - Jun 20, 2022'
-        text: ''
-        link: 'https://kencloud.com/hack.html'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653653779/Screen_Shot_2022-05-27_at_5.45.54_PM_q5fg7v.png
-        label: ''
-        headline: Chainlink Spring 22
-        subhead: 'Apr 22 - May 27, 2022'
-        text: ''
-        link: 'https://chain.link/hackathon'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653653910/Screen_Shot_2022-05-27_at_5.48.11_PM_h281ml.png
-        headline: Hack Money
-        subhead: 'May 06-27, 2022'
-        text: ''
-        link: 'https://hackathon.money/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653654025/Screen_Shot_2022-05-27_at_5.50.11_PM_vomsz0.png
-        headline: Gitcoin L2 Rollathon
-        subhead: 'May 02-22, 2022'
-        text: ''
-        link: 'https://gitcoin.co/hackathon/Rollathon/onboard'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653655498/Screen_Shot_2022-05-27_at_6.14.28_PM_j9v5lf.png
-        headline: World Innovation Day 2022
-        subhead: 'Apr 29 - May 03, 2022'
-        text: ''
-        link: 'https://www.hackmakers.com/worldinnovationday2021'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653655073/hackathons/hedera_banner_o1rtkt.png
-        label: ''
-        headline: 22 Hedera Hackathon
-        subhead: 'Mar 31 - May 16, 2022'
-        text: ''
-        link: 'https://hedera22.devpost.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653655230/Screen_Shot_2022-05-27_at_6.10.16_PM_a5oxph.png
-        label: ''
-        headline: P2P Paris Hackathon
-        subhead: 'Apr 27 - May 01, 2022'
-        text: ''
-        link: 'https://p2p.paris/en/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1651062207/hackathons/FOtDw7FWQAsE0MU_wulfuv.png
-        headline: ETHAmsterdam
-        subhead: '2022, Apr 22-24'
-        text: ''
-        link: 'https://amsterdam.ethglobal.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
-        headline: Gamedev.js
-        subhead: '2022, Apr 13-26'
-        text: ''
-        link: 'https://gamedevjs.com/jam/2022/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648546151/Screen_Shot_2022-03-29_at_11.29.01_jlmu8v.png
-        headline: DAOHacks
-        subhead: '2022, Apr 08-10'
-        text: ''
-        link: 'https://dao.ethglobal.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650376801/Faber_Web3_Hackathon_4x3_m5ur0u_oistih.png
-        label: ''
-        headline: Faber Web3 Hack
-        subhead: '2022, Feb 21 - Mar 31'
-        text: ''
-        link: 'https://faberweb3.devpost.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1650376893/hackathons/8YoZvu2J_agjcje_qimk8f.jpg
-        headline: ETHernals
-        subhead: '2022, Feb 25 - Mar 27'
-        text: ''
-        link: 'https://ethernals.devfolio.co/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648570406/Screen_Shot_2022-03-18_at_09.46.32_v9l9je_sbtfrr.png
-        headline: START Hack + Summit '22
-        subhead: '2022, Mar 23-26'
-        text: ''
-        link: www.starthack.eu
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1648570511/Screen_Shot_2022-01-09_at_1.46.11_PM_rvv0fl_xduclh.png
-        headline: ETHDenver 2022
-        subhead: '2022, Feb 11 - Mar 21'
-        text: ''
-        link: www.ethdenver.com
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1653652903/Filecoin_ETHGlobal_Buildquest_2022_dmdxse.png
-        headline: BuildQuest 2022 ETHGlobal
-        subhead: '2022, Mar 04-16'
-        text: ''
-        link: 'https://buildquest.ethglobal.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1647594034/FOELMZTWQAMMV-Q_iarql0.jpg
-        headline: Web3 Hacker House @ SXSW
-        subhead: '2022, Mar 14-15'
-        text: ''
-        link: 'https://twitter.com/Filecoin/status/1504497339330969603'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1647276791/Web3_txj4e5.png
-        headline: web3con
-        subhead: '2022, Feb 28 - Mar 06'
-        text: ''
-        link: 'https://www.web3con.dev/'
-        buttonLabel: 'View Event '
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1646137016/moralisAvaxHackathonNew_fe8bx1.svg
-        headline: Moralis Avalanche x Filecoin
-        subhead: '2021, Dec 06 - 2022, Jan 31'
-        text: ''
-        link: 'https://moralis.io/avalanche-hackathon/'
-        buttonLabel: View Event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1641390435/OG_Image__1_vgm3tb.png
-        headline: NFTHACK 2022 ETHGlobal
-        subhead: '2022, Jan 14-16'
-        text: ''
-        link: 'https://nft.ethglobal.co/'
-        buttonLabel: View Event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1643289460/polygon_a6vyg3_zwi84a.png
-        headline: Polygon Grants Hackathon
-        subhead: '2021, Aug 30 - Dec 30'
-        text: ''
-        link: 'https://www.polygongrantshackathon.com/'
-        buttonLabel: View Event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1642354847/Screen_Shot_2022-01-16_at_9.40.21_PM_bgzwfi.png
-        headline: 'Filecoin @Polygon BUIDL IT '
-        subhead: '2021, Nov 19 - Dec 12'
-        text: ''
-        link: 'https://buidlit.polygon.technology/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1637618242/Home/nft-hack_hgtmay_rwonbm.png
-        headline: NFT Hack with Filecoin
-        subhead: '2021, Oct 05 - Nov 28'
-        text: ''
-        link: 'https://www.encode.club/nft-hack'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1637777332/Home/fall-hackathon_tmjffc_qkqq7g.png
-        headline: Chainlink Hackathon
-        subhead: '2021, Oct 22 - Nov 28'
-        text: ''
-        link: 'https://chain.link/hackathon'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
-        headline: Holon Innovate '21
-        subhead: '2021, Nov 09-25'
-        text: ''
-        link: 'https://taikai.network/en/holon/challenges/holon-innovate'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/web3-jam_uhwlcl.png
-        headline: Web3 Jam
-        subhead: '2021, Nov 12-24'
-        text: ''
-        link: 'https://jam.ethglobal.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            http://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/babylon_zxlho5.png
-        headline: Babylon 2.0
-        subhead: '2021, Oct 29 - Nov 20'
-        text: ''
-        link: 'https://worldblockchainhackathon.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618025/Home/mercury_s1rufj_kamtuy.png
-        headline: Mercury Hackathon
-        subhead: '2021, Sep 20 – Nov 08'
-        text: ''
-        link: 'https://mercuryhackathon2021.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618010/Home/mars_q1nng1_tqi6p1.png
-        headline: Mars Hackathon
-        subhead: '2021, Sep 07 - Nov 06'
-        text: ''
-        link: 'https://www.marshackathon2021.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637777239/Home/asia-season_l26qti_raiuiu.png
-        headline: Asia Hackathon Season
-        subhead: '2021, August - November'
-        text: ''
-        link: asia-hackathon-season
-        buttonLabel: View Event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/cal-hacks_yjemlx.png
-        headline: Cal Hacks 8.0
-        subhead: '2021, Oct 22-24'
-        text: ''
-        link: 'https://calhacks.io/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873560/Home/saturn_yqmuc2.png
-        headline: Saturn Hackathon
-        subhead: '2021, Aug 04 - Oct 24 '
-        text: ''
-        link: 'https://www.blockchainlabs.org/week2021/hackathon'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618449/Home/jupiter_jaufi9_sexthe.png
-        headline: Jupiter Hackathon
-        subhead: '2021, Aug 25 - Oct 23'
-        text: ''
-        link: 'https://tianchi.aliyun.com/specials/promotion/ipfs-hackathon'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/eth-online_kyyrez.png
-        headline: ETHOnline
-        subhead: '2021, Sep 17 - Oct 15'
-        text: ''
-        link: 'https://online.ethglobal.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618583/Home/pennapps_ezsubz_jehzfp.png
-        headline: PennApps
-        subhead: '2021, September'
-        text: ''
-        link: 'https://2021f.pennapps.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873561/Home/filecoin-educate_dbkggj.png
-        headline: 'Encode Filecoin Club: Educate'
-        subhead: '2021, Jul - Sep'
-        text: ''
-        link: 'https://www.encode.club/filecoin-educate'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637618887/Home/nft-vision_brbnuv_irjteh.png
-        headline: NFT Vision Hack
-        subhead: '2021, Jul - Aug'
-        text: ''
-        link: 'https://www.nftvisionhack.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/filecoin-flag_glbetk.png
-        headline: HackFS
-        subhead: '2021, Jul - Aug'
-        text: ''
-        link: 'https://hackfs.com/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1637619110/Home/browsers3000_s3w9ps_dn3can.png
-        headline: Browsers 3000
-        subhead: '2021, Jul - Aug'
-        text: ''
-        link: 'https://events.protocol.ai/2021/browsers3000/'
-        buttonLabel: View event
-      - image:
-          src: >-
-            https://res.cloudinary.com/protocolai/image/upload/v1635873562/Home/dora-hacks_tnfawd.png
-        headline: Dora Hacks
-        subhead: '2021, May - July'
-        text: ''
-        link: 'https://events.protocol.ai/2021/dorahacks/'
-        buttonLabel: View event
+    status: archived
     navigationLabel: Past Events
-    _template: photoCards
+    _template: eventCards
 meta:
   pageTitle: Hackathons
   pageDescription: >-

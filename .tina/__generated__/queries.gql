@@ -75,3 +75,42 @@ query getPagesList {
     }
   }
 }
+
+query getEventDocument($relativePath: String!) {
+  getEventDocument(relativePath: $relativePath) {
+    sys {
+      filename
+      basename
+      breadcrumbs
+      path
+      relativePath
+      extension
+    }
+    id
+    data {
+      ...EventParts
+    }
+  }
+}
+
+query getEventList {
+  getEventList {
+    totalCount
+    edges {
+      node {
+        id
+        sys {
+          filename
+          basename
+          breadcrumbs
+          path
+          relativePath
+          extension
+        }
+        data {
+          ...EventParts
+        }
+      }
+    }
+  }
+}
