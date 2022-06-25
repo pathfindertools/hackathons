@@ -56,7 +56,7 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
   );
 };
 
-export const Cards = ({ data, events, parentField = "" }) => {
+export const Cards = ({ data, events = null, parentField = "" }) => {
   const items = events || data.items
   return (
     <CardGrid data={data} parentField={parentField} children={(
