@@ -1,12 +1,15 @@
 import React from "react";
 import type { Pages, Global } from "../.tina/__generated__/types";
-import { Cards } from "./blocks/cards";
-import { Feature } from "./blocks/feature";
 import { Banner } from "./blocks/banner";
+import { Cards } from "./blocks/cards";
 import { Embed } from "./blocks/embed";
+import { EventCards } from "./blocks/event-cards";
+import { Feature } from "./blocks/feature";
 import { Modals } from "./blocks/custom/modals";
+import { TailwindCards } from "./blocks/tailwind-cards";
+import { TailwindFeature } from "./blocks/tailwind-feature";
 
-export const Blocks = (props: Pages | Global) => {
+export const Blocks = (props: any) => {
   return (
     <>
       {props.blocks
@@ -45,6 +48,26 @@ export const Blocks = (props: Pages | Global) => {
                 return (
                   <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
                     <Embed data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksTailwindFeature":
+              case "GlobalBlocksTailwindFeature":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <TailwindFeature data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksTailwindCards":
+              case "GlobalBlocksTailwindCards":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <TailwindCards data={block} parentField={`blocks.${i}`} />
+                  </div>
+                );
+              case "PagesBlocksEventCards":
+                return (
+                  <div data-tinafield={`blocks.${i}`} key={i + block.__typename}>
+                    <EventCards data={block} parentField={`blocks.${i}`} events={props.events} />
                   </div>
                 );
               case "PagesBlocksModals":

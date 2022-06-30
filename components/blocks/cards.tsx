@@ -12,12 +12,12 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <div>
+      <div className="relative w-full" style={data.image && {paddingTop: '56%'}}>
         {data.image && (
           <img
-            alt={data.image.alt}
+            alt={data.image.alt || data.headline}
             src={data.image.src}
-            className={`w-full ${cardstyle?.imageStyles}`}
+            className={`absolute inset-0 h-full w-full object-cover`}
             data-tinafield={`${parentField}.${index}.image`}
           />
         )}
@@ -44,9 +44,6 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
           <Buttons buttons={[{
             link: data.link,
             label: data.buttonLabel,
-            textColor: cardstyle?.buttonType === 'link' ? cardstyle?.accentColor : cardstyle?.buttonTextColor,
-            backgroundColor: data.accentColor ? data.accentColor : cardstyle?.accentColor,
-            buttonFillStyles: cardstyle?.buttonFillStyles,
             type: cardstyle?.buttonType
           }]} className="absolute bottom-4"  data-tinafield={`${parentField}.${index}.link`} />
         )}
@@ -59,11 +56,12 @@ const Card = ({ data, index, cardstyle, parentField = ""  }) => {
   );
 };
 
-export const Cards = ({ data, parentField = "" }) => {
+export const Cards = ({ data, events = null, parentField = "" }) => {
+  const items = events || data.items
   return (
     <CardGrid data={data} parentField={parentField} children={(
-      data.items &&
-        data.items.map(function (block, index) {
+      items &&
+        items.map(function (block, index) {
           return <Card key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>

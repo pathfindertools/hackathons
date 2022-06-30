@@ -30,7 +30,7 @@ const Modal = ({ data, parentField = "", className }) => {
 
 export const Modals = ({ data, parentField = "" }) => {
   const [activeModal, setActiveModal] = useState(null)
-  const twButtons = "flex flex-wrap gap-12 w-full justify-center"
+  const twButtons = "flex flex-wrap gap-12 w-full justify-center px-10 sm:justify-start"
   const twButton = "flex gap-3 pr-5 pl-4 h-10 font-bold text-sm border bg-transparent border-primary text-white"
   const twButtonSpan = "block text-center m-auto font-1 leading-normal text-sm"
 
@@ -46,7 +46,7 @@ export const Modals = ({ data, parentField = "" }) => {
           labelStyles="text-white text-center text-sm"
           headlineStyles="text-white text-center text-xl font-2 font-bold"
           subheadStyles="text-white text-center text-lg"
-          textStyles="text-white text-center text-md font-1 mb-8"
+          textStyles="text-white text-center text-md font-1 mb-2"
           width="w-full"
           parentField={parentField}
           alignment={undefined}

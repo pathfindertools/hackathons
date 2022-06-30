@@ -4,7 +4,8 @@
     "resolveType": "multiCollectionDocumentList",
     "collections": [
       "global",
-      "pages"
+      "pages",
+      "event"
     ]
   },
   "Node": {
@@ -25,7 +26,9 @@
       "photoCards": "GlobalBlocksPhotoCards",
       "textCards": "GlobalBlocksTextCards",
       "banner": "GlobalBlocksBanner",
-      "embed": "GlobalBlocksEmbed"
+      "embed": "GlobalBlocksEmbed",
+      "tailwindFeature": "GlobalBlocksTailwindFeature",
+      "tailwindCards": "GlobalBlocksTailwindCards"
     }
   },
   "GlobalDocument": {
@@ -44,12 +47,15 @@
     "type": "PagesBlocks",
     "resolveType": "unionData",
     "typeMap": {
-      "feature": "PagesBlocksFeature",
-      "photoCards": "PagesBlocksPhotoCards",
-      "textCards": "PagesBlocksTextCards",
       "banner": "PagesBlocksBanner",
       "embed": "PagesBlocksEmbed",
-      "modals": "PagesBlocksModals"
+      "eventCards": "PagesBlocksEventCards",
+      "feature": "PagesBlocksFeature",
+      "modals": "PagesBlocksModals",
+      "photoCards": "PagesBlocksPhotoCards",
+      "tailwindCards": "PagesBlocksTailwindCards",
+      "tailwindFeature": "PagesBlocksTailwindFeature",
+      "textCards": "PagesBlocksTextCards"
     }
   },
   "PagesDocument": {
@@ -63,5 +69,17 @@
     "type": "PagesConnection",
     "resolveType": "collectionDocumentList",
     "collection": "pages"
+  },
+  "EventDocument": {
+    "type": "EventDocument",
+    "resolveType": "collectionDocument",
+    "collection": "event",
+    "createEventDocument": "create",
+    "updateEventDocument": "update"
+  },
+  "EventConnection": {
+    "type": "EventConnection",
+    "resolveType": "collectionDocumentList",
+    "collection": "event"
   }
 }

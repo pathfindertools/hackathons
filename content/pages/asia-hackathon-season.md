@@ -28,9 +28,6 @@ blocks:
       - label: Join our mailing list
         link: 'https://filecoin-community.typeform.com/to/scRusMWz'
         type: solid
-        buttonFillStyles: bg-white
-        textColor: black
-        backgroundColor: primary
     navigationLabel: Prizes
     _template: feature
   - style:
@@ -54,7 +51,6 @@ blocks:
       subheadStyles: text-white undefined text-2xl mb-3.5 font-bold
       textStyles: 'text-white undefined text-base undefined '
       buttonType: solid
-      buttonTextColor: primary
     background:
       fillStyles: bg-black
       src: >-
@@ -72,7 +68,6 @@ blocks:
           Blockchain Week 2021. Submissions close on September 30.
         link: /
         buttonLabel: Register Now
-        accentColor: primary
       - headline: MARS
         subhead: Hackathon
         text: >
@@ -80,7 +75,6 @@ blocks:
           hackathon (late August to late October) co-hosted with Polygon.
         link: /
         buttonLabel: Register Now
-        accentColor: accent1
       - headline: JUPITER
         subhead: Hackathon
         text: >
@@ -88,7 +82,6 @@ blocks:
           (August to September) with technical support from Alibaba Cloud.
         link: /
         buttonLabel: Register Now
-        accentColor: accent2
       - headline: MERCURY
         subhead: Hackathon
         text: >
@@ -96,17 +89,16 @@ blocks:
           October) co-hosted with Flow.
         link: /
         buttonLabel: Register Now
-        accentColor: accent3
     navigationLabel: Series
     _template: textCards
   - style:
-      alignment: 'flex-row-reverse text-left items-start '
+      alignment: 'flex-row-reverse text-left items-start items-start-vertical '
       featureContent: 'w-1/2 min-h-140 '
       padding: pt-20 pb-20 undefined pl-20
       featureImage: object-right object-contain to-edge
       imagePadding: undefined undefined pr-0 undefined
       labelStyles: 'undefined undefined undefined undefined '
-      headlineStyles: text-white undefined text-2xl undefined font-bold
+      headlineStyles: text-white undefined text-2xl mb-5 font-bold
       subheadStyles: 'undefined undefined undefined undefined '
       textStyles: 'text-white undefined text-xl undefined '
       contentOrder: labelHeadingsContent
@@ -189,19 +181,12 @@ blocks:
       - label: Join Filecoin on Slack
         link: /
         type: outline
-        buttonFillStyles: bg-black
-        textColor: primary
-        backgroundColor: primary
       - label: Subscriber to the IPFS Newsletter
         link: /
         type: outline
-        textColor: accent2
-        backgroundColor: accent2
       - label: Subscribe to the Filecoin Newsletter
         link: /
         type: outline
-        textColor: accent3
-        backgroundColor: accent3
     _template: banner
 meta:
   siteImageSrc: >-
