@@ -11,10 +11,10 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
   })
 
   const sortedItems = filteredItems.sort((a, b) => {
-    const dateA = new Date(a.node?.data?.endDate)
-    const dateB = new Date(b.node?.data?.endDate)
-    if (dateA > dateB) return 1;
-    if (dateA < dateB) return -1;
+    const dateA = new Date(a.node?.data?.startDate)
+    const dateB = new Date(b.node?.data?.startDate)
+    if (dateA < dateB) return 1;
+    if (dateA > dateB) return -1;
     return 0;
   });
 
