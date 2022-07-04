@@ -110,10 +110,6 @@ blocks:
       For further support, reach out to our Developer advocates through our free
       office hours.
     buttons:
-      - label: Learn about our Hackathons Judging Criteria
-        link: >-
-          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
-        type: primary
       - label: 'Get started with IPFS and Filecoin '
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         type: primary
@@ -125,6 +121,10 @@ blocks:
         type: minor
       - label: ' Schedule a 15-minute 1:1 call'
         link: 'https://bitly.protocol.ai/3txOYHL'
+        type: primary
+      - label: Learn about our Hackathons Judging Criteria
+        link: >-
+          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
         type: primary
     navigationLabel: Start Building
     _template: feature
