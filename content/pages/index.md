@@ -122,6 +122,10 @@ blocks:
       - label: ' Schedule a 15-minute 1:1 call'
         link: 'https://bitly.protocol.ai/3txOYHL'
         type: primary
+      - label: Learn about our Hackathons Judging Criteria
+        link: >-
+          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
+        type: primary
     navigationLabel: Start Building
     _template: feature
   - style:
@@ -198,8 +202,7 @@ blocks:
         text: >
           [Learn more and
           apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
-      - label: ''
-        headline: Launchpad
+      - headline: Launchpad
         subhead: >-
           A 6-week hiring & onboarding program designed for accelerating
           technical growth in the Web3 space.
@@ -231,10 +234,6 @@ blocks:
     subhead: ''
     body: ''
     buttons:
-      - label: Read FAQs about our Hackathons Judging Criteria
-        link: >-
-          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
-        type: secondary
       - label: You have a hackathon proposal? Contact us!
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
         type: secondary
