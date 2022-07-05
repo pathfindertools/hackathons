@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
-  alt: ' '
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1655307034/Screen_Shot_2022-06-15_at_17.29.50_pwmegf.png
 startDate: '2022-07-04T05:00:00.000Z'
 endDate: '2022-07-06T05:00:00.000Z'
 headline: FIL Toronto 3-Day Hack

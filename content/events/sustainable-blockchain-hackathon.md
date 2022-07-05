@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
-  alt: ' '
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1654251822/hackathons/Twitter_Card-2_y80wef.png
 startDate: '2022-06-23T05:00:00.000Z'
 endDate: '2022-07-18T05:00:00.000Z'
 headline: Sustainable Blockchain Hackathon

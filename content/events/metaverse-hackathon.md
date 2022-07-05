@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
-  alt: Metaverse Hackathon by KEN Labs
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1643976744/image_ldbpld.png
 startDate: '2022-04-20T05:00:00.000Z'
 endDate: '2022-06-20T05:00:00.000Z'
 headline: Metaverse Hackathon

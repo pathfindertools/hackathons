@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
-  alt: Graph Hack Hackathon - San Francisco
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
 startDate: '2022-06-03T05:00:00.000Z'
 endDate: '2022-06-05T05:00:00.000Z'
 headline: Graph Hack

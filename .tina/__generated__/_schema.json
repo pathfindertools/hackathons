@@ -20795,43 +20795,15 @@
       "path": "content/events",
       "fields": [
         {
-          "label": "Image",
-          "name": "image",
-          "type": "object",
+          "label": "Image Source",
+          "name": "imageSrc",
+          "type": "image",
           "ui": {
-            "defaultItem": {
-              "src": "",
-              "alt": ""
-            }
+            "clearable": true
           },
-          "fields": [
-            {
-              "label": "Image Source",
-              "name": "src",
-              "type": "image",
-              "ui": {
-                "clearable": true
-              },
-              "namespace": [
-                "event",
-                "image",
-                "src"
-              ]
-            },
-            {
-              "name": "alt",
-              "label": "Alt Text",
-              "type": "string",
-              "namespace": [
-                "event",
-                "image",
-                "alt"
-              ]
-            }
-          ],
           "namespace": [
             "event",
-            "image"
+            "imageSrc"
           ]
         },
         {
