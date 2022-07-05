@@ -54,6 +54,8 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
     }
   })
 
+  console.log('ITEMS:', items)
+
   return (
     <Cards data={data} events={items} parentField={parentField} />
   );
