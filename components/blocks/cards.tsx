@@ -20,9 +20,11 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
             src={block.image.src}
             className={`absolute inset-0 h-full w-full object-cover`}
             data-tinafield={`${parentField}.${index}.image`}
+            block-data={JSON.stringify(block)}
+            block-image={JSON.stringify(block.image.src)}
           />
         )}
-      </div>
+      </div>      
       <div
         className={` ${wrapClasses} relative flex-1 text-left border-box ${cardstyle?.padding}`}
       >
