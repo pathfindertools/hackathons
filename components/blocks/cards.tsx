@@ -61,7 +61,8 @@ export const Cards = ({ data, events = null, parentField = "" }) => {
   return (
     <CardGrid data={data} parentField={parentField} children={(
       items &&
-        items.map(function (block, index) {
+      items.map(function (block, index) {
+          console.log('Block:', block)
           return <Card key={index} index={index} data={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>
