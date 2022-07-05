@@ -10,20 +10,29 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
     fadeH: `${cardstyle?.fillStyles}`,
   }
   const imageSrc = block?.image?.src
-  const imageAlt = block?.image?.alt || block.headline
+  const imageAlt = block?.image?.alt || block.headline || ''
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <p className="hidden">Block: {JSON.stringify(block)}</p>
+      <p className="hidden">
+        Block: {JSON.stringify(block)}
+        ImageSrc: {imageSrc}
+        ImageAlt: {imageAlt}
+      </p>
+      <img
+        className="hidden"
+        alt={imageAlt}
+        src={imageSrc}
+      />
       <div className="relative w-full" style={block.image && {paddingTop: '56%'}}>
-        {block.image && (
+        {imageSrc && (
           <img
             alt={imageAlt}
             src={imageSrc}
             className={`absolute inset-0 h-full w-full object-cover`}
             data-tinafield={`${parentField}.${index}.image`}
             block-data={JSON.stringify(block)}
-            block-image={JSON.stringify(block.image.src)}
+            block-image={JSON.stringify(block?.image?.src)}
             block-image-src={JSON.stringify(imageSrc)}
           />
         )}
@@ -68,7 +77,6 @@ export const Cards = ({ data, events = null, parentField = "" }) => {
     <CardGrid data={data} parentField={parentField} children={(
       items &&
       items.map(function (block, index) {
-          console.log('Block:', block)
           return <Card key={index} index={index} block={block} cardstyle={data.cardStyle} parentField={`${parentField}.items`} />;
         })
     )}/>
