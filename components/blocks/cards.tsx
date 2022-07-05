@@ -18,10 +18,12 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
         Block: {JSON.stringify(block)}
         ImageSrc: {imageSrc}
       </p>
+      <p className="hidden" data-src={imageSrc}>{imageSrc}</p>
       <img
         className="hidden"
-        alt={imageAlt}
+        alt={imageSrc}
         src={imageSrc}
+        data-src={imageSrc}
       />
       <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
         {imageSrc && (
