@@ -9,6 +9,8 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
     transparent: `${cardstyle?.fillStyles} opacity-70`,
     fadeH: `${cardstyle?.fillStyles}`,
   }
+  const imageSrc = block?.image?.src
+  const imageAlt = block?.image?.alt || block.headline
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
@@ -16,12 +18,13 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
       <div className="relative w-full" style={block.image && {paddingTop: '56%'}}>
         {block.image && (
           <img
-            alt={block.image.alt || block.headline}
-            src={block.image.src}
+            alt={imageAlt}
+            src={imageSrc}
             className={`absolute inset-0 h-full w-full object-cover`}
             data-tinafield={`${parentField}.${index}.image`}
             block-data={JSON.stringify(block)}
             block-image={JSON.stringify(block.image.src)}
+            block-image-src={JSON.stringify(imageSrc)}
           />
         )}
       </div>      
