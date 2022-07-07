@@ -44,9 +44,7 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
     }
     
     return {
-      image: {
-        src: item.node.data.imageSrc || ''
-      },
+      imageSrc: item.node.data.imageSrc || '',
       label: '',
       headline: item.node.data.headline,
       subhead: subhead,
@@ -55,8 +53,6 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
       buttonLabel: data.status === 'current' ? 'Learn More & Register' : 'View Event'
     }
   })
-
-  console.log('ITEMS:', items)
 
   return (
     <Cards data={data} events={items} parentField={parentField} />

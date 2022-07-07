@@ -9,8 +9,8 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
     transparent: `${cardstyle?.fillStyles} opacity-70`,
     fadeH: `${cardstyle?.fillStyles}`,
   }
-  const imageSrc = block?.image?.src
-  const imageAlt = block?.image?.alt || block.headline || ''
+  const imageSrc = block.imageSrc || block.image?.src
+  const imageAlt = block.image?.alt || block.headline || ''
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
@@ -23,7 +23,7 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
         alt={imageAlt}
         src={imageSrc}
       />
-      <div className="relative w-full" style={block.image && {paddingTop: '56%'}}>
+      <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
         {imageSrc && (
           <img
             alt={imageAlt}
