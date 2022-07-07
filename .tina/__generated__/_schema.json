@@ -5,11 +5,7 @@
     "minor": "59",
     "patch": "7"
   },
-  "meta": {
-    "flags": [
-      "experimentalData"
-    ]
-  },
+  "meta": {},
   "collections": [
     {
       "label": "Global",
