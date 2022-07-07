@@ -24,6 +24,7 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
         alt={imageSrc}
         src={imageSrc}
         data-src={imageSrc}
+        data-headline={block.headline}
       />
       <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
         {imageSrc && (
