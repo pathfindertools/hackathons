@@ -1,4 +1,5 @@
 import { TinaMarkdown } from "tinacms/dist/rich-text";
+import Image from 'next/image'
 import { Buttons } from "../buttons";
 import { CardGrid } from "../card-grid";
 
@@ -9,33 +10,23 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
     transparent: `${cardstyle?.fillStyles} opacity-70`,
     fadeH: `${cardstyle?.fillStyles}`,
   }
-  const imageSrc = block.imageSrc || block.image?.src
+  const imageSrc = block.imageSrc || block.image?.src || ''
   const imageAlt = block.image?.alt || block.headline || ''
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <p className="hidden">
-        Block: {JSON.stringify(block)}
-        ImageSrc: {imageSrc}
-      </p>
-      <p className="hidden" data-src={imageSrc}>{imageSrc}</p>
-      <img
-        className="hidden"
-        alt={imageSrc}
-        src={imageSrc}
-        data-src={imageSrc}
-        data-headline={block.headline}
-      />
+      <p className="hidden">Block: {JSON.stringify(block)}</p>
+      <p className="hidden" data-src={imageSrc}>{`ImageSrc: ${imageSrc}`}</p>
       <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
         {imageSrc && (
-          <img
-            alt={imageAlt}
-            src={imageSrc}
+           <Image
             className={`absolute inset-0 h-full w-full object-cover`}
+            src={imageSrc}
+            alt={imageAlt}
             data-tinafield={`${parentField}.${index}.image`}
-            block-data={JSON.stringify(block)}
-            block-image={JSON.stringify(block?.image?.src)}
-            block-image-src={JSON.stringify(imageSrc)}
+            width={320}
+            height={180}
+            layout="fill"
           />
         )}
       </div>      
