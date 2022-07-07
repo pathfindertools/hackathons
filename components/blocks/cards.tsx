@@ -19,14 +19,11 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
       <p className="hidden" data-src={imageSrc}>{`ImageSrc: ${imageSrc}`}</p>
       <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
         {imageSrc && (
-           <Image
+           <img
             className={`absolute inset-0 h-full w-full object-cover`}
-            src={imageSrc}
+            src={String(imageSrc)}
             alt={imageAlt}
             data-tinafield={`${parentField}.${index}.image`}
-            width={320}
-            height={180}
-            layout="fill"
           />
         )}
       </div>      
