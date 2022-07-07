@@ -6,4 +6,5 @@ endDate: '2021-11-30T05:00:00.000Z'
 headline: Asia Hackathon Season
 text: ''
 link: asia-hackathon-season
+status: archived
 ---

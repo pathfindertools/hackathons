@@ -117,6 +117,18 @@ export default defineSchema({
           label: "Link",
           name: "link",
         },
+        {
+          type: "string",
+          label: "Status",
+          name: "status",
+          ui: {
+            component: "selectField",
+          },
+          options: [
+            { label: "Current", value: "current" },
+            { label: "Archived", value: "archived" },
+          ]
+        },
       ],
     },
   ],

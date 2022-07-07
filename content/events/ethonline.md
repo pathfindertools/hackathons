@@ -5,4 +5,5 @@ endDate: '2021-10-15T05:00:00.000Z'
 headline: ETHOnline
 text: 
 link: https://online.ethglobal.com/
+status: archived
 ---

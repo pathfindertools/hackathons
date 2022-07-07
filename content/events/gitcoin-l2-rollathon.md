@@ -5,4 +5,5 @@ endDate: '2022-05-22T05:00:00.000Z'
 headline: Gitcoin L2 Rollathon
 text: 
 link: https://gitcoin.co/hackathon/Rollathon/onboard
+status: archived
 ---

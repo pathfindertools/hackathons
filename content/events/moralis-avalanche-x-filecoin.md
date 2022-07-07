@@ -5,4 +5,5 @@ endDate: '2022-01-31T05:00:00.000Z'
 headline: Moralis Avalanche x Filecoin
 text: 
 link: https://moralis.io/avalanche-hackathon/
+status: archived
 ---

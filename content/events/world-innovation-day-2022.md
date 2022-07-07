@@ -5,4 +5,5 @@ endDate: '2022-05-03T05:00:00.000Z'
 headline: World Innovation Day 2022
 text: 
 link: https://www.hackmakers.com/worldinnovationday2021
+status: archived
 ---

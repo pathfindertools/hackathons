@@ -5,4 +5,5 @@ endDate: '2021-11-28T05:00:00.000Z'
 headline: Chainlink Hackathon
 text: 
 link: https://chain.link/hackathon
+status: archived
 ---

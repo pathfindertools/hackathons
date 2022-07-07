@@ -5,4 +5,5 @@ endDate: '2021-11-06T05:00:00.000Z'
 headline: Mars Hackathon
 text: 
 link: https://www.marshackathon2021.com/
+status: archived
 ---

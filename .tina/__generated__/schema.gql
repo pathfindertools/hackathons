@@ -1210,6 +1210,7 @@ type Event {
   endDate: String
   text: JSON
   link: String
+  status: String
 }
 
 type EventDocument implements Node & Document {
@@ -2357,6 +2358,7 @@ input EventMutation {
   endDate: String
   text: JSON
   link: String
+  status: String
 }
 
 schema {

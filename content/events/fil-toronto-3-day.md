@@ -5,4 +5,5 @@ endDate: '2022-07-06T05:00:00.000Z'
 headline: FIL Toronto 3-Day Hack
 text: At this in-person event in Toronto, connect with the growing and vibrant community of web3 enthusiasts and build projects that can grow into the next big start-up.
 link: https://fil-toronto.com/
+status: archived
 ---

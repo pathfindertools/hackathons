@@ -5,4 +5,5 @@ endDate: '2022-07-27T05:00:00.000Z'
 headline: HackFS 2022 Season 3
 text: "Build the foundation for the decentralized web. A Hackathon by ETHGlobal and Protocol Labs."
 link: https://fs.ethglobal.com/
+status: current
 ---

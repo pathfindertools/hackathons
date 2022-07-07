@@ -5,4 +5,5 @@ endDate: '2021-11-08T05:00:00.000Z'
 headline: Mercury Hackathon
 text: 
 link: https://mercuryhackathon2021.com/
+status: archived
 ---

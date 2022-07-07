@@ -5,4 +5,5 @@ endDate: '2022-04-10T05:00:00.000Z'
 headline: DAOHacks
 text: 
 link: https://dao.ethglobal.com/
+status: archived
 ---

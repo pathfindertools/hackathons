@@ -5,4 +5,5 @@ endDate: '2022-04-26T05:00:00.000Z'
 headline: Gamedev.js
 text: 
 link: https://gamedevjs.com/jam/2022/
+status: archived
 ---

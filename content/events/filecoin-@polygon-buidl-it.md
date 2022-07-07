@@ -5,4 +5,5 @@ endDate: '2021-12-12T05:00:00.000Z'
 headline: Filecoin @Polygon BUIDL IT
 text: 
 link: https://buidlit.polygon.technology/
+status: archived
 ---

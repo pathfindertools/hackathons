@@ -977,4 +977,5 @@ fragment EventParts on Event {
   endDate
   text
   link
+  status
 }
