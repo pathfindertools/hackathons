@@ -79,30 +79,12 @@ export default defineSchema({
       path: 'content/events',
       fields: [
         {
-          label: "Image",
-          name: "image",
-          type: "object",
+          label: "Image Source",
+          name: "imageSrc",
+          type: "image",
           ui: {
-            defaultItem: {
-              src: "",
-              alt: "",
-            }
-          },
-          fields: [
-            {
-              label: "Image Source",
-              name: "src",
-              type: "image",
-              ui: {
-                clearable: true,
-              }
-            },
-            {
-              name: "alt",
-              label: "Alt Text",
-              type: "string",
-            },
-          ],
+            clearable: true,
+          }
         },
         {
           type: "string",

@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
-  alt: Decentralized Internet, Networks, Protocol, & Systems Workshop
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
 startDate: '2022-01-01T05:00:00.000Z'
 endDate: '2022-07-31T05:00:00.000Z'
 headline: DINPS

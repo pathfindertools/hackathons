@@ -44,7 +44,9 @@ export const EventCards = ({ data, parentField = "", events = null }) => {
     }
     
     return {
-      image: item.node.data.image,
+      image: {
+        src: item.node.data.imageSrc || ''
+      },
       label: '',
       headline: item.node.data.headline,
       subhead: subhead,

@@ -1203,13 +1203,8 @@ type PagesConnection implements Connection {
   edges: [PagesConnectionEdges]
 }
 
-type EventImage {
-  src: String
-  alt: String
-}
-
 type Event {
-  image: EventImage
+  imageSrc: String
   headline: String
   startDate: String
   endDate: String
@@ -2355,13 +2350,8 @@ input PagesMutation {
   meta: PagesMetaMutation
 }
 
-input EventImageMutation {
-  src: String
-  alt: String
-}
-
 input EventMutation {
-  image: EventImageMutation
+  imageSrc: String
   headline: String
   startDate: String
   endDate: String

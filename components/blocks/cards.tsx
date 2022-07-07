@@ -17,7 +17,6 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
       <p className="hidden">
         Block: {JSON.stringify(block)}
         ImageSrc: {imageSrc}
-        ImageAlt: {imageAlt}
       </p>
       <img
         className="hidden"

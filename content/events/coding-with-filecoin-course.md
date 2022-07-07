@@ -1,7 +1,5 @@
 ---
-image:
-  src: http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
-  alt: ' '
+imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
 startDate: '2022-05-10T05:00:00.000Z'
 endDate: '2022-07-31T05:00:00.000Z'
 headline: Coding with Filecoin - Course

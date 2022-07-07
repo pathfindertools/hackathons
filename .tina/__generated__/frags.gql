@@ -971,11 +971,7 @@ fragment PagesParts on Pages {
 }
 
 fragment EventParts on Event {
-  image {
-    __typename
-    src
-    alt
-  }
+  imageSrc
   headline
   startDate
   endDate
