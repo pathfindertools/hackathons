@@ -5,4 +5,5 @@ endDate: '2022-05-01T05:00:00.000Z'
 headline: P2P Paris Hackathon
 text: 
 link: https://p2p.paris/en/
+status: archived
 ---

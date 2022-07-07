@@ -1,13 +1,14 @@
 import { Cards } from "./cards";
 
 export const EventCards = ({ data, parentField = "", events = null }) => {
-  const currentDate = new Date()
+  // const currentDate = new Date()
 
   const filteredItems = events?.getEventList?.edges?.filter(item => {
-    const endString = item?.node?.data?.endDate
-    const endStringTimeCorrected = `${endString.substr(0, endString.indexOf('T'))}T23:59:59.000Z`;
-    const end = new Date(endStringTimeCorrected)
-    return data.status === 'current' ? currentDate.getTime() < end.getTime() : currentDate.getTime() >= end.getTime()
+    // const endString = item?.node?.data?.endDate
+    // const endStringTimeCorrected = `${endString.substr(0, endString.indexOf('T'))}T23:59:59.000Z`;
+    // const end = new Date(endStringTimeCorrected)
+    // return data.status === 'current' ? currentDate.getTime() < end.getTime() : currentDate.getTime() >= end.getTime()
+    return item.node?.data?.status === data.status
   })
 
   const sortedItems = filteredItems.sort((a, b) => {

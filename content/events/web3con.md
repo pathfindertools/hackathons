@@ -5,4 +5,5 @@ endDate: '2022-03-06T05:00:00.000Z'
 headline: web3con
 text: 
 link: https://www.web3con.dev/
+status: archived
 ---

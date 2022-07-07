@@ -9,5 +9,6 @@ text: >
   - live in Paris (ends 7/24) or virtually (ends 7/29). This event takes place
   directly after EthCC.
 link: 'https://ethcchack.com'
+status: current
 ---
 

@@ -5,4 +5,5 @@ endDate: '2022-03-27T05:00:00.000Z'
 headline: ETHernals
 text: 
 link: https://ethernals.devfolio.co/
+status: archived
 ---

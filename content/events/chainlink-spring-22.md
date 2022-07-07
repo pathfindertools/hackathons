@@ -5,4 +5,5 @@ endDate: '2022-05-27T05:00:00.000Z'
 headline: Chainlink Spring 22
 text: 
 link: https://chain.link/hackathon
+status: archived
 ---

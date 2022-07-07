@@ -5,4 +5,5 @@ endDate: '2021-12-30T05:00:00.000Z'
 headline: Polygon Grants Hackathon
 text: 
 link: https://www.polygongrantshackathon.com/
+status: archived
 ---

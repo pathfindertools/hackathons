@@ -5,4 +5,5 @@ endDate: '2021-10-24T05:00:00.000Z'
 headline: Cal Hacks 8.0
 text: 
 link: https://calhacks.io/
+status: archived
 ---

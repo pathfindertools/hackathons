@@ -5,4 +5,5 @@ endDate: '2022-03-16T05:00:00.000Z'
 headline: BuildQuest 2022 ETHGlobal
 text: 
 link: https://buildquest.ethglobal.com/
+status: archived
 ---

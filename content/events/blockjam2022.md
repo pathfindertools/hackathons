@@ -9,5 +9,6 @@ text: >
   excite traditional game developers about how blockchain can take their games
   to the next level. Over $50,000 up for grabs in bounties!
 link: 'https://globalblockjam.com/'
+status: archived
 ---
 

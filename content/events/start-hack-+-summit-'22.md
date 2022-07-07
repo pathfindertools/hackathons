@@ -5,4 +5,5 @@ endDate: '2022-03-26T05:00:00.000Z'
 headline: START Hack + Summit 2022
 text: 
 link: www.starthack.eu
+status: archived
 ---

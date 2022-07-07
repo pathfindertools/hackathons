@@ -6,5 +6,6 @@ endDate: '2022-08-16T05:00:00.000Z'
 headline: Web3 Infinity Hackathon | FIL Singapore
 text: 'Get an opportunity to play a key role in the Web3.0 World, learn practical skills & win bounties worth $100k+!!'
 link: 'https://hackathon.fil-singapore.io/'
+status: current
 ---
 
