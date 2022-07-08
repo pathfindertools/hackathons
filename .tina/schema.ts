@@ -136,9 +136,10 @@ export const tinaConfig = defineConfig({
   },
   cmsCallback: (cms) => {
     /**
-     * Enables experimental branch switcher
+     * Enable experimental Tina features
      */
     cms.flags.set("branch-switcher", true);
+    cms.flags.set("experimentalData", true);
 
     /**
      * When `tina-admin` is enabled, this plugin configures contextual editing for collections

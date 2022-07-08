@@ -46,14 +46,1159 @@ type Query {
   getCollections: [Collection!]!
   node(id: String): Node!
   getDocument(collection: String, relativePath: String): DocumentNode!
-  getDocumentList(before: String, after: String, first: Float, last: Float): DocumentConnection!
+  getDocumentList(before: String, after: String, first: Float, last: Float, filter: DocumentFilter): DocumentConnection!
   getDocumentFields: JSON!
   getGlobalDocument(relativePath: String): GlobalDocument!
-  getGlobalList(before: String, after: String, first: Float, last: Float): GlobalConnection!
+  getGlobalList(before: String, after: String, first: Float, last: Float, filter: GlobalFilter): GlobalConnection!
   getPagesDocument(relativePath: String): PagesDocument!
-  getPagesList(before: String, after: String, first: Float, last: Float): PagesConnection!
+  getPagesList(before: String, after: String, first: Float, last: Float, filter: PagesFilter): PagesConnection!
   getEventDocument(relativePath: String): EventDocument!
-  getEventList(before: String, after: String, first: Float, last: Float): EventConnection!
+  getEventList(before: String, after: String, first: Float, last: Float, filter: EventFilter): EventConnection!
+}
+
+input StringFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+}
+
+input ImageFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+}
+
+input GlobalColorsFilter {
+  primary: StringFilter
+  accent1: StringFilter
+  accent2: StringFilter
+  accent3: StringFilter
+  accent4: StringFilter
+  white: StringFilter
+  grayLight: StringFilter
+  gray: StringFilter
+  grayDark: StringFilter
+  black: StringFilter
+}
+
+input GlobalFontsFilter {
+  font1: StringFilter
+  font2: StringFilter
+  font3: StringFilter
+  font4: StringFilter
+}
+
+input GlobalSizeLeadingFilter {
+  textXs: StringFilter
+  textSm: StringFilter
+  textMd: StringFilter
+  textLg: StringFilter
+  textXl: StringFilter
+  text2xl: StringFilter
+  text3xl: StringFilter
+  text4xl: StringFilter
+  text5xl: StringFilter
+  text6xl: StringFilter
+  text7xl: StringFilter
+  text8xl: StringFilter
+}
+
+input GlobalButtonsFilter {
+  primaryRule: StringFilter
+  primaryFill: StringFilter
+  primaryBorder: StringFilter
+  primaryTypography: StringFilter
+  primaryPadding: StringFilter
+  primaryRounded: StringFilter
+  secondaryRule: StringFilter
+  secondaryFill: StringFilter
+  secondaryBorder: StringFilter
+  secondaryTypography: StringFilter
+  secondaryPadding: StringFilter
+  secondaryRounded: StringFilter
+  minorRule: StringFilter
+  minorFill: StringFilter
+  minorBorder: StringFilter
+  minorTypography: StringFilter
+  minorPadding: StringFilter
+  minorRounded: StringFilter
+  blackOutlineRule: StringFilter
+  blackOutlineFill: StringFilter
+  blackOutlineBorder: StringFilter
+  blackOutlineTypography: StringFilter
+  blackOutlinePadding: StringFilter
+  blackOutlineRounded: StringFilter
+  whiteOutlineRule: StringFilter
+  whiteOutlineFill: StringFilter
+  whiteOutlineBorder: StringFilter
+  whiteOutlineTypography: StringFilter
+  whiteOutlinePadding: StringFilter
+  whiteOutlineRounded: StringFilter
+}
+
+input GlobalLinksFilter {
+  color: StringFilter
+}
+
+input GlobalLogoFilter {
+  logoType: StringFilter
+  logoTypeStyle: StringFilter
+  image: ImageFilter
+  imageWidth: StringFilter
+  imageHeight: StringFilter
+  imageMargin: StringFilter
+}
+
+input GlobalNavNavItemsFilter {
+  label: StringFilter
+  link: StringFilter
+}
+
+input GlobalNavFilter {
+  navItems: GlobalNavNavItemsFilter
+  navAlignment: StringFilter
+  navTypeStyle: StringFilter
+  navBackgroundColor: StringFilter
+  padding: StringFilter
+}
+
+input GlobalBlocksFeatureStyleFilter {
+  alignment: StringFilter
+  contentTitle: StringFilter
+  featureContent: StringFilter
+  padding: StringFilter
+  imageTitle: StringFilter
+  featureImage: StringFilter
+  imagePadding: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input GlobalBlocksFeatureBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksFeatureBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksFeatureBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksFeatureImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input RichTextFilter {
+  startsWith: String
+  eq: String
+  exists: Boolean
+}
+
+input GlobalBlocksFeatureButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input GlobalBlocksFeatureFilter {
+  style: GlobalBlocksFeatureStyleFilter
+  background: GlobalBlocksFeatureBackgroundFilter
+  image: GlobalBlocksFeatureImageFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksFeatureButtonsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksPhotoCardsStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  contentWidth: StringFilter
+  columns: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input GlobalBlocksPhotoCardsCardStyleFilter {
+  fillStyles: StringFilter
+  padding: StringFilter
+  type: StringFilter
+  imageStyles: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  buttonTitle: StringFilter
+  buttonType: StringFilter
+}
+
+input GlobalBlocksPhotoCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksPhotoCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksPhotoCardsBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksPhotoCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input GlobalBlocksPhotoCardsItemsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input GlobalBlocksPhotoCardsItemsFilter {
+  image: GlobalBlocksPhotoCardsItemsImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input GlobalBlocksPhotoCardsFilter {
+  style: GlobalBlocksPhotoCardsStyleFilter
+  cardStyle: GlobalBlocksPhotoCardsCardStyleFilter
+  background: GlobalBlocksPhotoCardsBackgroundFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksPhotoCardsButtonsFilter
+  items: GlobalBlocksPhotoCardsItemsFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksTextCardsStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  contentWidth: StringFilter
+  columns: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input GlobalBlocksTextCardsCardStyleFilter {
+  fillStyles: StringFilter
+  padding: StringFilter
+  type: StringFilter
+  borderStyles: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  buttonTitle: StringFilter
+  buttonType: StringFilter
+}
+
+input GlobalBlocksTextCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksTextCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksTextCardsBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksTextCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input GlobalBlocksTextCardsItemsFilter {
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input GlobalBlocksTextCardsFilter {
+  style: GlobalBlocksTextCardsStyleFilter
+  cardStyle: GlobalBlocksTextCardsCardStyleFilter
+  background: GlobalBlocksTextCardsBackgroundFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksTextCardsButtonsFilter
+  items: GlobalBlocksTextCardsItemsFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksBannerStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  width: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input GlobalBlocksBannerBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksBannerBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksBannerBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksBannerImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input GlobalBlocksBannerButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input GlobalBlocksBannerFilter {
+  style: GlobalBlocksBannerStyleFilter
+  background: GlobalBlocksBannerBackgroundFilter
+  image: GlobalBlocksBannerImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksBannerButtonsFilter
+  navigationLabel: StringFilter
+}
+
+input BooleanFilter {
+  eq: Boolean
+  exists: Boolean
+}
+
+input GlobalBlocksEmbedStyleFilter {
+  minHeight: StringFilter
+  fullWidth: BooleanFilter
+  padding: StringFilter
+}
+
+input GlobalBlocksEmbedBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksEmbedBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksEmbedBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksEmbedFilter {
+  style: GlobalBlocksEmbedStyleFilter
+  background: GlobalBlocksEmbedBackgroundFilter
+  markup: StringFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksTailwindFeatureTailwindFilter {
+  section: StringFilter
+  wrap: StringFilter
+  imageWrap: StringFilter
+  image: StringFilter
+  contentWrap: StringFilter
+  content: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: StringFilter
+  buttons: StringFilter
+  button: StringFilter
+}
+
+input GlobalBlocksTailwindFeatureImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input GlobalBlocksTailwindFeatureBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksTailwindFeatureBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksTailwindFeatureBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksTailwindFeatureButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+}
+
+input GlobalBlocksTailwindFeatureFilter {
+  tailwind: GlobalBlocksTailwindFeatureTailwindFilter
+  image: GlobalBlocksTailwindFeatureImageFilter
+  background: GlobalBlocksTailwindFeatureBackgroundFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksTailwindFeatureButtonsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksTailwindCardsTailwindFilter {
+  section: StringFilter
+  wrap: StringFilter
+  imageWrap: StringFilter
+  image: StringFilter
+  contentWrap: StringFilter
+  content: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: StringFilter
+  buttons: StringFilter
+  button: StringFilter
+  rule: StringFilter
+  cardWrap: StringFilter
+  card: StringFilter
+  cardImageWrap: StringFilter
+  cardImage: StringFilter
+  cardContentWrap: StringFilter
+  cardContent: StringFilter
+  cardLabel: StringFilter
+  cardHeadline: StringFilter
+  cardSubhead: StringFilter
+  cardText: StringFilter
+  cardButtons: StringFilter
+  cardButton: StringFilter
+}
+
+input GlobalBlocksTailwindCardsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input GlobalBlocksTailwindCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input GlobalBlocksTailwindCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: GlobalBlocksTailwindCardsBackgroundOrnamentsFilter
+}
+
+input GlobalBlocksTailwindCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input GlobalBlocksTailwindCardsItemsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input GlobalBlocksTailwindCardsItemsFilter {
+  image: GlobalBlocksTailwindCardsItemsImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input GlobalBlocksTailwindCardsFilter {
+  tailwind: GlobalBlocksTailwindCardsTailwindFilter
+  image: GlobalBlocksTailwindCardsImageFilter
+  background: GlobalBlocksTailwindCardsBackgroundFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: GlobalBlocksTailwindCardsButtonsFilter
+  items: GlobalBlocksTailwindCardsItemsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input GlobalBlocksFilter {
+  feature: GlobalBlocksFeatureFilter
+  photoCards: GlobalBlocksPhotoCardsFilter
+  textCards: GlobalBlocksTextCardsFilter
+  banner: GlobalBlocksBannerFilter
+  embed: GlobalBlocksEmbedFilter
+  tailwindFeature: GlobalBlocksTailwindFeatureFilter
+  tailwindCards: GlobalBlocksTailwindCardsFilter
+}
+
+input GlobalRedirectsFilter {
+  from: StringFilter
+  to: StringFilter
+}
+
+input GlobalFilter {
+  siteUrl: StringFilter
+  gtmId: StringFilter
+  favicon: ImageFilter
+  desktopWidth: StringFilter
+  rule: StringFilter
+  colors: GlobalColorsFilter
+  fonts: GlobalFontsFilter
+  sizeLeading: GlobalSizeLeadingFilter
+  buttons: GlobalButtonsFilter
+  links: GlobalLinksFilter
+  logo: GlobalLogoFilter
+  nav: GlobalNavFilter
+  rule2: StringFilter
+  blocks: GlobalBlocksFilter
+  redirects: GlobalRedirectsFilter
+}
+
+input PagesBlocksBannerStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  width: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input PagesBlocksBannerBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksBannerBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksBannerBackgroundOrnamentsFilter
+}
+
+input PagesBlocksBannerImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksBannerButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksBannerFilter {
+  style: PagesBlocksBannerStyleFilter
+  background: PagesBlocksBannerBackgroundFilter
+  image: PagesBlocksBannerImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksBannerButtonsFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksEmbedStyleFilter {
+  minHeight: StringFilter
+  fullWidth: BooleanFilter
+  padding: StringFilter
+}
+
+input PagesBlocksEmbedBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksEmbedBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksEmbedBackgroundOrnamentsFilter
+}
+
+input PagesBlocksEmbedFilter {
+  style: PagesBlocksEmbedStyleFilter
+  background: PagesBlocksEmbedBackgroundFilter
+  markup: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksEventCardsStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  contentWidth: StringFilter
+  columns: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input PagesBlocksEventCardsCardStyleFilter {
+  fillStyles: StringFilter
+  padding: StringFilter
+  type: StringFilter
+  imageStyles: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  buttonTitle: StringFilter
+  buttonType: StringFilter
+}
+
+input PagesBlocksEventCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksEventCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksEventCardsBackgroundOrnamentsFilter
+}
+
+input PagesBlocksEventCardsButtonsFilter {
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksEventCardsFilter {
+  style: PagesBlocksEventCardsStyleFilter
+  cardStyle: PagesBlocksEventCardsCardStyleFilter
+  background: PagesBlocksEventCardsBackgroundFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksEventCardsButtonsFilter
+  status: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksFeatureStyleFilter {
+  alignment: StringFilter
+  contentTitle: StringFilter
+  featureContent: StringFilter
+  padding: StringFilter
+  imageTitle: StringFilter
+  featureImage: StringFilter
+  imagePadding: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input PagesBlocksFeatureBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksFeatureBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksFeatureBackgroundOrnamentsFilter
+}
+
+input PagesBlocksFeatureImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksFeatureButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksFeatureFilter {
+  style: PagesBlocksFeatureStyleFilter
+  background: PagesBlocksFeatureBackgroundFilter
+  image: PagesBlocksFeatureImageFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksFeatureButtonsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksModalsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksModalsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksModalsBackgroundOrnamentsFilter
+}
+
+input PagesBlocksModalsItemsFilter {
+  label: StringFilter
+  video: StringFilter
+}
+
+input PagesBlocksModalsFilter {
+  background: PagesBlocksModalsBackgroundFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  items: PagesBlocksModalsItemsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksPhotoCardsStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  contentWidth: StringFilter
+  columns: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input PagesBlocksPhotoCardsCardStyleFilter {
+  fillStyles: StringFilter
+  padding: StringFilter
+  type: StringFilter
+  imageStyles: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  buttonTitle: StringFilter
+  buttonType: StringFilter
+}
+
+input PagesBlocksPhotoCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksPhotoCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksPhotoCardsBackgroundOrnamentsFilter
+}
+
+input PagesBlocksPhotoCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksPhotoCardsItemsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksPhotoCardsItemsFilter {
+  image: PagesBlocksPhotoCardsItemsImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input PagesBlocksPhotoCardsFilter {
+  style: PagesBlocksPhotoCardsStyleFilter
+  cardStyle: PagesBlocksPhotoCardsCardStyleFilter
+  background: PagesBlocksPhotoCardsBackgroundFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksPhotoCardsButtonsFilter
+  items: PagesBlocksPhotoCardsItemsFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksTailwindCardsTailwindFilter {
+  section: StringFilter
+  wrap: StringFilter
+  imageWrap: StringFilter
+  image: StringFilter
+  contentWrap: StringFilter
+  content: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: StringFilter
+  buttons: StringFilter
+  button: StringFilter
+  rule: StringFilter
+  cardWrap: StringFilter
+  card: StringFilter
+  cardImageWrap: StringFilter
+  cardImage: StringFilter
+  cardContentWrap: StringFilter
+  cardContent: StringFilter
+  cardLabel: StringFilter
+  cardHeadline: StringFilter
+  cardSubhead: StringFilter
+  cardText: StringFilter
+  cardButtons: StringFilter
+  cardButton: StringFilter
+}
+
+input PagesBlocksTailwindCardsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksTailwindCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksTailwindCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksTailwindCardsBackgroundOrnamentsFilter
+}
+
+input PagesBlocksTailwindCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksTailwindCardsItemsImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksTailwindCardsItemsFilter {
+  image: PagesBlocksTailwindCardsItemsImageFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input PagesBlocksTailwindCardsFilter {
+  tailwind: PagesBlocksTailwindCardsTailwindFilter
+  image: PagesBlocksTailwindCardsImageFilter
+  background: PagesBlocksTailwindCardsBackgroundFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksTailwindCardsButtonsFilter
+  items: PagesBlocksTailwindCardsItemsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksTailwindFeatureTailwindFilter {
+  section: StringFilter
+  wrap: StringFilter
+  imageWrap: StringFilter
+  image: StringFilter
+  contentWrap: StringFilter
+  content: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  text: StringFilter
+  buttons: StringFilter
+  button: StringFilter
+}
+
+input PagesBlocksTailwindFeatureImageFilter {
+  src: ImageFilter
+  alt: StringFilter
+}
+
+input PagesBlocksTailwindFeatureBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksTailwindFeatureBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksTailwindFeatureBackgroundOrnamentsFilter
+}
+
+input PagesBlocksTailwindFeatureButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+}
+
+input PagesBlocksTailwindFeatureFilter {
+  tailwind: PagesBlocksTailwindFeatureTailwindFilter
+  image: PagesBlocksTailwindFeatureImageFilter
+  background: PagesBlocksTailwindFeatureBackgroundFilter
+  rule: StringFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksTailwindFeatureButtonsFilter
+  rule2: StringFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksTextCardsStyleFilter {
+  textAlignment: StringFilter
+  minHeight: StringFilter
+  padding: StringFilter
+  contentWidth: StringFilter
+  columns: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  contentOrder: StringFilter
+}
+
+input PagesBlocksTextCardsCardStyleFilter {
+  fillStyles: StringFilter
+  padding: StringFilter
+  type: StringFilter
+  borderStyles: StringFilter
+  typographyTitle: StringFilter
+  labelStyles: StringFilter
+  headlineStyles: StringFilter
+  subheadStyles: StringFilter
+  textStyles: StringFilter
+  buttonTitle: StringFilter
+  buttonType: StringFilter
+}
+
+input PagesBlocksTextCardsBackgroundOrnamentsFilter {
+  src: ImageFilter
+  alignment: StringFilter
+  width: StringFilter
+  height: StringFilter
+  xOffset: StringFilter
+  yOffset: StringFilter
+}
+
+input PagesBlocksTextCardsBackgroundFilter {
+  fillStyles: StringFilter
+  src: ImageFilter
+  position: StringFilter
+  ornaments: PagesBlocksTextCardsBackgroundOrnamentsFilter
+}
+
+input PagesBlocksTextCardsButtonsFilter {
+  label: StringFilter
+  link: StringFilter
+  type: StringFilter
+}
+
+input PagesBlocksTextCardsItemsFilter {
+  headline: StringFilter
+  subhead: StringFilter
+  text: RichTextFilter
+  link: StringFilter
+  buttonLabel: StringFilter
+}
+
+input PagesBlocksTextCardsFilter {
+  style: PagesBlocksTextCardsStyleFilter
+  cardStyle: PagesBlocksTextCardsCardStyleFilter
+  background: PagesBlocksTextCardsBackgroundFilter
+  label: StringFilter
+  headline: StringFilter
+  subhead: StringFilter
+  body: RichTextFilter
+  buttons: PagesBlocksTextCardsButtonsFilter
+  items: PagesBlocksTextCardsItemsFilter
+  navigationLabel: StringFilter
+}
+
+input PagesBlocksFilter {
+  banner: PagesBlocksBannerFilter
+  embed: PagesBlocksEmbedFilter
+  eventCards: PagesBlocksEventCardsFilter
+  feature: PagesBlocksFeatureFilter
+  modals: PagesBlocksModalsFilter
+  photoCards: PagesBlocksPhotoCardsFilter
+  tailwindCards: PagesBlocksTailwindCardsFilter
+  tailwindFeature: PagesBlocksTailwindFeatureFilter
+  textCards: PagesBlocksTextCardsFilter
+}
+
+input PagesMetaFilter {
+  pageTitle: StringFilter
+  pageDescription: StringFilter
+  siteImageSrc: ImageFilter
+}
+
+input PagesFilter {
+  draft: BooleanFilter
+  blocks: PagesBlocksFilter
+  meta: PagesMetaFilter
+}
+
+input DatetimeFilter {
+  after: String
+  before: String
+  eq: String
+  exists: Boolean
+}
+
+input EventFilter {
+  imageSrc: ImageFilter
+  headline: StringFilter
+  startDate: DatetimeFilter
+  endDate: DatetimeFilter
+  text: RichTextFilter
+  link: StringFilter
+}
+
+input DocumentFilter {
+  global: GlobalFilter
+  pages: PagesFilter
+  event: EventFilter
 }
 
 type DocumentConnectionEdges {
@@ -76,7 +1221,7 @@ type Collection {
   matches: String
   templates: [JSON]
   fields: [JSON]
-  documents(before: String, after: String, first: Float, last: Float): DocumentConnection!
+  documents(before: String, after: String, first: Float, last: Float, filter: DocumentFilter): DocumentConnection!
 }
 
 union DocumentNode = GlobalDocument | PagesDocument | EventDocument
