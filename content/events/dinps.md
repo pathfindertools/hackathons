@@ -9,6 +9,6 @@ text: >
   the fields of decentralized systems, peer-to-peer networks, and edge
   computing. 1st submission deadline: 2022, 5 Mar.
 link: 'https://research.protocol.ai/sites/dinps/'
-status: current
+status: archived
 ---
 
