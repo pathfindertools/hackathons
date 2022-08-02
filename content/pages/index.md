@@ -149,9 +149,9 @@ blocks:
     headline: Hall of Fame
     subhead: ''
     body: >
-      More than 5,000 people have participated in Filecoin and IPFS hackathons
-      over the last 12 months. More than 130 teams have won prizes. Thank you to
-      all builders!
+      More than 7,000 people have participated in Filecoin and IPFS hackathons
+      over the last 12 months. More than 750 teams have won $1M+ in prizes.
+      Thank you to all builders!
     buttons:
       - label: Click here to explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
