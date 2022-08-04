@@ -209,7 +209,7 @@ blocks:
           [Learn more and apply](https://pl-launchpad.io/)
         link: 'https://pl-launchpad.io/'
       - headline: Get Hired
-        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
+        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network.
         text: >
           Check out open roles on the Protocol Labs Network [Jobs
           Board](https://bitly.protocol.ai/3KNG27i)
