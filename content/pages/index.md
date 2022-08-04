@@ -185,7 +185,7 @@ blocks:
     subhead: ''
     body: >
       We encourage builders who want to take their hackathon submissions to the
-      next level to apply to our grant and accelerator programs. Check out
+      next level to apply to our grants and accelerator programs. Check out
       follow-on opportunities below.
     items:
       - headline: Grants
