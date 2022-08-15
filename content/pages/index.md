@@ -185,16 +185,15 @@ blocks:
     subhead: ''
     body: >
       We encourage builders who want to take their hackathon submissions to the
-      next level to apply to our grants' and accelerator programs. Check out
+      next level to apply to our grants and accelerator programs. Check out
       follow-on opportunities below.
     items:
       - headline: Grants
         subhead: >-
           Explore the Filecoin grants program and unlock additional funding to
           keep working on your project.
-        text: >
-          [Learn more and apply
-          Here](https://github.com/filecoin-project/devgrants)
+        text: |
+          [Learn more and apply](https://github.com/filecoin-project/devgrants)
       - headline: Accelerators
         subhead: >-
           Apply to an accelerator and turn your project into a pitch-ready
@@ -210,7 +209,7 @@ blocks:
           [Learn more and apply](https://pl-launchpad.io/)
         link: 'https://pl-launchpad.io/'
       - headline: Get Hired
-        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network
+        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network.
         text: >
           Check out open roles on the Protocol Labs Network [Jobs
           Board](https://bitly.protocol.ai/3KNG27i)
