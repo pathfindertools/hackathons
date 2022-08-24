@@ -8,6 +8,6 @@ text: >
   Win prizes worth $12,000 at this IRL + Virtual hackathon by Dystopial Labs for
   the ETHSeoul community!
 link: 'https://ethseoul.devfolio.co/'
-status: current
+status: archived
 ---
 
