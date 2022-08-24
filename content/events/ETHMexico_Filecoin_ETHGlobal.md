@@ -8,6 +8,6 @@ text: >
   Win prizes worth $150,000+ and gain access to several of the best engineers in
   this space at this IRL hackathon in Mexico with ETHGlobal!&#x20;
 link: 'https://mexico.ethglobal.com/'
-status: current
+status: archived
 ---
 
