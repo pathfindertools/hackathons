@@ -9,6 +9,6 @@ text: >
   Bengaluru for three incredible days of learning, building, & networking with
   builders in an energetic and immersive atmosphere.
 link: 'https://unfold.devfolio.co/'
-status: current
+status: archived
 ---
 
