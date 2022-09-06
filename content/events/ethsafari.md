@@ -10,7 +10,7 @@ text: >
   platforms together to build and win cash and prizes.
 
 
-  **$10,000+ IN CASH AND PRIZES**
+  **$10k+ IN CASH AND PRIZES**
 link: 'https://www.encode.club/eth-safari-hackathon'
 status: current
 ---
