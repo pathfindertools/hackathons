@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1661966344/hackathons/ethsafari_2022_u7phq3.png
+  https://res.cloudinary.com/protocolai/image/upload/v1662481407/hackathons/encode_ethsafari_rdlkze.png
 headline: ETHSafari
 startDate: '2022-09-01T07:00:00.000Z'
 endDate: '2022-09-22T07:00:00.000Z'
