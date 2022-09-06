@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1662483312/hackathons/ethlisbon_utd3ug.png
+  https://res.cloudinary.com/protocolai/image/upload/v1662487366/hackathons/ethlisbon_1_640x360_qeyf9c.png
 headline: ETHLisbon
 startDate: '2022-10-28T07:00:00.000Z'
 endDate: '2022-10-30T07:00:00.000Z'
