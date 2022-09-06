@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1656699338/Screen_Shot_2022-07-01_at_14.15.23_tsk85l.png
+  https://res.cloudinary.com/protocolai/image/upload/v1662489522/hackathons/ethcchack_sube8z.png
 headline: EthCC Hack Paris
 startDate: '2022-07-22T04:00:00.000Z'
 endDate: '2022-07-29T04:00:00.000Z'
