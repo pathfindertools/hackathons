@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1662483938/hackathons/ethbogota_kfraxk.png
+  https://res.cloudinary.com/protocolai/image/upload/v1662488093/hackathons/ethbogota_640x360_rmyqxq.png
 headline: ETHBogotá
 startDate: '2022-10-07T07:00:00.000Z'
 endDate: '2022-10-09T07:00:00.000Z'
