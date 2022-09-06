@@ -81,6 +81,7 @@ export default defineSchema({
         {
           label: "Image Source",
           name: "imageSrc",
+          description: "This should be a jpeg that is 640x360 pixels.",
           type: "image",
           ui: {
             clearable: true,
