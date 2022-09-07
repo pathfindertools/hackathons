@@ -150,11 +150,6 @@ export const tinaConfig = defineConfig({
   },
   cmsCallback: (cms) => {
     /**
-     * Enable experimental Tina features
-     */
-    cms.flags.set("branch-switcher", true);
-
-    /**
      * When `tina-admin` is enabled, this plugin configures contextual editing for collections
      */
     import("tinacms").then(({ RouteMappingPlugin }) => {
