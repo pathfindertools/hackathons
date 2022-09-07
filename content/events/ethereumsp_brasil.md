@@ -1,6 +1,6 @@
 ---
 imageSrc: ''
-headline: delete
+headline: ''
 startDate: '2019-01-01T08:00:00.000Z'
 endDate: '2019-01-01T08:00:00.000Z'
 text: |
