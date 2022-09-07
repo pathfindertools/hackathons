@@ -128,6 +128,7 @@ export default defineSchema({
           options: [
             { label: "Current", value: "current" },
             { label: "Archived", value: "archived" },
+            { label: "Hidden", value: "hidden" },
           ]
         },
       ],
