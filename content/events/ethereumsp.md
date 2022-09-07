@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1662575424/hackathons/Screen_Shot_2022-09-07_at_11.29.06_qbqqmi.png
+  https://res.cloudinary.com/protocolai/image/upload/v1662576282/hackathons/ethereumsp_640_hd9sq4.png
 headline: EthereumSP Hackathon
 startDate: '2022-09-09T07:00:00.000Z'
 endDate: '2022-09-11T07:00:00.000Z'
