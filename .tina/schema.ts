@@ -128,6 +128,7 @@ export default defineSchema({
           options: [
             { label: "Current", value: "current" },
             { label: "Archived", value: "archived" },
+            { label: "Hidden", value: "hidden" },
           ]
         },
       ],
@@ -148,11 +149,6 @@ export const tinaConfig = defineConfig({
     return pack.TinaCloudCloudinaryMediaStore;
   },
   cmsCallback: (cms) => {
-    /**
-     * Enable experimental Tina features
-     */
-    cms.flags.set("branch-switcher", true);
-
     /**
      * When `tina-admin` is enabled, this plugin configures contextual editing for collections
      */
