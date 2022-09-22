@@ -8,6 +8,6 @@ text: >
   Data Dao hackathon aims at unveiling the value of Web3 Data and advocating
   decentralized data storage, access and services.
 link: 'https://fil-toronto.com/hackathon/'
-status: current
+status: archived
 ---
 
