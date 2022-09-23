@@ -9,6 +9,6 @@ text: >
   and Web3 projects. It starts with a full day of workshops to learn and prepare
   for the hackathon!
 link: 'https://www.ethereumbrasil.com/sp22hackathon'
-status: current
+status: archived
 ---
 
