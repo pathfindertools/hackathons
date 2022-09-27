@@ -15,9 +15,7 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
 
   return (
     <div className={`flex flex-col relative sm:mb-6 ${cardstyle?.borderStyles}`} data-tinafield={`${parentField}.${index}`}>
-      <p className="hidden">Block: {JSON.stringify(block)}</p>
-      <p className="hidden" data-src={imageSrc}>{`ImageSrc: ${imageSrc}`}</p>
-      <div className="relative w-full" style={block.image || block.imageSrc && {paddingTop: '56%'}}>
+      <div className="relative w-full" style={{paddingTop: '56%'}}>
         {imageSrc && (
            <img
             className={`absolute inset-0 h-full w-full object-cover`}
