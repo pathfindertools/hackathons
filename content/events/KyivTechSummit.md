@@ -8,6 +8,6 @@ text: >
   Online + Offline hackathon with $70,000 in bounties to build solutions that
   would help civilians in times of war.
 link: 'https://kyiv-tech-summit.devpost.com/'
-status: current
+status: archived
 ---
 

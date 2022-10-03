@@ -9,6 +9,6 @@ text: >
   latest in blockchain tech, we are looking to educate by bringing people and
   platforms together to build and win $10k+ in cash and prizes.
 link: 'https://www.encode.club/eth-safari-hackathon'
-status: current
+status: archived
 ---
 
