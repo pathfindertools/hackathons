@@ -13,6 +13,6 @@ text: >
   developers and excellent minds in relevant fields to push forward the
   development of Web3 and build a multicolored future!
 link: 'https://www.wxblockchain.com/week2022/hackathon?lang=en-US'
-status: current
+status: archived
 ---
 
