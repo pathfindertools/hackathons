@@ -8,6 +8,6 @@ text: >
   ETHGlobal's biggest event of the year is back with exciting prizes! Solve
   problems in Web3 and connect with a large network of like-minded hackers.
 link: 'https://online.ethglobal.com/'
-status: current
+status: archived
 ---
 
