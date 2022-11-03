@@ -9,6 +9,6 @@ text: >
   experiment with the possibilities of Web3 in one of the most vibrant cities in
   Latin America, now is your chance! Don't miss out. $300k+ in prizes.
 link: 'https://bogota.ethglobal.com/'
-status: current
+status: archived
 ---
 
