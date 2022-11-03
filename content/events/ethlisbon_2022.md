@@ -9,6 +9,6 @@ text: >
   builders to the crypto capital of Europe. Join us for 4 days of non-stop
   building.
 link: 'https://www.ethlisbon.org/'
-status: current
+status: archived
 ---
 
