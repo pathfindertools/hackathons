@@ -9,6 +9,6 @@ text: >
   problems across four tracks: Metaverse & Gaming, Developer Tooling, Web2
   Clones and Doing Good. More than $150k of prizes available. Let's go!
 link: 'https://moralis.io/filecoin-hackathon/'
-status: current
+status: archived
 ---
 
