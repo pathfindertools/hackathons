@@ -6,7 +6,7 @@ startDate: '2022-11-18T08:00:00.000Z'
 endDate: '2022-11-20T08:00:00.000Z'
 text: |
   Now NHack FEVM
-link: 'https://web3weekend.ethglobal.com/'
+link: 'https://fevm.ethglobal.com/'
 status: hidden
 ---
 
