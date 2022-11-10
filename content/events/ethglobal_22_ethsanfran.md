@@ -10,6 +10,6 @@ text: >
   advocates, and other community members who want to help you build something
   awesome. $300k in prizes
 link: 'https://sf.ethglobal.com/'
-status: current
+status: archived
 ---
 
