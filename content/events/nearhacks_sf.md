@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1668662007/hackathons/Screenshot_2022-11-16_at_21.12.41_fsxh36.png
+  https://res.cloudinary.com/protocolai/image/upload/v1668661878/hackathons/Screenshot_2022-11-16_at_sf_sqjrn6.png
 headline: Near Hacks San Francisco
 startDate: '2022-12-09T08:00:00.000Z'
 endDate: '2022-12-11T08:00:00.000Z'
