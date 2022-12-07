@@ -11,6 +11,6 @@ text: >
 
   1500+ builders  |  20+ Sponsors  |  30+ speakers  I  $100K in prizes
 link: 'https://ethindia.co/'
-status: current
+status: archived
 ---
 
