@@ -30,9 +30,6 @@ blocks:
       and shape the future of the web to make it more decentralized, robust, and
       secure!
     buttons:
-      - label: Subscribe to our mailing list
-        link: 'http://eepurl.com/hSf2nv'
-        type: secondary
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
@@ -194,8 +191,7 @@ blocks:
           keep working on your project.
         text: >
           [Learn more and
-          apply](https://github.com/filecoin-project/devgrants/#filecoin-grants
-          "")
+          apply](https://github.com/filecoin-project/devgrants/#filecoin-grants)
       - headline: Accelerators
         subhead: >-
           Apply to an accelerator and turn your project into a pitch-ready
