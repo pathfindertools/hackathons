@@ -12,6 +12,6 @@ text: >
   community discussions to engage, onboard and educate  participants in your
   project.
 link: 'https://gitcoin.co/hackathon/socialhour'
-status: current
+status: archived
 ---
 
