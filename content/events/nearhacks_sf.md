@@ -9,6 +9,6 @@ text: >
   attend, especially those with knowledge of Rust, Solidity, JavaScript, and
   ReactJS at this 3-day hackathon in San Francisco.
 link: 'https://lu.ma/nearhacks-sf'
-status: current
+status: hidden
 ---
 
