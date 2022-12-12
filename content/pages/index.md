@@ -211,7 +211,7 @@ blocks:
         text: >
           Check out open roles on the Protocol Labs Network [Jobs
           Board](https://bitly.protocol.ai/3KNG27i)
-        link: ''
+        link: 'https://jobs.protocol.ai/companies'
     navigationLabel: Post-hackathon Opportunities
     _template: textCards
   - style:
