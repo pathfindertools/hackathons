@@ -20,7 +20,7 @@ blocks:
       fillStyles: bg-black
     image:
       src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1635875985/Home/hackathons-hero_sovbdf.svg
+        https://res.cloudinary.com/protocolai/image/upload/v1670876121/hackathons/hackathons-hero-alt_jfz9pm.svg
     label: ''
     headline: Connect. Build. Grow.
     subhead: ''
@@ -60,7 +60,7 @@ blocks:
       fillStyles: from-accent1 to-black bg-gradient-to-r
       padding: pt-4 pb-4 pr-4 pl-4
       type: solid
-      imageStyles: ' undefined undefined undefined'
+      imageStyles: h-60 object-scale-down undefined undefined
       labelStyles: 'text-white undefined text-sm mb-0 '
       headlineStyles: text-white undefined text-xl mb-0 font-bold
       subheadStyles: 'text-gray undefined text-base mb-4 '
