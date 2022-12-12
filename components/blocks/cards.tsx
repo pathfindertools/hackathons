@@ -18,7 +18,7 @@ const Card = ({ block, index, cardstyle, parentField = ""  }) => {
       <div className="relative w-full" style={{paddingTop: '56%'}}>
         {imageSrc && (
            <img
-            className={`absolute inset-0 h-full w-full object-contain`}
+            className={`absolute inset-0 h-full w-full object-cover`}
             src={String(imageSrc)}
             alt={imageAlt}
             data-tinafield={`${parentField}.${index}.image`}
