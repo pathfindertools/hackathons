@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1670978973/hackathons/Screenshot_2022-12-13_at_16.48.55_ymoysh.png
+  https://res.cloudinary.com/protocolai/image/upload/v1670979379/hackathons/ethdenver_final_mjcylg.png
 headline: ETHDenver 2023
 startDate: '2023-02-24T08:00:00.000Z'
 endDate: '2023-03-05T08:00:00.000Z'
