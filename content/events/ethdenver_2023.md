@@ -1,15 +1,15 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1670532507/hackathons/ethdenver_bny1ak.png
+  https://res.cloudinary.com/protocolai/image/upload/v1670979379/hackathons/ethdenver_final_mjcylg.png
 headline: ETHDenver 2023
-startDate: '2023-02-24T05:00:00.000Z'
-endDate: '2023-03-05T05:00:00.000Z'
+startDate: '2023-02-24T08:00:00.000Z'
+endDate: '2023-03-05T08:00:00.000Z'
 text: >
-  Join the largest and longest running ETH event. in the world!
+  Join the largest and longest running ETH event in the world!
 
 
-  200+ Mentors, 150+ international sponsors, $3M+ bounties, grants and
-  investments
+  200+ mentors, 150+ international sponsors, $3M+ bounties, grants and
+  investments.
 link: 'https://www.ethdenver.com/'
 status: current
 ---
