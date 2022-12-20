@@ -111,7 +111,7 @@ blocks:
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         type: primary
       - label: ' Join the Community Office Hours*'
-        link: 'https://bitly.protocol.ai/Community-Office-Hours'
+        link: 'https://lu.ma/IP-Office-Hours'
         type: primary
       - label: '*Thursdays 2.00 pm UTC / 6.00 pm Eastern'
         link: ''
