@@ -9,7 +9,7 @@ text: >
   world's largest incentivized data economy.
 
 
-  We just launched **Space Warp**, which is funding **up to $400k** for
+  We just launched **FVM Space Warp**, which is funding **up to $400k** for
   developers building on the FVM leading up to the **FVM** **Mainnet launch in
   Feb. 2023**.
 link: 'https://spacewarp.fvm.dev'
