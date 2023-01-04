@@ -31,8 +31,7 @@ blocks:
       secure!
     buttons:
       - label: Subscribe to our calendar
-        link: >-
-          https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
+        link: 'https://lu.ma/ipfs'
         type: secondary
     _template: feature
   - background:
