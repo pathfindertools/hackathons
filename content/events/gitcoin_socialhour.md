@@ -1,6 +1,6 @@
 ---
 imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1668670811/hackathons/Screenshot_2022-11-16_at_23.39.07_hyuvcg.png
+  https://res.cloudinary.com/protocolai/image/upload/v1672854999/hackathons/gitcoin-socialhour-2022_puxnap.png
 headline: Gitcoin Social Hour
 startDate: '2022-10-26T07:00:00.000Z'
 endDate: '2022-11-15T08:00:00.000Z'
