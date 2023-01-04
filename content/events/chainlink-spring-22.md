@@ -1,9 +1,11 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1653653779/Screen_Shot_2022-05-27_at_5.45.54_PM_q5fg7v.png
-startDate: '2022-04-22T05:00:00.000Z'
-endDate: '2022-05-27T05:00:00.000Z'
+imageSrc: >-
+  https://res.cloudinary.com/protocolai/image/upload/v1672857986/hackathons/chainlink-spring-2022_brq56j.png
 headline: Chainlink Spring 22
-text: 
-link: https://chain.link/hackathon
+startDate: '2022-04-22T07:00:00.000Z'
+endDate: '2022-05-27T07:00:00.000Z'
+text: ''
+link: 'https://chain.link/hackathon'
 status: archived
 ---
+
