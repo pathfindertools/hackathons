@@ -5,19 +5,15 @@ headline: ETHforAll
 startDate: '2023-02-04T08:00:00.000Z'
 endDate: '2023-02-19T08:00:00.000Z'
 text: >
-  Shining the spotlight on leveraging crypto protocols to create a more positive
-  sum future by solving for the most pertinent issues in our society. If you
-  find yourself asking “How can I be of help?”, then you’re exactly who we’re
-  designing this event for.
+  Leveraging crypto protocols to create a more positive future by solving for
+  the most pertinent issues in our society. If you're asking “How can I help?”,
+  then you’re exactly who this event is designed for.
 
 
-  *   Network with global industry experts, advisors, mentors, investors and
-  companies building in this space
-
-  *   Walk away with an expansive knowledge base on the latest developments in
-  this space courtesy our panel discussions
-
-  *   Over $50K+ bounties up for grabs!
+  Network with global industry experts, advisors, mentors, investors and
+  companies building in this space;  gain expansive knowledge base on the latest
+  developments in this space courtesy our panel discussions;  $50K+ bounties up
+  for grabs
 link: 'https://ethforall.devfolio.co/'
 status: current
 ---
