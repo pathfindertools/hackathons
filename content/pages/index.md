@@ -116,9 +116,6 @@ blocks:
       - label: '*Thursdays 2.00 pm UTC / 6.00 pm Eastern'
         link: ''
         type: minor
-      - label: ' Schedule a 15-minute 1:1 call'
-        link: 'https://bitly.protocol.ai/3txOYHL'
-        type: primary
       - label: Learn about our Hackathons Judging Criteria
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
