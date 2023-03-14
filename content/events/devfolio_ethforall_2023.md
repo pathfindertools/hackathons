@@ -15,6 +15,6 @@ text: >
   developments in this space courtesy our panel discussions;  $50K+ bounties up
   for grabs
 link: 'https://ethforall.devfolio.co/'
-status: current
+status: archived
 ---
 

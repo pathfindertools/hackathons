@@ -11,6 +11,6 @@ text: >
   200+ mentors, 150+ international sponsors, $3M+ bounties, grants and
   investments.
 link: 'https://www.ethdenver.com/'
-status: current
+status: archived
 ---
 
