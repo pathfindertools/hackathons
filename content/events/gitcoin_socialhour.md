@@ -14,4 +14,3 @@ text: >
 link: 'https://gitcoin.co/hackathon/socialhour'
 status: archived
 ---
-

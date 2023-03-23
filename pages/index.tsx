@@ -1,9 +1,9 @@
-import { Blocks } from "../components/blocks";
-import { ExperimentalGetTinaClient } from "../.tina/__generated__/types";
-import { useTina } from "tinacms/dist/edit-state";
+import { Blocks } from "../components/blocks-renderer";
+import { useTina } from "tinacms/dist/react";
 import { Layout } from "../components/layout";
+import { client } from "../.tina/__generated__/client";
 
-export default function HomePage(
+export default function IndexPage(
   props: AsyncReturnType<typeof getStaticProps>["props"]
 ) {
   const { data } = useTina({
@@ -11,25 +11,32 @@ export default function HomePage(
     variables: props.variables,
     data: props.data,
   });
+  const eventsData = props.events.eventConnection.edges
+  const eventList = eventsData.map(event => {
+    return (
+      {...event.node}
+    )
+  })
+
   return (
-    <Layout data={data}>
-      <Blocks {...data.getPagesDocument.data} events={props.events} />
+    /* TODO: needs ts type */
+    <Layout rawData={data}>
+      <Blocks {...data.page } events={eventList} />
     </Layout>
   );
 }
 
 export const getStaticProps = async ({ params }) => {
-  const client = ExperimentalGetTinaClient();
-  const tinaProps = await client.ContentQuery({
+  const tinaProps = await client.queries.contentQuery({
     relativePath: `index.md`,
   });
-  const eventProps = await client.getEventList();
+  const eventsListData = await client.queries.eventConnection({first: 150});
   return {
     props: {
       data: tinaProps.data,
       query: tinaProps.query,
       variables: tinaProps.variables,
-      events: eventProps.data
+      events: eventsListData.data
     },
   };
 };
