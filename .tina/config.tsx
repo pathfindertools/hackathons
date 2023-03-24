@@ -74,7 +74,6 @@ const config = defineStaticConfig({
               tailwindFeatureBlockSchema,
               tailwindCardsBlockSchema,
               eventCardsBlockSchema,
-              eventTimelineBlockSchema,
               modalsBlockSchema,
             ],
           },

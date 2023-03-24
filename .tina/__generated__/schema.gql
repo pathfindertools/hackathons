@@ -525,40 +525,6 @@ type PageBlocksEventCards {
   navigationLabel: String
 }
 
-type PageBlocksEventTimelineStyle {
-  fullWidth: Boolean
-  minHeight: String
-  padding: String
-  typographyTitle: String
-  labelStyles: String
-  headlineStyles: String
-  subheadStyles: String
-  textStyles: String
-}
-
-type PageBlocksEventTimelineBackgroundOrnaments {
-  src: String
-  alignment: String
-  width: String
-  height: String
-  xOffset: String
-  yOffset: String
-}
-
-type PageBlocksEventTimelineBackground {
-  fillStyles: String
-  src: String
-  position: String
-  ornaments: [PageBlocksEventTimelineBackgroundOrnaments]
-}
-
-type PageBlocksEventTimeline {
-  style: PageBlocksEventTimelineStyle
-  background: PageBlocksEventTimelineBackground
-  fathomId: String
-  navigationLabel: String
-}
-
 type PageBlocksModalsStyle {
   padding: String
   featureContent: String
@@ -603,7 +569,7 @@ type PageBlocksModals {
   navigationLabel: String
 }
 
-union PageBlocks = PageBlocksFeature | PageBlocksCards | PageBlocksAccordian | PageBlocksEmbed | PageBlocksTailwindFeature | PageBlocksTailwindCards | PageBlocksEventCards | PageBlocksEventTimeline | PageBlocksModals
+union PageBlocks = PageBlocksFeature | PageBlocksCards | PageBlocksAccordian | PageBlocksEmbed | PageBlocksTailwindFeature | PageBlocksTailwindCards | PageBlocksEventCards | PageBlocksModals
 
 type PageMeta {
   title: String
@@ -1077,40 +1043,6 @@ input PageBlocksEventCardsFilter {
   navigationLabel: StringFilter
 }
 
-input PageBlocksEventTimelineStyleFilter {
-  fullWidth: BooleanFilter
-  minHeight: StringFilter
-  padding: StringFilter
-  typographyTitle: StringFilter
-  labelStyles: StringFilter
-  headlineStyles: StringFilter
-  subheadStyles: StringFilter
-  textStyles: StringFilter
-}
-
-input PageBlocksEventTimelineBackgroundOrnamentsFilter {
-  src: ImageFilter
-  alignment: StringFilter
-  width: StringFilter
-  height: StringFilter
-  xOffset: StringFilter
-  yOffset: StringFilter
-}
-
-input PageBlocksEventTimelineBackgroundFilter {
-  fillStyles: StringFilter
-  src: ImageFilter
-  position: StringFilter
-  ornaments: PageBlocksEventTimelineBackgroundOrnamentsFilter
-}
-
-input PageBlocksEventTimelineFilter {
-  style: PageBlocksEventTimelineStyleFilter
-  background: PageBlocksEventTimelineBackgroundFilter
-  fathomId: StringFilter
-  navigationLabel: StringFilter
-}
-
 input PageBlocksModalsStyleFilter {
   padding: StringFilter
   featureContent: StringFilter
@@ -1163,7 +1095,6 @@ input PageBlocksFilter {
   tailwindFeature: PageBlocksTailwindFeatureFilter
   tailwindCards: PageBlocksTailwindCardsFilter
   eventCards: PageBlocksEventCardsFilter
-  eventTimeline: PageBlocksEventTimelineFilter
   modals: PageBlocksModalsFilter
 }
 
@@ -2545,40 +2476,6 @@ input PageBlocksEventCardsMutation {
   navigationLabel: String
 }
 
-input PageBlocksEventTimelineStyleMutation {
-  fullWidth: Boolean
-  minHeight: String
-  padding: String
-  typographyTitle: String
-  labelStyles: String
-  headlineStyles: String
-  subheadStyles: String
-  textStyles: String
-}
-
-input PageBlocksEventTimelineBackgroundOrnamentsMutation {
-  src: String
-  alignment: String
-  width: String
-  height: String
-  xOffset: String
-  yOffset: String
-}
-
-input PageBlocksEventTimelineBackgroundMutation {
-  fillStyles: String
-  src: String
-  position: String
-  ornaments: [PageBlocksEventTimelineBackgroundOrnamentsMutation]
-}
-
-input PageBlocksEventTimelineMutation {
-  style: PageBlocksEventTimelineStyleMutation
-  background: PageBlocksEventTimelineBackgroundMutation
-  fathomId: String
-  navigationLabel: String
-}
-
 input PageBlocksModalsStyleMutation {
   padding: String
   featureContent: String
@@ -2631,7 +2528,6 @@ input PageBlocksMutation {
   tailwindFeature: PageBlocksTailwindFeatureMutation
   tailwindCards: PageBlocksTailwindCardsMutation
   eventCards: PageBlocksEventCardsMutation
-  eventTimeline: PageBlocksEventTimelineMutation
   modals: PageBlocksModalsMutation
 }
 

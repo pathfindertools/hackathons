@@ -16,13 +16,8 @@ export default function DynamicPage(
     return (
       {
         headline: event.node?.headline,
-        website: event.node?.website,
-        location: event.node?.location,
         startDate: event.node?.startDate,
         endDate: event.node?.endDate,
-        dateTBD: event.node?.dateTBD,
-        dri: event.node?.dri,
-        tag: event.node?.tag,
       }
     )
   })
