@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1664488944/hackathons/ethindia_600x300_upqreg.png
+imageSrc: /uploads/ethindia_600x300_upqreg.jpg
 headline: ETHIndia
 startDate: '2022-12-02T08:00:00.000Z'
 endDate: '2022-12-04T08:00:00.000Z'

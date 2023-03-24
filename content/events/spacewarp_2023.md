@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1671745235/hackathons/fvm_spacewarp_h033n4.png
+imageSrc: /uploads/fvm_spacewarp_h033n4.jpg
 headline: FVM Space Warp
 startDate: '2023-01-20T08:00:00.000Z'
 endDate: '2023-02-10T08:00:00.000Z'

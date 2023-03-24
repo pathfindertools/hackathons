@@ -1,5 +1,5 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1653656057/ETHNEWYORK_Filecoin_yw3fei.png
+imageSrc: /uploads/ETHNEWYORK_Filecoin_yw3fei.jpg
 startDate: '2022-06-24T05:00:00.000Z'
 endDate: '2022-06-26T05:00:00.000Z'
 headline: ETHNewYork

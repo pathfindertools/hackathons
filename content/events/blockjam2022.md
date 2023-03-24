@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1653656721/BlockJam2-01-810x456_hcmjuf.png
+imageSrc: /uploads/BlockJam2-01-810x456_hcmjuf.jpg
 headline: BlockJam2022
 startDate: '2022-06-18T05:00:00.000Z'
 endDate: '2022-07-05T05:00:00.000Z'

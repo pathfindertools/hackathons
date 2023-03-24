@@ -1,5 +1,5 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1655413069/hackathons/676x380_geha0x.webp
+imageSrc: /uploads/676x380_geha0x.jpg
 startDate: '2022-06-29T05:00:00.000Z'
 endDate: '2022-06-29T05:00:00.000Z'
 headline: London Reactor Meetup - Web3

@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1672784788/hackathons/ethonline_wjudah.png
+imageSrc: /uploads/ethonline_wjudah.jpg
 headline: ETHOnline 2023
 startDate: '2023-10-06T07:00:00.000Z'
 endDate: '2023-10-25T07:00:00.000Z'

@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1659111783/hackathons/ethonline-og_Filecoin_IPFS_hackathon_h2lp7d.jpg
+imageSrc: /uploads/ethonline-og_Filecoin_IPFS_hackathon_h2lp7d.jpg
 headline: ETHOnline by ETHGlobal
 startDate: '2022-09-01T22:00:00.000Z'
 endDate: '2022-09-27T22:00:00.000Z'

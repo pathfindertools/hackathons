@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1651523538/Screen_Shot_2022-05-02_at_13.31.36_shiizg.png
+imageSrc: /uploads/Screen_Shot_2022-05-02_at_13.31.36_shiizg.jpg
 headline: CORTX and Filecoin Integration Challenge
 startDate: '2022-05-06T05:00:00.000Z'
 endDate: '2022-07-11T05:00:00.000Z'

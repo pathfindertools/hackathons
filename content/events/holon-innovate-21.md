@@ -1,5 +1,5 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1638456358/Home/holon_gdu7up_m0y0hh.png
+imageSrc: /uploads/holon_gdu7up_m0y0hh.jpg
 startDate: '2021-11-09T05:00:00.000Z'
 endDate: '2021-11-25T05:00:00.000Z'
 headline: Holon Innovate '21

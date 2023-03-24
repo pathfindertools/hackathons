@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1673283371/hackathons/ethforall_nlrsld.png
+imageSrc: /uploads/ethforall_nlrsld.jpg
 headline: ETHforAll
 startDate: '2023-02-04T08:00:00.000Z'
 endDate: '2023-02-19T08:00:00.000Z'

@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1672784999/hackathons/ethny_c7byh9.png
+imageSrc: /uploads/ethny_c7byh9.jpg
 headline: ETHNewYork
 startDate: '2023-09-22T07:00:00.000Z'
 endDate: '2023-09-24T07:00:00.000Z'

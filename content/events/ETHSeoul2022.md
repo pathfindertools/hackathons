@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1659350926/hackathons/ETHSeoul_Dystopia_Labs_Filecoin_hackathon_qh7zpf.png
+imageSrc: /uploads/ETHSeoul_Dystopia_Labs_Filecoin_hackathon_qh7zpf.jpg
 headline: ETHSeoul Hackathon
 startDate: '2022-08-04T22:00:00.000Z'
 endDate: '2022-08-12T22:00:00.000Z'
