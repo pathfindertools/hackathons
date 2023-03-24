@@ -1,5 +1,6 @@
 .DS_Store
 .env.local
+.env
 notes.md
 notes.txt
 node_modules/
