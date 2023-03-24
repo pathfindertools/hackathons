@@ -1,10 +1,10 @@
 function justFontFamily(fontName) {
-  const parts = fontName.split(":wght@")
+  const parts = fontName?.split(":wght@")
   return parts[0] || ""
 }
 
 function justFontWeight(fontName) {
-  const parts = fontName.split(":wght@")
+  const parts = fontName?.split(":wght@")
   return Number(parts[1]) || 400
 }
 
@@ -18,8 +18,8 @@ function buttonClass(obj) {
   
   const getPadding = (obj, paddingPrefix) => {
     const isMobile = paddingPrefix.includes("sm")
-    const desktopClasses = obj.padding.split(" ").filter(item => !item.includes("sm"))
-    const mobileClasses = obj.padding.split(" ").filter(item => item.includes("sm"))
+    const desktopClasses = obj.padding?.split(" ").filter(item => !item.includes("sm"))
+    const mobileClasses = obj.padding?.split(" ").filter(item => item.includes("sm"))
     const classes = isMobile ? mobileClasses : desktopClasses
     const paddingClass = classes.find(item => item.includes(paddingPrefix))
     const value = paddingClass?.replace(paddingPrefix, "") * 4
@@ -43,8 +43,8 @@ function buttonClass(obj) {
     // if (obj.primaryBorder?.length > 1) {
     //   return ""
     // }
-    const borderClasses = obj.primaryBorder.split(" ")
-    const borderColor = borderClasses[0].replace("border-", "")
+    const borderClasses = obj.primaryBorder?.split(" ")
+    const borderColor = borderClasses[0]?.replace("border-", "")
     const borderWidth = borderClasses[1]?.split("-").at(-1) || "0"
     const borderSideClasses = borderClasses[1]?.split("-") || ""
     const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
@@ -58,7 +58,7 @@ function buttonClass(obj) {
     return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
   }
   const getGradient = (tailwind: string) => {
-    const tailwindClasses: string[] = tailwind.split(" ") || []
+    const tailwindClasses: string[] = tailwind?.split(" ") || []
     const fromColor: string = tailwindClasses.find(item => item.includes("from")) || ""
     const toColor: string = tailwindClasses.find(item => item.includes("to")) || ""
     const directionToDegrees = {
@@ -77,7 +77,7 @@ function buttonClass(obj) {
     return `linear-gradient(${directionToDegrees[direction]}deg, ${fromCSS} 0%, ${toCSS} 100%)`
   }
   const getBackgroundColor = (tailwind: string) => {
-    const tailwindClasses: string[] = tailwind.split(" ") || []
+    const tailwindClasses: string[] = tailwind?.split(" ") || []
     const backgroundColorClass = tailwindClasses.find(item => item.includes("bg-")) || ""
     return backgroundColorClass.replace("bg-", "")
   }
