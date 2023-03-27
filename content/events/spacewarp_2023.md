@@ -12,6 +12,7 @@ text: >
   developers building on the FVM leading up to the **FVM** **Mainnet launch in
   Feb. 2023**.
 link: 'https://spacewarp.fvm.dev'
-status: current
+status: archived
 ---
+
 
