@@ -1,4 +1,5 @@
 ---
+imageSrc: /uploads/ethglobal-lisbon2023.png
 headline: ETHGlobal Lisbon
 startDate: '2023-05-12T07:00:00.000Z'
 endDate: '2023-05-14T07:00:00.000Z'
@@ -7,6 +8,6 @@ text: >
   Join us for a weekend s of non-stop building at the beautiful Convento do
   Beato.  $225k in prizes up for grabs.
 link: 'https://ethglobal.com/events/lisbon'
-status: hidden
+status: current
 ---
 
