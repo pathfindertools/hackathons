@@ -1,6 +1,6 @@
 ---
 imageSrc: /uploads/ethwaterloo.png
-headline: ETHGlobal WATERLOO
+headline: ETHGlobal Waterloo
 startDate: '2023-06-23T07:00:00.000Z'
 endDate: '2023-06-25T07:00:00.000Z'
 text: ''
