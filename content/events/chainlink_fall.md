@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1663878037/hackathons/Screen_Shot_2022-09-22_at_08.59.23_k33mlx.png
+imageSrc: /uploads/Screen_Shot_2022-09-22_at_08.59.23_k33mlx.jpg
 headline: Chainlink Fall 2022
 startDate: '2022-10-14T07:00:00.000Z'
 endDate: '2022-11-18T08:00:00.000Z'

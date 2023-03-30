@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1661302098/hackathons/unfold_ewgso9.webp
+imageSrc: /uploads/unfold_ewgso9.jpg
 headline: Unfold 2022
 startDate: '2022-08-25T07:00:00.000Z'
 endDate: '2022-08-27T07:00:00.000Z'

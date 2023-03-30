@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1663011955/hackathons/Screen_Shot_2022-09-12_at_12.45.44_lpmmlg.png
+imageSrc: /uploads/Screen_Shot_2022-09-12_at_12.45.44_lpmmlg.jpg
 headline: 2022 Wanxiang Blockchain Fall Hackathon
 startDate: '2022-08-08T07:00:00.000Z'
 endDate: '2022-09-18T07:00:00.000Z'

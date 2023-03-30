@@ -1,5 +1,5 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1649431163/hackathons/gamedev-js-jam_csyeab.png
+imageSrc: /uploads/gamedev-js-jam_csyeab.jpg
 startDate: '2022-04-13T05:00:00.000Z'
 endDate: '2022-04-26T05:00:00.000Z'
 headline: Gamedev.js

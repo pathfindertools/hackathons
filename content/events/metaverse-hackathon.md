@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1672855897/hackathons/metaverse-2022a_fhlhui.png
+imageSrc: /uploads/metaverse-2022a_fhlhui.jpg
 headline: Metaverse Hackathon
 startDate: '2022-04-20T05:00:00.000Z'
 endDate: '2022-06-20T05:00:00.000Z'

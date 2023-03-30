@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1642348925/dinps22_h9n3la.jpg
+imageSrc: /uploads/dinps22_h9n3la.jpg
 headline: DINPS
 startDate: '2022-01-01T05:00:00.000Z'
 endDate: '2022-07-28T22:00:00.000Z'

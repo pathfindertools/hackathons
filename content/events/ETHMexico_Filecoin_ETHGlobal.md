@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1659111779/hackathons/ETHMexico_Filecoin_IPFS_Hackathon_bqixib.jpg
+imageSrc: /uploads/ETHMexico_Filecoin_IPFS_Hackathon_bqixib.jpg
 headline: ETHMexico by ETHGlobal
 startDate: '2022-08-18T22:00:00.000Z'
 endDate: '2022-08-20T22:00:00.000Z'

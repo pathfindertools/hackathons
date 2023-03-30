@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1654013715/hackathons/1000_x_300_nlsjqg.jpg
+imageSrc: /uploads/1000_x_300_nlsjqg.jpg
 headline: Web3athon
 startDate: '2022-06-09T05:00:00.000Z'
 endDate: '2022-08-31T05:00:00.000Z'

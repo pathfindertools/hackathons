@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1655722020/Screen_Shot_2022-06-20_at_06.46.47_sh0ccu.png
+imageSrc: /uploads/Screen_Shot_2022-06-20_at_06.46.47_sh0ccu.jpg
 headline: Filecoin中国区黑客松
 startDate: '2022-06-20T05:00:00.000Z'
 endDate: '2022-07-20T05:00:00.000Z'

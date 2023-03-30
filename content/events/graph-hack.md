@@ -1,5 +1,5 @@
 ---
-imageSrc: http://res.cloudinary.com/protocolai/image/upload/v1651519653/graph-hack1_wqda65.png
+imageSrc: /uploads/graph-hack1_wqda65.jpg
 startDate: '2022-06-03T05:00:00.000Z'
 endDate: '2022-06-05T05:00:00.000Z'
 headline: Graph Hack

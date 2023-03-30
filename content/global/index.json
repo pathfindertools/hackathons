@@ -1,78 +1,16 @@
 {
-  "siteUrl": "hackathons.filecoin.io",
-  "gtmId": "GTM-MS25MX2",
-  "favicon": "http://res.cloudinary.com/protocolai/image/upload/v1649882296/filecoin-favicon_rn3bfm.png",
-  "desktopWidth": "1200",
-  "colors": {
-    "primary": "#FF007A",
-    "accent1": "#0E4465",
-    "accent2": "#2DDB87",
-    "accent3": "#2DD0DB",
-    "accent4": "#00D0DB",
-    "white": "#FFFFFF",
-    "grayLight": "#E8E8EF",
-    "gray": "#B0B0BF",
-    "grayDark": "#7B7A80",
-    "black": "#000000"
-  },
-  "fonts": {
-    "font1": "Inter:wght@400;700",
-    "font2": "Archivo:wght@400;700",
-    "font3": "Rufina:wght@400;700",
-    "font4": "IBM Plex Mono:wght@400;700"
-  },
-  "sizeLeading": {
-    "textXs": "12/20",
-    "textSm": "14/24",
-    "textMd": "16/24",
-    "textLg": "18/26",
-    "textXl": "20/36",
-    "text2xl": "28/42",
-    "text3xl": "34/40",
-    "text4xl": "40/40",
-    "text5xl": "40/40",
-    "text6xl": "40/40",
-    "text7xl": "40/40",
-    "text8xl": "40/40"
-  },
-  "buttons": {
-    "primaryFill": "bg-primary",
-    "primaryBorder": "border-primary border-0",
-    "primaryTypography": "text-white font-1 text-sm mb-2 font-bold",
-    "primaryPadding": "pt-2 pb-2 pr-3.5 pl-3.5",
-    "primaryRounded": "rounded-none",
-    "secondaryBorder": "border-primary border-1",
-    "secondaryTypography": "text-white undefined text-sm mb-2 font-bold",
-    "secondaryPadding": "pt-2 pb-2 pr-3.5 pl-3.5",
-    "secondaryRounded": "rounded-none",
-    "minorBorder": "border-white border-0",
-    "minorTypography": "text-white undefined text-sm mb-2 font-bold",
-    "minorPadding": "pt-2 pb-2 pr-3.5 pl-3.5",
-    "minorRounded": "rounded-none",
-    "blackOutlineBorder": "border-black border-1",
-    "blackOutlineTypography": "text-black undefined text-sm mb-2 font-bold",
-    "blackOutlinePadding": "pt-2 pb-2 pr-3.5 pl-3.5",
-    "blackOutlineRounded": "rounded-none",
-    "whiteOutlineBorder": "border-white border-1",
-    "whiteOutlineTypography": "text-white undefined text-sm mb-2 font-bold",
-    "whiteOutlinePadding": "pt-2 pb-2 pr-3.5 pl-3.5",
-    "whiteOutlineRounded": "rounded-none"
-  },
-  "links": {
-    "color": "white"
-  },
+  "siteUrl": "microgen.site",
+  "gtmId": "",
+  "fathomSiteId": "",
+  "theme": "content/themes/microgen.md",
   "logo": {
-    "logoType": "",
-    "logoTypeStyle": "text-white undefined text-base undefined font-bold",
-    "image": "",
-    "imageWidth": "48",
-    "imageHeight": "48",
-    "imageMargin": "24"
+    "logoTypeStyle": "",
+    "image": ""
   },
   "nav": {
     "navAlignment": "text-center",
-    "navTypeStyle": "text-white font-sans text-base mb-0 ",
-    "navBackgroundColor": "bg-black",
-    "padding": "pt-10 pb-10 pr-20 pl-20 sm:pt-5 sm:pb-5 sm:pr-5 sm:pl-5"
+    "navTypeStyle": "text-white mg-copy-small ",
+    "navBackgroundColor": " opacity-100",
+    "padding": "pt-7 pb-10 pr-10 pl-10"
   }
 }

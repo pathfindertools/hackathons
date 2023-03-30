@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1659474300/hackathons/Screen_Shot_2022-08-02_at_14.04.38_tptxrd.png
+imageSrc: /uploads/Screen_Shot_2022-08-02_at_14.04.38_tptxrd.jpg
 headline: Hack Web3Conf India
 startDate: '2022-07-01T07:00:00.000Z'
 endDate: '2022-08-11T07:00:00.000Z'

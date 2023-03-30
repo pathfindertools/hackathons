@@ -1,17 +1,58 @@
+import React from "react";
+import { TextField, GroupListField, BlocksFieldPlugin } from 'tinacms'
 import AlignmentControl from './components/tina/AlignmentControl'
 import BorderControl from './components/tina/BorderControl'
+import ButtonControl from './components/tina/ButtonControl'
+import ButtonTypographyControl from './components/tina/ButtonTypographyControl'
+import CardAlignmentControl from './components/tina/CardAlignmentControl'
 import ColorControl from './components/tina/ColorControl'
-import FeatureContentField from './components/tina/FeatureContentField'
-import FeatureImageField from './components/tina/FeatureImageField'
+import FeatureContentControl from './components/tina/FeatureContentControl'
+import FeatureImageControl from './components/tina/FeatureImageControl'
 import FillControl from './components/tina/FillControl'
+import GridControl from './components/tina/GridControl'
 import ImageControl from './components/tina/ImageControl'
 import PaddingControl from './components/tina/PaddingControl'
 import RuledTitle from './components/tina/RuledTitle'
 import SelectField from './components/tina/SelectField'
 import TypeControl from './components/tina/TypeControl'
-import TypeSizeControl from './components/tina/TypeSizeControl'
-import { TextField, GroupListField } from 'tinacms'
+import TypographyControl from './components/tina/TypographyControl'
 
+export const SectionListItemsPlugin = {
+  ...BlocksFieldPlugin,
+  Component: (props) => {
+    const itemProps = (item) => {
+      const templateNames = {
+        accordian: 'Accordian',
+        banner: 'Banner',
+        embed: 'Embed',
+        eventCards: 'Event Cards',
+        eventTimeline: 'Event Timeline',
+        feature: 'Feature',
+        cards: 'Cards',
+        tailwindCards: 'Cards TW',
+        tailwindFeature: 'Feature TW',
+        modals: 'Modals',
+      }
+      const sectionName = item.headline || item.subhead || item.label || item.title || ''
+      const sectionNameShort = sectionName.match(/^.{24}\w*/)
+      const sectionLabel = sectionNameShort || sectionName || ''
+      const label = sectionLabel ? `${sectionLabel} (${templateNames[item._template]})` : `${templateNames[item._template]}`
+      return { ...item, label: label }
+    }
+    
+    const templates = {}
+    Object.keys(props.field.templates).forEach((key) => {
+      templates[key] = {
+        ...props.field.templates[key],
+        itemProps,
+      }
+    })
+    
+    return <BlocksFieldPlugin.Component {...props} field={{ ...props.field, templates }} />
+  },
+  __type: 'field',
+  name: "sectionListItems",
+}
 export const itemListFieldPlugin = {
   Component: (props) => {
     const field = {
@@ -31,7 +72,7 @@ export const emailFieldPlugin = {
   __type: 'field',
   name: 'emailField',
   validate: (email, allValues, meta, field) => {
-    let isValidEmail = /.*@.*\..*/.test(email)
+    const isValidEmail = /.*@.*\..*/.test(email)
     if (!isValidEmail) return 'Invalid email address'
   },
 }
@@ -48,28 +89,54 @@ export const borderControlFieldPlugin = {
   name: 'borderControl',
 }
 
+
+export const buttonTypographyControlFieldPlugin = {
+  Component: ButtonTypographyControl,
+  __type: 'field',
+  name: 'buttonTypographyControl',
+}
+
+export const cardAlignmentControlFieldPlugin = {
+  Component: CardAlignmentControl,
+  __type: 'field',
+  name: 'cardAlignmentControl',
+}
+
+
 export const colorControlFieldPlugin = {
   Component: ColorControl,
   __type: 'field',
   name: 'colorControl',
 }
 
-export const featureContentFieldPlugin = {
-  Component: FeatureContentField,
+export const buttonControlFieldPlugin = {
+  Component: ButtonControl,
   __type: 'field',
-  name: 'featureContentField',
+  name: 'buttonControl',
 }
 
-export const featureImageFieldPlugin = {
-  Component: FeatureImageField,
+export const featureContentControlPlugin = {
+  Component: FeatureContentControl,
   __type: 'field',
-  name: 'featureImageField',
+  name: 'featureContentControl',
+}
+
+export const featureImageControlPlugin = {
+  Component: FeatureImageControl,
+  __type: 'field',
+  name: 'featureImageControl',
 }
 
 export const fillControlFieldPlugin = {
   Component: FillControl,
   __type: 'field',
   name: 'fillControl',
+}
+
+export const gridControlFieldPlugin = {
+  Component: GridControl,
+  __type: 'field',
+  name: 'gridControl',
 }
 
 export const imageControlFieldPlugin = {
@@ -102,8 +169,8 @@ export const typeControlFieldPlugin = {
   name: 'typeControl',
 }
 
-export const typeSizeControlFieldPlugin = {
-  Component: TypeSizeControl,
+export const typographyControlFieldPlugin = {
+  Component: TypographyControl,
   __type: 'field',
-  name: 'typeSizeControl',
+  name: 'typographyControl',
 }

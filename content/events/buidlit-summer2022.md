@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1655320374/hackathons/Polygon_Buidlit_Filecoin_nulv2a.png
+imageSrc: /uploads/Polygon_Buidlit_Filecoin_nulv2a.jpg
 headline: BUIDLIT Summer 2022 Polygon
 startDate: '2022-06-15T05:00:00.000Z'
 endDate: '2022-08-25T05:00:00.000Z'

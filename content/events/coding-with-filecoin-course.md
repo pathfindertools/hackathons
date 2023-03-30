@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  http://res.cloudinary.com/protocolai/image/upload/v1651839383/hackathons/dtx9dawrwsumq7jfpvru.jpg
+imageSrc: /uploads/dtx9dawrwsumq7jfpvru.jpg
 headline: Coding with Filecoin - Course
 startDate: '2022-05-10T05:00:00.000Z'
 endDate: '2022-07-31T05:00:00.000Z'

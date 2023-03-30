@@ -1,42 +1,41 @@
 ---
-draft: true
 blocks:
   - style:
-      alignment: 'flex-col text-center items-center items-center-vertical '
-      featureContent: 'w-3/4 min-h-0 '
-      padding: pt-10 pb-0 pr-10 pl-10
-      featureImage: 'object-center object-scale-down '
-      imagePadding: 'pt-40 pb-0 pr-10 pl-10 sm:pt-20 sm:pb-0 sm:pr-10 sm:pl-10'
-      labelStyles: 'text-white font-1 text-2xl mb-0 '
-      headlineStyles: >-
-        text-primary font-1 text-4xl mb-10  sm:text-primary sm:font-1
-        sm:text-3xl sm:mb-10 
-      subheadStyles: 'text-gray-light font-1 text-3xl mb-0 '
-      textStyles: >-
-        text-white font-1 text-xl mb-10  sm:text-white sm:font-1 sm:text-lg
-        sm:mb-10 
-      contentOrder: labelHeadingsContent
+      alignment: flex-col items-center gap-12
+      padding: 'pt-40 pb-5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
+      featureImage: wpx-800  mx-auto
+      featureContent: 'w-3/4 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-left'
+      labelStyles: 'text-white mg-headline-small '
+      headlineStyles: 'text-white mg-headline-large '
+      subheadStyles: text-primary mg-headline-large mb-7
+      textStyles: text-white mg-copy-large mb-10
     background:
-      fillStyles: bg-black
+      fillStyles: ' opacity-100'
+      src: ''
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1670876121/hackathons/hackathons-hero-alt_jfz9pm.svg
+      src: /uploads/hackathons-hero.svg
     label: ''
-    headline: Connect. Build. Grow.
-    subhead: ''
+    headline: ''
+    subhead: Connect. Build. Grow.
     body: >
       With Filecoin and IPFS, we empower developers and entrepreneurs to solve
       significant problems and ship innovative applications. Join our hackathons
       and shape the future of the web to make it more decentralized, robust, and
-      secure!
+      secure.
     buttons:
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
-        type: secondary
+        buttonStyle: outline-pink
+        fathomId: ''
     _template: feature
-  - background:
-      fillStyles: bg-black
+  - style:
+      padding: pt-0 pb-0 pr-20 pl-20
+      featureContent: w-full min-h-0 text-center
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-primary mg-headline-large undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black undefined undefined
     label: ''
     headline: ''
     subhead: ''
@@ -46,28 +45,28 @@ blocks:
         video: ckKDv6iY0pQ
     _template: modals
   - style:
-      textAlignment: text-left
-      minHeight: min-h-0
+      alignment: 'flex-col-reverse items-center '
       padding: pt-20 pb-20 pr-10 pl-10
-      contentWidth: w-full
-      columns: '3'
-      labelStyles: 'text-primary font-sans text-sm mb-0 '
-      headlineStyles: 'text-primary font-sans text-3xl mb-10 '
-      subheadStyles: 'text-primary font-sans text-3xl mb-0 '
-      textStyles: 'text-primary font-sans undefined mb-0 '
-      contentOrder: labelHeadingsContent
+      featureContent: w-full undefined text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-primary mg-headline-large undefined
+      subheadStyles: text-black undefined mb-4
+      textStyles: text-black undefined undefined
     cardStyle:
-      fillStyles: from-accent1 to-black bg-gradient-to-r
-      padding: pt-4 pb-4 pr-4 pl-4
-      type: solid
-      imageStyles: h-60 object-scale-down undefined undefined
-      labelStyles: 'text-white undefined text-sm mb-0 '
-      headlineStyles: text-white undefined text-xl mb-0 font-bold
-      subheadStyles: 'text-gray undefined text-base mb-4 '
-      textStyles: 'text-white undefined text-base mb-0 '
-      buttonType: whiteOutline
-    background:
-      fillStyles: bg-black
+      fillStyles: from-accent1 to-black bg-gradient-to-r opacity-100
+      grid: 'grid-cols-3 justify-start gap-6 sm:grid-cols-1 sm:justify-start sm:gap-6'
+      alignment: flex-col items-start  text-left
+      image: ' hpx-191 object-center object-cover'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-5 pb-5 pr-5 pl-5
+      borderStyles: border-white border-0
+      labelStyles: text-white mg-copy-small undefined
+      headlineStyles: text-white mg-headline-small mb-0
+      subheadStyles: text-gray-light mg-copy-small undefined
+      textStyles: text-white mg-copy-medium undefined
+      buttonType: outline-white
+      buttonLayout: justify-between
+      buttonWidth: w-auto
     label: ''
     headline: Current & Upcoming Events
     subhead: ''
@@ -76,26 +75,19 @@ blocks:
     navigationLabel: Current & Upcoming
     _template: eventCards
   - style:
-      alignment: 'flex-row text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-20 pb-20 pr-10 pl-10 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
-      featureImage: 'object-center object-scale-down '
-      imagePadding: 'pt-10 pb-10 pr-5 pl-10 sm:pt-0 sm:pb-0 sm:pr-32 sm:pl-32'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-white undefined text-5xl mb-5 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined text-xl mb-10 '
-      contentOrder: labelHeadingsContent
+      alignment: 'flex-row items-center gap-12 sm:flex-col sm:items-center sm:gap-12'
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-20 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: '  mx-auto'
+      featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-white mg-headline-large undefined
+      subheadStyles: text-white mg-copy-medium undefined
+      textStyles: text-white mg-copy-medium undefined
     background:
-      fillStyles: bg-black
-      src: >-
-        http://res.cloudinary.com/protocolai/image/upload/v1649695490/hackathons/hackathon-slant-bg_ofvckc_iemr5o_azlsqg.svg
-      position: object-right-top
+      fillStyles: from-black to-accent1 bg-gradient-to-b opacity-100
     image:
-      src: >-
-        https://res.cloudinary.com/protocolai/image/upload/v1637777563/Home/hackathon-hex_gmb1ze_blzjir.svg
-    label: ''
-    headline: Start building
+      src: /uploads/hackathon-hex.svg
+    headline: Start Building
     subhead: ''
     body: >
       Visit our resources page to learn about the key concepts behind IPFS and
@@ -107,39 +99,35 @@ blocks:
       For further support, reach out to our Developer advocates through our free
       office hours.
     buttons:
-      - label: 'Get started with IPFS and Filecoin '
+      - label: Get started with IPFS & Filecoin
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
-        type: primary
-      - label: ' Join the Community Office Hours*'
-        link: 'https://lu.ma/IP-Office-Hours'
-        type: primary
-      - label: '*Thursdays 2.00 pm UTC / 6.00 pm Eastern'
+        buttonStyle: primary
+      - label: Join the community Office Hours
+        buttonStyle: primary
+      - label: '*Thursdays 2pm UTC / 6pm Eastern'
         link: ''
-        type: minor
-      - label: Learn about our Hackathons Judging Criteria
+        buttonStyle: white-link
+      - label: Learn about our Hackathons Juding Criteria
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
-        type: primary
+        buttonStyle: primary
     navigationLabel: Start Building
     _template: feature
   - style:
-      alignment: 'flex-row-reverse text-left items-center items-start-vertical '
-      featureContent: 'w-1/2 min-h-0 '
-      padding: 'pt-24 pb-24 pr-10 pl-10 sm:pt-9 sm:pb-10 sm:pr-10 sm:pl-10'
-      featureImage: 'object-center object-scale-down '
-      imagePadding: 'pt-10 pb-10 pr-10 undefined sm:pt-10 sm:pb-0 sm:pr-20 sm:pl-20'
-      labelStyles: 'text-black undefined text-base undefined '
-      headlineStyles: 'text-black undefined text-5xl mb-5 '
-      subheadStyles: 'text-black undefined undefined undefined '
-      textStyles: 'text-black undefined text-xl mb-9 '
-      contentOrder: headingsLabelContent
+      alignment: >-
+        flex-row-reverse items-center gap-12 sm:flex-col sm:items-center
+        sm:gap-12
+      padding: 'pt-10 pb-10 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureImage: wpx-  mx-auto
+      featureContent: 'w-1/2 min-h-0 text-left sm:w-full sm:min-h-0 sm:text-left'
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-black mg-headline-large undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-black mg-copy-large mb-8
     background:
-      fillStyles: bg-accent3
-      position: object-center
+      fillStyles: bg-accent2 opacity-100
     image:
-      src: >-
-        http://res.cloudinary.com/protocolai/image/upload/v1643128562/Hall_of_Fame_grccee.png
-    label: ''
+      src: /uploads/Hall_of_Fame_grccee.png
     headline: Hall of Fame
     subhead: ''
     body: >
@@ -147,33 +135,36 @@ blocks:
       over the last 12 months. More than 750 teams have won a combined total of
       $1M+ in prizes. Thank you to all builders!
     buttons:
-      - label: Click here to explore past winners
+      - label: Explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
-        type: blackOutline
+        buttonStyle: outline-black
     navigationLabel: Hall of Fame
     _template: feature
   - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
-      contentWidth: w-9/12
-      columns: '4'
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: 'text-primary undefined text-5xl mb-3.5 '
-      subheadStyles: 'text-white undefined undefined undefined '
-      textStyles: 'text-white undefined text-xl mb-10 '
-      contentOrder: labelHeadingsContent
+      alignment: flex-col-reverse items-start gap-12
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureContent: w-3/4 min-h-0 text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-primary mg-headline-large mb-2
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white mg-copy-medium undefined
     cardStyle:
-      fillStyles: bg-accent1
-      padding: pt-5 pb-5 pr-5 pl-5
-      type: solid
-      labelStyles: 'text-white undefined undefined undefined '
-      headlineStyles: text-white undefined text-2xl mb-1.5 font-bold
-      subheadStyles: 'text-gray-light undefined undefined mb-3 '
-      textStyles: 'text-white undefined undefined undefined '
-      buttonType: primary
-    background:
-      fillStyles: bg-black
+      fillStyles: bg-accent1 opacity-100
+      grid: >-
+        grid-cols-4 justify-center gap-6 sm:grid-cols-1 sm:justify-center
+        sm:gap-6
+      alignment: flex-row items-start  text-left
+      image: '  object-center object-fill'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-4 pb-4 pr-4 pl-4
+      borderStyles: border-white border-0
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-white mg-headline-small mb-0
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white mg-copy-small mb-1.5
+      buttonType: white-link
+      buttonLayout: justify-start
+      buttonWidth: undefined
     label: ''
     headline: Post-hackathon opportunities
     subhead: ''
@@ -181,80 +172,63 @@ blocks:
       We encourage builders who want to take their hackathon submissions to the
       next level to apply to our grants and accelerator programs. Check out
       follow-on opportunities below.
+    buttons:
+      - label: Have a hackathon proposal? Contact us!
+        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
+        buttonStyle: outline-pink
     items:
       - headline: Grants
-        subhead: >-
+        body: >
           Explore the Filecoin grants program and unlock additional funding to
           keep working on your project.
-        text: >
-          [Learn more and
-          apply](https://github.com/filecoin-project/devgrants/#filecoin-grants)
+        link: 'https://github.com/filecoin-project/devgrants/#filecoin-grants'
+        buttonLabel: Learn more and apply
       - headline: Accelerators
-        subhead: >-
+        subhead: ''
+        body: >
           Apply to an accelerator and turn your project into a pitch-ready
           concept.
-        text: >
-          [Learn more and
-          apply](https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d)
+        link: >-
+          https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
+        buttonLabel: Learn More and Apply
       - headline: Launchpad
-        subhead: >-
+        subhead: ''
+        body: >
           A 6-week hiring & onboarding program designed for accelerating
           technical growth in the Web3 space.
-        text: |
-          [Learn more and apply](https://pl-launchpad.io/)
         link: 'https://pl-launchpad.io/'
+        buttonLabel: Learn more and apply
       - headline: Get Hired
-        subhead: Explore 100+ jobs available at companies in the Protocol Labs Network.
-        text: >
-          Check out open roles on the Protocol Labs Network [Jobs
-          Board](https://bitly.protocol.ai/3KNG27i)
+        subhead: ''
+        body: |
+          Explore 100+ jobs available at companies in the Protocol Labs Network.
         link: 'https://jobs.protocol.ai/companies'
-    navigationLabel: Post-hackathon Opportunities
-    _template: textCards
+        buttonLabel: ' Protocol Labs Jobs Board'
+    navigationLabel: Post-hackathon opportunities
+    _template: cards
   - style:
-      textAlignment: text-center
-      minHeight: min-h-0
-      padding: pt-10 pb-10 pr-10 pl-10
-      width: normal
-      labelStyles: 'undefined undefined undefined undefined '
-      headlineStyles: 'undefined undefined undefined undefined '
-      subheadStyles: 'undefined undefined undefined undefined '
-      textStyles: 'undefined undefined undefined undefined '
-      contentOrder: labelHeadingsContent
-    background:
-      fillStyles: bg-black
-    label: ''
-    headline: ''
-    subhead: ''
-    body: ''
-    buttons:
-      - label: You have a hackathon proposal? Contact us!
-        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
-        type: secondary
-    _template: banner
-  - style:
-      textAlignment: text-left
-      minHeight: min-h-0
-      padding: pt-20 pb-20 pr-10 pl-10
-      contentWidth: w-full
-      columns: '4'
-      labelStyles: 'text-primary font-sans text-sm mb-0 '
-      headlineStyles: 'text-primary font-sans text-3xl mb-10 '
-      subheadStyles: 'text-primary font-sans text-3xl mb-0 '
-      textStyles: 'text-primary font-sans undefined mb-0 '
-      contentOrder: labelHeadingsContent
+      alignment: 'flex-col-reverse items-center '
+      padding: 'pt-20 pb-20 pr-20 pl-20 sm:pt-10 sm:pb-10 sm:pr-10 sm:pl-10'
+      featureContent: w-full undefined text-left
+      labelStyles: text-black undefined undefined
+      headlineStyles: text-primary mg-headline-large undefined
+      subheadStyles: text-black undefined mb-4
+      textStyles: text-black undefined undefined
     cardStyle:
-      fillStyles: from-accent1 to-black bg-gradient-to-r
-      padding: pt-4 pb-4 pr-4 pl-4
-      type: solid
-      imageStyles: ' undefined undefined undefined'
-      labelStyles: 'text-white undefined text-sm mb-0 '
-      headlineStyles: text-white undefined text-lg mb-0 font-bold
-      subheadStyles: 'text-gray undefined text-sm mb-4 '
-      textStyles: 'text-white undefined text-base mb-0 '
-      buttonType: whiteOutline
-    background:
-      fillStyles: bg-black
+      fillStyles: from-accent1 to-black bg-gradient-to-r opacity-100
+      grid: 'grid-cols-4 justify-start gap-6 sm:grid-cols-1 sm:justify-start sm:gap-6'
+      alignment: flex-col items-start  text-left
+      image: ' hpx-140 object-center object-cover'
+      imagePadding: pt-0 pb-0 pr-0 pl-0
+      contentPadding: pt-5 pb-5 pr-5 pl-5
+      borderStyles: border-white border-0
+      labelStyles: text-white mg-copy-small undefined
+      headlineStyles: text-white mg-headline-small mb-0
+      subheadStyles: text-gray-light mg-copy-small undefined
+      textStyles: text-white mg-copy-medium undefined
+      buttonType: outline-white
+      buttonLayout: justify-between
+      buttonWidth: w-auto
     label: ''
     headline: Past Events
     subhead: ''
@@ -262,14 +236,28 @@ blocks:
     status: archived
     navigationLabel: Past Events
     _template: eventCards
+backgroundColor: black
 meta:
-  pageTitle: Hackathons
-  pageDescription: >-
+  title: Hackathons
+  description: >-
     With Filecoin and IPFS, we empower developers and entrepreneurs to solve
     significant problems and ship innovative applications. Join our hackathons
     and shape the future of the web to make it more decentralized, robust, and
     secure!
-  siteImageSrc: >-
-    https://res.cloudinary.com/tombustout/image/upload/v1634005837/asia-hackathon-hero_isb8ak.png
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

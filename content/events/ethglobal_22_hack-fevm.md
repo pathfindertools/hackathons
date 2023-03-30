@@ -1,6 +1,5 @@
 ---
-imageSrc: >-
-  https://res.cloudinary.com/protocolai/image/upload/v1667501667/hackathons/FEVM-Hack_awbp1b.png
+imageSrc: /uploads/FEVM-Hack_awbp1b.jpg
 headline: Hack FEVM
 startDate: '2022-11-18T08:00:00.000Z'
 endDate: '2022-11-20T08:00:00.000Z'
