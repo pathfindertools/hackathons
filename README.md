@@ -1,6 +1,6 @@
 # Hackathons
 
-This site is built with Microgen, a static site builder creeated with Tina. For more information, visit see the Documentation links below.
+This site is built with Microgen, a static site builder created with Tina. For more information, visit see the Documentation links below.
 
 Production: hacakthons.filecoin.io
 Staging: https://aged-rain-5848.on.fleek.co
