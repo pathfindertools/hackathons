@@ -45,8 +45,8 @@ function buttonClass(obj) {
       return ""
     }
     const borderColor: string = borderClasses[0]?.replace("border-", "") || ""
-    const borderWidth: [] = borderClasses[1]?.split("-")?.at(-1) || []
     return ""
+    const borderWidth: [] = borderClasses[1]?.split("-")?.at(-1) || []
     const borderSideClasses = borderClasses[1].split("-")
     const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
     const borderSides = {
