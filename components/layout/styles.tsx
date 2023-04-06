@@ -40,12 +40,12 @@ function buttonClass(obj) {
     return roundedOptions[obj.primaryRounded]
   }
   const getBorder = (obj) => {
-    if (obj.primaryBorder?.length > 1) {
+    const borderClasses = obj.primaryBorder?.split(" ") || []
+    if (borderClasses.length !== 2) {
       return ""
     }
-    const borderClasses = obj.primaryBorder.split(" ")
-    const borderColor = borderClasses[0].replace("border-", "")
-    const borderWidth = borderClasses[1].split("-").at(-1)
+    const borderColor = borderClasses[0].replace("border-", "") || ""
+    const borderWidth = borderClasses[1].split("-")?.at(-1) || ""
     const borderSideClasses = borderClasses[1].split("-")
     const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
     const borderSides = {
