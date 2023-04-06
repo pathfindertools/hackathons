@@ -44,8 +44,8 @@ function buttonClass(obj) {
     if (borderClasses.length !== 2) {
       return ""
     }
-    const borderColor = borderClasses[0].replace("border-", "") || ""
-    const borderWidth = borderClasses[1].split("-")?.at(-1) || ""
+    const borderColor: string = borderClasses[0]?.replace("border-", "") || ""
+    const borderWidth: [] = borderClasses[1]?.split("-")?.at(-1) || []
     return ""
     const borderSideClasses = borderClasses[1].split("-")
     const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
@@ -56,7 +56,7 @@ function buttonClass(obj) {
       "l": "border-left",
       "r": "border-right",
     }
-    return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
+    return `${borderSides[borderSideKey]} ${borderWidth}px solid var(--${borderColor}-color)`
   }
   const getGradient = (tailwind: string) => {
     const tailwindClasses: string[] = tailwind?.split(" ") || []
