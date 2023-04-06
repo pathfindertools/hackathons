@@ -40,7 +40,7 @@ function buttonClass(obj) {
     return roundedOptions[obj.primaryRounded]
   }
   const getBorder = (obj) => {
-    const borderClasses = obj.primaryBorder?.split(" ") || []
+    const borderClasses: string[] = obj.primaryBorder?.split(" ") || []
     if (borderClasses.length !== 2) {
       return ""
     }
@@ -48,20 +48,16 @@ function buttonClass(obj) {
     const borderClass: string = borderClasses[1] || ""
     const color: string = colorClass.replace("border-", "") || ""
     const width: string = borderClass.slice(-1) || "0"
-    console.log(color)
-    console.log(borderClass)
-    console.log(width)
-    return ""
-    const borderSideClasses = borderClasses[1].split("-")
-    const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
-    const borderSides = {
+    const sideClasses: string[] = borderClass.split("-") || []
+    const sideKey:string = sideClasses.length === 3 ? sideClasses[1] : "a"
+    const sides = {
       "a": "border",
       "t": "border-top",
       "b": "border-bottom",
       "l": "border-left",
       "r": "border-right",
     }
-    return `${borderSides[borderSideKey]} ${width}px solid var(--${color}-color)`
+    return `${sides[sideKey]}: ${width}px solid var(--${color}-color)`
   }
   const getGradient = (tailwind: string) => {
     const tailwindClasses: string[] = tailwind?.split(" ") || []
