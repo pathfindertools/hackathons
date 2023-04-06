@@ -6,5 +6,5 @@ endDate: '2023-03-31T07:00:00.000Z'
 text: >
   Connect with some of the top builders in the industry and win up to $125K in prizes and POAPs for participating.
 link: 'https://ethglobal.com/events/scaling2023'
-status: current
+status: archived
 ---
