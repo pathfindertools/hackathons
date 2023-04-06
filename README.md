@@ -1,12 +1,12 @@
-# Microgen
+# Hackathons
 
-Microgen is an open source visual site builder developers can get along with.
+This site is built with Microgen, a static site builder created with Tina. For more information, visit see the Documentation links below.
 
-It enables non-technical editors to build a website using a set of highly customizable stock components. Developers get a simple framework they can use to easily add their own custom blocks to the site builder.
+Production: hacakthons.filecoin.io
 
-A global theming system keeps everything looking consistent and support for standard niceties like analytics, meta data and opengraph is included. Integrating existing services and APIs is the same as it would be for any static site.
+Staging: https://aged-rain-5848.on.fleek.co
 
-https://microgen.site
+Edits to the site are made through the TinaCMS interface. To edit the site, visit https://aged-rain-5848.on.fleek.co/admin. The staging site runs on the main branch while the production site runs on the production branch. To update production create a PR from main to production.
 
 ### Documentation
 
@@ -14,6 +14,3 @@ https://microgen.site
 - [Editing content](docs/EDITING.md)
 - [Development](docs/DEVELOPMENT.md)
 - [Release notes](docs/RELEASE_NOTES.md)
-
----
-*This README file is intended to serve as a template for your project, please modify it to suit.*
