@@ -1,10 +1,10 @@
-function justFontFamily(fontName) {
-  const parts = fontName?.split(":wght@")
+function justFontFamily(fontName = "") {
+  const parts = fontName.split(":wght@")
   return parts[0] || ""
 }
 
-function justFontWeight(fontName) {
-  const parts = fontName?.split(":wght@")
+function justFontWeight(fontName = "") {
+  const parts = fontName.split(":wght@")
   return Number(parts[1]) || 400
 }
 
@@ -18,8 +18,8 @@ function buttonClass(obj) {
   
   const getPadding = (obj, paddingPrefix) => {
     const isMobile = paddingPrefix.includes("sm")
-    const desktopClasses = obj.padding?.split(" ").filter(item => !item.includes("sm"))
-    const mobileClasses = obj.padding?.split(" ").filter(item => item.includes("sm"))
+    const desktopClasses = obj.padding.split(" ").filter(item => !item.includes("sm"))
+    const mobileClasses = obj.padding.split(" ").filter(item => item.includes("sm"))
     const classes = isMobile ? mobileClasses : desktopClasses
     const paddingClass = classes.find(item => item.includes(paddingPrefix))
     const value = paddingClass?.replace(paddingPrefix, "") * 4
@@ -40,22 +40,24 @@ function buttonClass(obj) {
     return roundedOptions[obj.primaryRounded]
   }
   const getBorder = (obj) => {
-    // if (obj.primaryBorder?.length > 1) {
-    //   return ""
-    // }
-    const borderClasses = obj.primaryBorder?.split(" ")
-    const borderColor = borderClasses[0]?.replace("border-", "")
-    const borderWidth = borderClasses[1]?.split("-").at(-1) || "0"
-    const borderSideClasses = borderClasses[1]?.split("-") || ""
-    const borderSideKey = borderSideClasses.length > 2 ? borderSideClasses[1] : "a"
-    const borderSides = {
+    const borderClasses: string[] = obj.primaryBorder?.split(" ") || []
+    if (borderClasses.length !== 2) {
+      return ""
+    }
+    const colorClass: string = borderClasses[0] || ""
+    const borderClass: string = borderClasses[1] || ""
+    const color: string = colorClass.replace("border-", "") || ""
+    const width: string = borderClass.slice(-1) || "0"
+    const sideClasses: string[] = borderClass.split("-") || []
+    const sideKey:string = sideClasses.length === 3 ? sideClasses[1] : "a"
+    const sides = {
       "a": "border",
       "t": "border-top",
       "b": "border-bottom",
       "l": "border-left",
       "r": "border-right",
     }
-    return `${borderSides[borderSideKey]}: ${borderWidth}px solid var(--${borderColor}-color)`
+    return `${sides[sideKey]}: ${width}px solid var(--${color}-color)`
   }
   const getGradient = (tailwind: string) => {
     const tailwindClasses: string[] = tailwind?.split(" ") || []
