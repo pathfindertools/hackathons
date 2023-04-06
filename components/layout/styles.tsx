@@ -41,8 +41,8 @@ function buttonClass(obj) {
   }
   const getBorder = (obj) => {
     const borderClasses = obj.primaryBorder?.split(" ") || []
+    return ""
     if (borderClasses.length !== 2) {
-      return ""
     }
     const borderColor = borderClasses[0].replace("border-", "") || ""
     const borderWidth = borderClasses[1].split("-")?.at(-1) || ""
