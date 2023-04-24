@@ -7,6 +7,6 @@ text: >
   A 2-week hackathon dedicated to building innovative video applications and
   tools for the web3 ecosystem with $20k+ in prizes!
 link: 'https://videojam.huddle01.com/'
-status: undefined
+status: current
 ---
 
