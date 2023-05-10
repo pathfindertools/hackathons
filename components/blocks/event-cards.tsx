@@ -24,9 +24,15 @@ export const EventCards = ({ data, events = null, parentField = "" }) => {
   const sortedItems = filteredItems?.sort((a, b) => {
     const dateA = new Date(a.startDate)
     const dateB = new Date(b.startDate)
-    if (dateA < dateB) return 1
-    if (dateA >= dateB) return -1;
-    return 0;
+    if (data.status === 'current') {
+      if (dateA > dateB) return 1
+      if (dateA <= dateB) return -1;
+      return 0;
+    } else {
+      if (dateA < dateB) return 1
+      if (dateA >= dateB) return -1;
+      return 0;
+    }
   });
 
   const items = sortedItems?.map(item => {
