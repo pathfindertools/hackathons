@@ -91,7 +91,6 @@ export const eventCardsBlockSchema: any = {
       headline: "Headline",
       subhead: "Subhead",
       status: "current",
-      sortOrder: "current",
       style: {
         fullWidth: false,
         minHeight: "min-h-0",
