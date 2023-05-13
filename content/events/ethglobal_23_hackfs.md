@@ -8,9 +8,10 @@ text: >
   well as a large network of like-minded hackers. Technical workshops, fireside
   chats with celebrities and leaders in the space!
 link: 'https://ethglobal.com/events/hackfs2023/apply'
-status: undefined
+status: current
 imageSrc: /uploads/eghackfs-2023.png
 ---
+
 
 
 
