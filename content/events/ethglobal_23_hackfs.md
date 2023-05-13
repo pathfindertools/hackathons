@@ -9,6 +9,8 @@ text: >
   chats with celebrities and leaders in the space!
 link: 'https://ethglobal.com/events/hackfs2023/apply'
 status: undefined
+imageSrc: /uploads/eghackfs-2023.png
 ---
+
 
 
