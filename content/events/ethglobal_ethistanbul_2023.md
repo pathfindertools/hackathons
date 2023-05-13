@@ -1,6 +1,6 @@
 ---
 imageSrc: /uploads/egistanbul-2023.png
-headline: ETHIGlobal Istanbul
+headline: ETHGlobal Istanbul
 startDate: '2023-11-17T08:00:00.000Z'
 endDate: '2023-11-19T08:00:00.000Z'
 text: >
@@ -10,6 +10,7 @@ text: >
 link: 'https://ethglobal.com/events/istanbul/apply'
 status: current
 ---
+
 
 
 
