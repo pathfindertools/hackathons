@@ -66,7 +66,7 @@ export const EventCards = ({ data, events = null, parentField = "" }) => {
       label: '',
       headline: item.headline,
       subhead: subhead,
-      text: data.status === 'current' ? item.text : '',
+      body: data.status === 'current' ? item.text : '',
       link: item.link,
       buttonLabel: data.status === 'current' ? 'Learn More & Register' : 'View Event'
     }
@@ -76,7 +76,6 @@ export const EventCards = ({ data, events = null, parentField = "" }) => {
 
   return (
     <>
-
       <Cards data={data} parentField={parentField} />
     </>
   );
