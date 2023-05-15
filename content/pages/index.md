@@ -50,8 +50,8 @@ blocks:
       featureContent: w-full undefined text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-large undefined
-      subheadStyles: text-black undefined mb-4
-      textStyles: text-black undefined undefined
+      subheadStyles: text-white mg-copy-medium mb-0
+      textStyles: text-white mg-copy-medium undefined
     cardStyle:
       fillStyles: from-accent1 to-black bg-gradient-to-r opacity-100
       grid: 'grid-cols-3 justify-start gap-6 sm:grid-cols-1 sm:justify-start sm:gap-6'
@@ -212,8 +212,8 @@ blocks:
       featureContent: w-full undefined text-left
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-large undefined
-      subheadStyles: text-black undefined mb-4
-      textStyles: text-black undefined undefined
+      subheadStyles: text-white mg-copy-medium mb-0
+      textStyles: text-white mg-copy-medium undefined
     cardStyle:
       fillStyles: from-accent1 to-black bg-gradient-to-r opacity-100
       grid: 'grid-cols-4 justify-start gap-6 sm:grid-cols-1 sm:justify-start sm:gap-6'
@@ -245,6 +245,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
