@@ -1,5 +1,5 @@
 {
-  "siteUrl": "microgen.site",
+  "siteUrl": "hackathons.filecoin.io",
   "gtmId": "290724594",
   "fathomSiteId": "",
   "theme": "content/themes/microgen.md",
@@ -12,5 +12,6 @@
     "navTypeStyle": "text-white mg-copy-small ",
     "navBackgroundColor": " opacity-100",
     "padding": "pt-7 pb-10 pr-10 pl-10"
-  }
+  },
+  "favicon": "/uploads/hackathons-favicon.png"
 }
