@@ -8,7 +8,8 @@ text: >
   something great. Access to  mentors, sponsors, and software. Sleeping is
   optional, but trying something new is not! $325k in prizes available.
 link: 'https://ethglobal.com/events/tokyo'
-status: current
+status: archived
 ---
+
 
 
