@@ -10,7 +10,3 @@ text: >
 link: 'https://ethglobal.com/events/newyork2023'
 status: current
 ---
-
-
-
-
