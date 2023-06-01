@@ -8,6 +8,7 @@ text: >
   Join us for a weekend s of non-stop building at the beautiful Convento do
   Beato.  $225k in prizes up for grabs.
 link: 'https://ethglobal.com/events/lisbon'
-status: current
+status: archived
 ---
+
 
