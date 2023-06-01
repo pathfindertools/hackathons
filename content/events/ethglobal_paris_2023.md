@@ -6,8 +6,7 @@ endDate: '2023-07-23T07:00:00.000Z'
 text: >
   At the beautiful Palais Brongniart, attend talks and workshops, gain valuable
   feedback from leading teams, and engage with community of experts, mentors,
-  judges partners such as Polygon, Metamask, The Uniswap Foundation, 1inch,
-  Gnosis Chain and many more. $375k of prizes.
+  judges partners. $375k of prizes.
 link: 'https://ethglobal.com/events/paris2023'
 status: current
 ---
