@@ -7,9 +7,10 @@ text: >
   engineers in this space & massive networking opportunity. Technical workshops,
   fireside chats with celebrities and leaders in the space!
 link: 'https://ethglobal.com/events/hackfs2023/apply'
-status: current
+status: archived
 imageSrc: /uploads/eghackfs-2023.png
 ---
+
 
 
 
