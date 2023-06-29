@@ -9,7 +9,7 @@ text: |
   24/7 mentorship
   Hands-on workshops at the beginning
 link: 'https://ethglobal.com/events/waterloo2023'
-status: current
+status: archived
 ---
 
 
