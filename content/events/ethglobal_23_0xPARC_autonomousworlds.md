@@ -7,9 +7,10 @@ text: >
   the potential of multi-author Worlds by developing onchain games, worlds, and
   art projects.
 link: 'https://ethglobal.com/events/autonomous/apply'
-status: current
+status: archived
 imageSrc: /uploads/autonomousworlds.png
 ---
+
 
 
 
