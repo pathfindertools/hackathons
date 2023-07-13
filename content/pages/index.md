@@ -107,7 +107,7 @@ blocks:
       - label: '*Thursdays 2pm UTC / 6pm Eastern'
         link: ''
         buttonStyle: white-link
-      - label: Learn about our Hackathons Juding Criteria
+      - label: Learn about our Hackathons Judging Criteria
         link: >-
           https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
         buttonStyle: primary
@@ -245,6 +245,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
