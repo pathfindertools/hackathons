@@ -103,6 +103,8 @@ blocks:
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         buttonStyle: primary
       - label: Join the community Office Hours
+        link: >-
+          https://lu.ma/IP-Office-Hours?utm_campaign=hackathon-winners%20fs%202023&utm_medium=email&utm_source=luma
         buttonStyle: primary
       - label: '*Thursdays 2pm UTC / 6pm Eastern'
         link: ''
@@ -245,6 +247,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
