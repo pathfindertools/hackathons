@@ -109,7 +109,7 @@ blocks:
         buttonStyle: white-link
       - label: Learn about our Hackathons Judging Criteria
         link: >-
-          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
+          https://www.notion.so/ecosystem-wg/Filecoin-VM-Hackathon-Judging-Criteria-81e27f4737f047a4a503e22dce6f4f7f
         buttonStyle: primary
     navigationLabel: Start Building
     _template: feature
@@ -245,6 +245,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
