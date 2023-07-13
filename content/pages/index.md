@@ -191,8 +191,7 @@ blocks:
         body: >
           Apply to an accelerator and turn your project into a pitch-ready
           concept.
-        link: >-
-          https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
+        link: 'https://www.softnoise.xyz/apply'
         buttonLabel: Learn More and Apply
       - headline: Launchpad
         subhead: ''
@@ -248,6 +247,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
