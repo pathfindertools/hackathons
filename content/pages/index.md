@@ -106,8 +106,9 @@ blocks:
         link: >-
           https://lu.ma/IP-Office-Hours?utm_campaign=hackathon-winners%20fs%202023&utm_medium=email&utm_source=luma
         buttonStyle: primary
-      - label: '*Thursdays 2pm UTC / 6pm Eastern'
-        link: ''
+      - label: '*Tuesdays 2pm UTC / 2:30pm Eastern'
+        link: >-
+          https://lu.ma/IP-Office-Hours?utm_campaign=hackathon-winners%20fs%202023&utm_medium=email&utm_source=luma
         buttonStyle: white-link
       - label: Learn about our Hackathons Judging Criteria
         link: >-
@@ -247,6 +248,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
