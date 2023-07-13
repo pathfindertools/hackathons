@@ -184,7 +184,7 @@ blocks:
         body: >
           Explore the Filecoin grants program and unlock additional funding to
           keep working on your project.
-        link: 'https://github.com/filecoin-project/devgrants/#filecoin-grants'
+        link: 'https://grants.filecoin.io'
         buttonLabel: Learn more and apply
       - headline: Accelerators
         subhead: ''
@@ -248,6 +248,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
