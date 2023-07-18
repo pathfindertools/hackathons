@@ -7,8 +7,9 @@ text: >
   Join a curated group of developers, researchers and mentors exploring
   decentralized AI in Paris!
 link: 'https://www.augmenthack.xyz/'
-status: hidden
+status: current
 ---
+
 
 
 
