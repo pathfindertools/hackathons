@@ -158,7 +158,7 @@ blocks:
     body: >
       More than 7,000 people have participated in Filecoin and IPFS hackathons
       over the last 12 months. More than 750 teams have won a combined total of
-      $1M+ in prizes. Thank you to all builders!
+      $900k+ in prizes. Thank you to all builders!
     buttons:
       - label: Explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
