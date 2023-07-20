@@ -1,5 +1,7 @@
 ---
 blocks:
+  - markup: 'https://www.youtube.com/watch?v=ckKDv6iY0pQ '
+    _template: embed
   - style:
       alignment: flex-col items-center gap-12
       padding: 'pt-40 pb-0.5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
@@ -269,6 +271,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
