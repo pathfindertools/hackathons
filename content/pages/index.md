@@ -2,7 +2,7 @@
 blocks:
   - style:
       alignment: flex-col items-center gap-12
-      padding: 'pt-40 pb-5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
+      padding: 'pt-40 pb-0.5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
       featureImage: wpx-800  mx-auto
       featureContent: 'w-3/4 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-white mg-headline-small '
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
