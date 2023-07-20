@@ -24,9 +24,9 @@ blocks:
       and shape the future of the web to make it more decentralized, robust, and
       secure.
     buttons:
-      - label: Learn & Build using the Protocol Labs Tech stack!
+      - label: Learn & Build using the Protocol Labs Tech stack
         link: 'https://rebrand.ly/ced500-FIL'
-        buttonStyle: primary
+        buttonStyle: outline-pink
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
@@ -41,6 +41,8 @@ blocks:
       headlineStyles: text-primary mg-headline-large undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
+    background:
+      fillStyles: bg-black opacity-100
     label: ''
     headline: ''
     subhead: ''
@@ -252,6 +254,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
