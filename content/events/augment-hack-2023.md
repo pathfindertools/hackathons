@@ -1,5 +1,5 @@
 ---
-imageSrc: /uploads/augment hack 2023.jpeg
+imageSrc: /uploads/augment-hack2.png
 headline: Augment Hack
 startDate: '2023-07-18T07:00:00.000Z'
 endDate: '2023-07-19T07:00:00.000Z'
