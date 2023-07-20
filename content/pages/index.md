@@ -10,8 +10,9 @@ blocks:
       subheadStyles: text-primary mg-headline-large mb-7
       textStyles: text-white mg-copy-large mb-10
     background:
-      fillStyles: ' opacity-100'
+      fillStyles: from-black to-gray bg-gradient-to-t opacity-80
       src: ''
+      position: ''
     image:
       src: /uploads/hackathons-hero.svg
     label: ''
@@ -28,6 +29,7 @@ blocks:
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
         buttonStyle: outline-pink
         fathomId: ''
+    navigationLabel: ''
     _template: feature
   - style:
       padding: pt-0 pb-0 pr-20 pl-20
@@ -247,6 +249,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
