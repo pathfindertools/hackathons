@@ -35,6 +35,21 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
+      alignment: flex-row items-center gap-0
+      padding: pt-20 pb-20 pr-10 pl-10
+      featureImage: mx-auto
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-black
+      headlineStyles: text-black
+      subheadStyles: text-black
+      textStyles: text-black
+    headline: ''
+    subhead: Subhead
+    buttons:
+      - label: Subscribe to our calendar
+        buttonStyle: outline-pink
+    _template: feature
+  - style:
       padding: pt-0 pb-0 pr-20 pl-20
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
@@ -254,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
