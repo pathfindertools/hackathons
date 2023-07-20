@@ -45,6 +45,7 @@ blocks:
       textStyles: text-white undefined undefined
     background:
       fillStyles: ' opacity-100'
+    label: ''
     headline: ''
     subhead: Subhead
     buttons:
@@ -271,6 +272,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
