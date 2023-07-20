@@ -24,6 +24,9 @@ blocks:
       and shape the future of the web to make it more decentralized, robust, and
       secure.
     buttons:
+      - label: Learn & Build using the Protocol Labs Tech stack!
+        link: 'https://rebrand.ly/ced500-FIL'
+        buttonStyle: primary
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
@@ -249,6 +252,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
