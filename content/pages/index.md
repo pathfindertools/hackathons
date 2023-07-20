@@ -26,7 +26,7 @@ blocks:
     buttons:
       - label: Learn & Build using the Protocol Labs Tech stack
         link: 'https://rebrand.ly/ced500-FIL'
-        buttonStyle: outline-pink
+        buttonStyle: primary
     navigationLabel: ''
     _template: feature
   - style:
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
