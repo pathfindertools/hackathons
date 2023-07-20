@@ -50,7 +50,7 @@ blocks:
         buttonStyle: outline-pink
     _template: feature
   - style:
-      padding: pt-0 pb-0 pr-20 pl-20
+      padding: pt-0 pb-0 pr-20 pl-16
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-large undefined
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
