@@ -35,14 +35,16 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
-      alignment: flex-row items-center gap-0
+      alignment: 'flex-row items-center '
       padding: pt-20 pb-20 pr-10 pl-10
-      featureImage: mx-auto
+      featureImage: '  mx-auto'
       featureContent: w-1/2 min-h-0 text-left
-      labelStyles: text-black
-      headlineStyles: text-black
-      subheadStyles: text-black
-      textStyles: text-black
+      labelStyles: text-white undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white undefined undefined
+    background:
+      fillStyles: ' opacity-100'
     headline: ''
     subhead: Subhead
     buttons:
@@ -269,6 +271,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
