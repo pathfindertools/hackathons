@@ -47,9 +47,11 @@ blocks:
       fillStyles: ' opacity-100'
     label: ''
     headline: ''
-    subhead: Subhead
+    subhead: Calendar Subscription
     buttons:
       - label: Subscribe to our calendar
+        link: >-
+          https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
         buttonStyle: outline-pink
     _template: feature
   - style:
@@ -272,6 +274,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
