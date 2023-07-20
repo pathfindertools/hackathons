@@ -1,6 +1,8 @@
 ---
 blocks:
-  - markup: 'https://www.youtube.com/watch?v=ckKDv6iY0pQ '
+  - background:
+      fillStyles: bg-white opacity-100
+    markup: 'https://www.youtube.com/watch?v=ckKDv6iY0pQ '
     _template: embed
   - style:
       alignment: flex-col items-center gap-12
@@ -271,6 +273,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
