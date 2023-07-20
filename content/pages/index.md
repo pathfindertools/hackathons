@@ -1,9 +1,5 @@
 ---
 blocks:
-  - background:
-      fillStyles: bg-white opacity-100
-    markup: 'https://www.youtube.com/watch?v=ckKDv6iY0pQ '
-    _template: embed
   - style:
       alignment: flex-col items-center gap-12
       padding: 'pt-40 pb-0.5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
@@ -34,9 +30,9 @@ blocks:
     navigationLabel: ''
     _template: feature
   - style:
-      alignment: 'flex-col items-center '
+      alignment: 'flex-col items-center  sm:flex-col sm:items-center sm:'
       padding: pt-0 pb-6 pr-10 pl-64
-      featureImage: '  mx-auto'
+      featureImage: '  mx-auto   sm:mx-auto'
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-white undefined undefined
       headlineStyles: text-black undefined undefined
@@ -273,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
