@@ -112,9 +112,9 @@ blocks:
     headline: Start Building
     subhead: ''
     body: >
-      Visit our resources page to learn about the key concepts behind IPFS and
-      Filecoin and how to get started building with them, including developer
-      tools that help you store data on both IPFS and Filecoin quickly and
+      Visit our resources page to learn about the key concepts behind Filecoin
+      and IPFS and how to get started building with them, including developer
+      tools that help you store data on both Filecoin and Filecoin quickly and
       easily.
 
 
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
