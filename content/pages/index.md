@@ -153,7 +153,7 @@ blocks:
       fillStyles: bg-accent2 opacity-100
     image:
       src: /uploads/Hall_of_Fame_grccee.png
-    headline: Hall of Fame
+    headline: Victors Vault
     subhead: ''
     body: >
       More than 3,400 people have participated in Filecoin and IPFS hackathons
@@ -269,6 +269,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
