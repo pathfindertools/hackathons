@@ -8,7 +8,7 @@ text: >
   feedback from leading teams, and engage with community of experts, mentors,
   judges partners. $375k of prizes.
 link: 'https://ethglobal.com/events/paris2023'
-status: current
+status: archived
 ---
 
 
