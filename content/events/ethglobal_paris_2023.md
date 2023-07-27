@@ -9,7 +9,7 @@ text: >
   judges partners such as Polygon, Metamask, The Uniswap Foundation, 1inch,
   Gnosis Chain and many more. $400k in prizes.
 link: 'https://ethglobal.com/events/paris2023'
-status: current
+status: archived
 ---
 
 
