@@ -46,6 +46,8 @@ blocks:
     body: ''
     buttons:
       - label: Join our Mailing List
+        link: >-
+          https://filecoin.us20.list-manage.com/subscribe?u=0bc14cd7b6583be73cea72a5d&id=7fcbf090ca
         buttonStyle: outline-pink
       - label: Subscribe to our calendar
         link: >-
@@ -272,6 +274,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
