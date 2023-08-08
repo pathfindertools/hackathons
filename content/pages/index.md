@@ -43,7 +43,10 @@ blocks:
     label: ''
     headline: ''
     subhead: Calendar Subscription
+    body: ''
     buttons:
+      - label: Join our Mailing List
+        buttonStyle: outline-pink
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
@@ -269,6 +272,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
