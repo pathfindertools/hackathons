@@ -31,7 +31,7 @@ blocks:
     _template: feature
   - style:
       alignment: 'flex-col items-center  sm:flex-col sm:items-center sm:'
-      padding: pt-0 pb-6 pr-10 pl-64
+      padding: pt-0 pb-6 pr-10 pl-32
       featureImage: '  mx-auto   sm:mx-auto'
       featureContent: w-1/2 min-h-0 text-left
       labelStyles: text-white undefined undefined
@@ -272,6 +272,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
