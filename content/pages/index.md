@@ -227,7 +227,7 @@ blocks:
           Apply to an accelerator and turn your project into a pitch-ready
           concept.
         link: 'https://www.softnoise.xyz/apply'
-        buttonLabel: Learn More and Apply
+        buttonLabel: Apply
       - headline: Launchpad
         subhead: ''
         body: >
@@ -282,6 +282,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
