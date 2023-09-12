@@ -203,7 +203,7 @@ blocks:
       follow-on opportunities below.
     buttons:
       - label: Have a hackathon proposal? Contact us!
-        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
+        link: 'https://airtable.com/app2LinWqJOVy6Anu/shr4nUJICeBmn9tOu'
         buttonStyle: outline-pink
     items:
       - label: ''
@@ -282,6 +282,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
