@@ -206,6 +206,15 @@ blocks:
         link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
         buttonStyle: outline-pink
     items:
+      - label: ''
+        headline: Founders
+        subhead: ''
+        body: >
+          Learn about our mission, meet our team, & explore exciting
+          opportunities to engage with the technologies we support. 
+        link: >-
+          https://ecosystem-wg.notion.site/Welcome-to-Founders-External-cdad2ee44bda40d29f7914155cc7615b?pvs=4
+        buttonLabel: Learn more
       - headline: Grants
         body: >
           Explore the Filecoin grants program and unlock additional funding to
@@ -273,6 +282,7 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
 
 
 
