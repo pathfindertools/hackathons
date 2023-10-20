@@ -8,8 +8,9 @@ text: >
   mentors, sponsors, developer advocates, and other community members who want
   to help you build something awesome.
 link: 'https://ethglobal.com/events/newyork2023'
-status: current
+status: archived
 ---
+
 
 
 
