@@ -2,7 +2,7 @@
 blocks:
   - style:
       alignment: flex-col items-center gap-12
-      padding: 'pt-40 pb-5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
+      padding: 'pt-40 pb-0.5 pr-10 pl-10 sm:pt-20 sm:pb-5 sm:pr-10 sm:pl-10'
       featureImage: wpx-800  mx-auto
       featureContent: 'w-3/4 min-h-0 text-center sm:w-full sm:min-h-0 sm:text-left'
       labelStyles: 'text-white mg-headline-small '
@@ -10,8 +10,9 @@ blocks:
       subheadStyles: text-primary mg-headline-large mb-7
       textStyles: text-white mg-copy-large mb-10
     background:
-      fillStyles: ' opacity-100'
+      fillStyles: from-black to-gray bg-gradient-to-t opacity-80
       src: ''
+      position: ''
     image:
       src: /uploads/hackathons-hero.svg
     label: ''
@@ -23,19 +24,44 @@ blocks:
       and shape the future of the web to make it more decentralized, robust, and
       secure.
     buttons:
+      - label: Learn & Build using the Protocol Labs Tech stack
+        link: 'https://rebrand.ly/ced500-FIL'
+        buttonStyle: primary
+    navigationLabel: ''
+    _template: feature
+  - style:
+      alignment: 'flex-col items-center  sm:flex-col sm:items-center sm:'
+      padding: pt-0 pb-6 pr-10 pl-32
+      featureImage: '  mx-auto   sm:mx-auto'
+      featureContent: w-1/2 min-h-0 text-left
+      labelStyles: text-white undefined undefined
+      headlineStyles: text-black undefined undefined
+      subheadStyles: text-black undefined undefined
+      textStyles: text-white undefined undefined
+    background:
+      fillStyles: ' opacity-100'
+    label: ''
+    headline: ''
+    subhead: Calendar Subscription
+    body: ''
+    buttons:
+      - label: Join our Mailing List
+        link: 'https://share.hsforms.com/1tT0O2kg5RAeVV6dN3R00_wnkivw'
+        buttonStyle: outline-pink
       - label: Subscribe to our calendar
         link: >-
           https://calendar.google.com/calendar/u/0?cid=Y19qaXM4N2xtOHNzYnB2N21lcWY2c3Jwa2tuOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
         buttonStyle: outline-pink
-        fathomId: ''
     _template: feature
   - style:
-      padding: pt-0 pb-0 pr-20 pl-20
+      padding: pt-0 pb-0 pr-20 pl-16
       featureContent: w-full min-h-0 text-center
       labelStyles: text-black undefined undefined
       headlineStyles: text-primary mg-headline-large undefined
       subheadStyles: text-black undefined undefined
       textStyles: text-black undefined undefined
+    background:
+      fillStyles: bg-black opacity-100
     label: ''
     headline: ''
     subhead: ''
@@ -90,9 +116,9 @@ blocks:
     headline: Start Building
     subhead: ''
     body: >
-      Visit our resources page to learn about the key concepts behind IPFS and
-      Filecoin and how to get started building with them, including developer
-      tools that help you store data on both IPFS and Filecoin quickly and
+      Visit our resources page to learn about the key concepts behind Filecoin
+      and IPFS and how to get started building with them, including developer
+      tools that help you store data on both Filecoin and Filecoin quickly and
       easily.
 
 
@@ -103,13 +129,16 @@ blocks:
         link: 'https://bitly.protocol.ai/IPFS_Filecoin_Get_Started'
         buttonStyle: primary
       - label: Join the community Office Hours
-        buttonStyle: primary
-      - label: '*Thursdays 2pm UTC / 6pm Eastern'
-        link: ''
-        buttonStyle: white-link
-      - label: Learn about our Hackathons Juding Criteria
         link: >-
-          https://ecosystem-wg.notion.site/Filecoin-IPFS-Hackathon-Judging-Criteria-fb29da31431c4c8da1be6c30e1d0ef82
+          https://lu.ma/IP-Office-Hours?utm_campaign=hackathon-winners%20fs%202023&utm_medium=email&utm_source=luma
+        buttonStyle: primary
+      - label: '*Tuesdays 6:30pm UTC / 2:30pm Eastern'
+        link: >-
+          https://lu.ma/IP-Office-Hours?utm_campaign=hackathon-winners%20fs%202023&utm_medium=email&utm_source=luma
+        buttonStyle: white-link
+      - label: Learn about our Hackathons Judging Criteria
+        link: >-
+          https://www.notion.so/ecosystem-wg/Filecoin-VM-Hackathon-Judging-Criteria-81e27f4737f047a4a503e22dce6f4f7f
         buttonStyle: primary
     navigationLabel: Start Building
     _template: feature
@@ -128,12 +157,12 @@ blocks:
       fillStyles: bg-accent2 opacity-100
     image:
       src: /uploads/Hall_of_Fame_grccee.png
-    headline: Hall of Fame
+    headline: Victors Vault
     subhead: ''
     body: >
-      More than 7,000 people have participated in Filecoin and IPFS hackathons
-      over the last 12 months. More than 750 teams have won a combined total of
-      $1M+ in prizes. Thank you to all builders!
+      More than 3,400 people have participated in Filecoin and IPFS hackathons
+      over the last 12 months. More than 600 teams have won a combined total of
+      $900k+ in prizes. Thank you to all builders!
     buttons:
       - label: Explore past winners
         link: 'https://airtable.com/shr2xqq48PEHWzSBu'
@@ -174,23 +203,31 @@ blocks:
       follow-on opportunities below.
     buttons:
       - label: Have a hackathon proposal? Contact us!
-        link: 'https://airtable.com/shrXjIWKOrr8o5Cyh'
+        link: 'https://airtable.com/app2LinWqJOVy6Anu/shr4nUJICeBmn9tOu'
         buttonStyle: outline-pink
     items:
+      - label: ''
+        headline: Founders
+        subhead: ''
+        body: >
+          Learn about our mission, meet our team, & explore exciting
+          opportunities to engage with the technologies we support. 
+        link: >-
+          https://ecosystem-wg.notion.site/Welcome-to-Founders-External-cdad2ee44bda40d29f7914155cc7615b?pvs=4
+        buttonLabel: Learn more
       - headline: Grants
         body: >
           Explore the Filecoin grants program and unlock additional funding to
           keep working on your project.
-        link: 'https://github.com/filecoin-project/devgrants/#filecoin-grants'
+        link: 'https://grants.filecoin.io'
         buttonLabel: Learn more and apply
       - headline: Accelerators
         subhead: ''
         body: >
           Apply to an accelerator and turn your project into a pitch-ready
           concept.
-        link: >-
-          https://ecosystem-wg.notion.site/Protocol-Labs-Accelerator-Program-d45d8792a7d544eca9beb7d3e3d3b05d
-        buttonLabel: Learn More and Apply
+        link: 'https://www.softnoise.xyz/apply'
+        buttonLabel: Apply
       - headline: Launchpad
         subhead: ''
         body: >
@@ -245,6 +282,40 @@ meta:
     and shape the future of the web to make it more decentralized, robust, and
     secure!
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
