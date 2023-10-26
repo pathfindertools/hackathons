@@ -11,11 +11,4 @@ text: >
   new data economy with the Filecoin Virtual Machine!
 link: 'https://fvmdataverse.devpost.com'
 status: archived
-imageSrc: /uploads/Screenshot 2023-04-08 at 19.54.42.png
 ---
-
-
-
-
-
-
