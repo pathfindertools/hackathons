@@ -7,6 +7,6 @@ text: >
   Join an epic tech showdown in 18 Indian cities, solve big challenges, and win
   $50k+ USD in prizes!
 link: 'https://push.org/brb'
-status: undefined
+status: current
 ---
 
