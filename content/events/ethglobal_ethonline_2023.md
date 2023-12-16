@@ -7,8 +7,9 @@ text: >
   Join us or a month of building and learning at ETHGlobal's flagship (virtual)
   hackathon.
 link: 'https://ethglobal.com/events/ethonline2023'
-status: current
+status: archived
 ---
+
 
 
 
