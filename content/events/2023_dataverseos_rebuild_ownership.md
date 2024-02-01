@@ -8,7 +8,7 @@ text: >
   Reclaim your digital turf. Let's make privacy the cornerstone, not the
   footnote. Up for the challenge?
 link: 'https://dorahacks.io/hackathon/rebuild-ownership-2/detail'
-status: current
+status: archived
 ---
 
 
