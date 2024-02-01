@@ -1,5 +1,5 @@
 ---
-imageSrc: public/uploads/24_ethglobal-london.png
+imageSrc: /uploads/24_ethglobal-london.png
 headline: ETHGlobal London
 startDate: '2024-03-15T08:00:00.000Z'
 endDate: '2024-03-17T08:00:00.000Z'
