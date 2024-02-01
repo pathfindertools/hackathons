@@ -1,5 +1,5 @@
 ---
-imageSrc: public/uploads/23_dorahacks-filecoin-data-economy.png
+imageSrc: public/uploads/rebuildownership_dataverseos.png
 headline: Rebuild Ownership 2.0
 startDate: '2023-12-10T08:00:00.000Z'
 endDate: '2023-12-31T08:00:00.000Z'
