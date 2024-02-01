@@ -8,8 +8,9 @@ text: >
   with celebrities and leaders in the space, and many useful tips on how to
   polish your hack into a working product.
 link: 'https://ethglobal.com/events/istanbul/apply'
-status: current
+status: archived
 ---
+
 
 
 
