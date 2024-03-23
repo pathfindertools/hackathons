@@ -6,5 +6,5 @@ endDate: '2024-03-17T08:00:00.000Z'
 text: >
   Join us at ETHGlobal London - our first IRL event in 2024! Ready to revolutionize the future?
 link: 'https://ethglobal.com/events/london2024'
-status: current
+status: archived
 ---
