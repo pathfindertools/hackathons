@@ -1,5 +1,5 @@
 ---
-imageSrc: /uploads/2024_encode_web3-ai.png
+imageSrc: /uploads/2024_encode_web3-ai.jpg
 headline: Web3 AI Hackathon
 startDate: '2024-05-27T08:00:00.000Z'
 endDate: '2024-07-10T08:00:00.000Z'
