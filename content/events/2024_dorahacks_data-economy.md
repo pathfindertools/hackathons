@@ -6,5 +6,5 @@ endDate: '2024-04-07T08:00:00.000Z'
 text: >
    A 6-week virtual hackathon offering the chance to unleash data creativity and build innovative applications using Filecoin and InterPlanetary Consensus (IPC).
 link: 'https://filecoin-data-economy.com'
-status: current
+status: archived
 ---
