@@ -6,5 +6,5 @@ endDate: '2024-06-07T08:00:00.000Z'
 text: >
   Join the ETHGlobal HackFS hackathon to learn, network, develop skills, compete for prizes, and contribute to decentralized file storage innovation.
 link: 'https://ethglobal.com/events/hackfs2024'
-status: current
+status: archive
 ---
